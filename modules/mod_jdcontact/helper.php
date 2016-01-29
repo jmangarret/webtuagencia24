@@ -11,7 +11,8 @@
 -------------------------------------------------------------------------*/
 
 defined('_JEXEC') or die;
-
+error_reporting(E_ALL);
+        ini_set('display_errors', '1');
 class modJdcontactHelper
 {
 	static function preLoadprocess(&$params)
@@ -175,6 +176,97 @@ $sucs=1;
                     //$result = "".JText::_('MOD_JDCONTACT_MAILSERVPROB')."";
                     $result = "".$msjerror."";
                 }
+                $db =& JFactory::getDBO();
+
+/*$query = "INSERT INTO kqzro_boleto_popup (name_passenger, email_passenger, phone_passanger, flight_type, departure, 
+         arrival, departure_date, arrival_date, flight_class, airline, adult, senior, child, baby) 
+         VALUES ('".$name."', '".$email."', '".$phno."', '".$radio."', '".$c_origen."', '".$c_destino."', '".$f_salida."', '".$f_llegada."', '".$c_viaje."', '".$aerolinea."', '".$adultos."', '".$mayores."', '".$niños."', '".$bebes."')";
+$db->setQuery($query);
+$db->query();
+//$results = $db->loadObjectList();
+$query2 = "SELECT * FROM kqzro_boleto_popup";
+$db->setQuery($query2);
+$results = $db->loadObjectList();*/
+
+
+include("ost_api.php");
+
+if($config=ost_api::config()){
+        if ($radio == "Solo Ida"){
+            $itinerary = "------------------------------------------------------
+            TIPO DE PASAJE: $radio\n\nCIUDAD DE ORIGEN: $c_origen   \n  CIUDAD DE DESTINO: $c_destino\n\nFECHA DE SALIDA: $f_salida \n\n
+            CLASE: $c_viaje  \n   AEROLÍNEA: $aerolinea\n\nADULTOS: $adultos \n  MAYORES: $mayores \n  NIÑOS: $niños  \n BEBÉS: $bebes
+            ------------------------------------------------------\n";  
+        }else{
+            $itinerary = "------------------------------------------------------
+            TIPO DE PASAJE: $radio\n\nCIUDAD DE ORIGEN: $c_origen   \n  CIUDAD DE DESTINO: $c_destino\n\nFECHA DE SALIDA: $f_salida  \n  FECHA DE REGRESO: $f_llegada\n\n
+            CLASE: $c_viaje  \n   AEROLÍNEA: $aerolinea\n\nADULTOS: $adultos \n  MAYORES: $mayores \n  NIÑOS: $niños  \n BEBÉS: $bebes
+            ------------------------------------------------------\n";    
+        }
+        if($data=ost_api::data($name,$email,$phno,$itinerary)){
+            if(ost_api::curl_post($config,$data)){
+                echo"EXITO";
+            }else{
+                echo"FRACASO";
+            }
+        }
+}
+
+
+
+
+/*
+$config = array(
+        'url'=>'http://127.0.0.1/ticket.tuagencia24.com/upload/api/tickets.json',  // URL to site.tld/api/tickets.json //Antes era -> http://your.domain.tld/api/tickets.json
+    'key'=>'E9059472F7AC91544A453862B5D10C7B'  // API Key goes here //PUTyourAPIkeyHERE
+);
+
+$data=array(
+    'name'      =>      $name,  // from name aka User/Client Name
+    'email'     =>      $email,  // from email aka User/Client Email
+    'phone'     =>      $phone,  // phone number aka User/Client Phone Number
+    'subject'   =>      'Administracion',  // test subject, aka Issue Summary
+    'message'   =>      $itinerary,  // test ticket body, aka Issue Details.
+    //'ip'        =>      $_SERVER['REMOTE_ADDR'], // Should be IP address of the machine thats trying to open the ticket.
+    'topicId'   =>      '19' // the help Topic that you want to use for the ticket 
+    //'Agency'  =>    '58', //this is an example of a custom list entry. This should be the number of the entry.
+    //'Site'  =>    'Bermuda'; // this is an example of a custom text field.  You can push anything into here you want. 
+    //  'attachments' => array()
+    );
+
+function_exists('curl_version') or die('CURL support required');
+function_exists('json_encode') or die('JSON support required');
+
+#set timeout
+set_time_limit(30);
+
+#curl post
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $config['url']);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+curl_setopt($ch, CURLOPT_USERAGENT, 'osTicket API Client v1.8');
+curl_setopt($ch, CURLOPT_HEADER, FALSE);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array( 'Expect:', 'X-API-Key: '.$config['key']));
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, FALSE);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+$result2=curl_exec($ch);
+$code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+if ($code != 201)
+    die('Unable to create ticket: '.$result2);
+
+$ticket_id = (int) $result2;
+
+# Continue onward here if necessary. $ticket_id has the ID number of the
+# newly-created ticket
+
+function IsNullOrEmptyString($question){
+    return (!isset($question) || trim($question)==='');
+}
+
+*/
         	}
 
         	if($javascript_enabled == "true") {
