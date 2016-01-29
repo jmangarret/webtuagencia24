@@ -1,0 +1,60 @@
+/* CSS Document */
+#adminForm {
+	font-size: 110%;
+}
+
+#adminForm fieldset.adminform label {
+    clear: right;
+    min-width: auto;
+}
+
+.multiselect {
+	width: 100%;
+}
+
+a.modal-button {
+	float: left;
+	margin: 0px 20px 0px 0px;
+	text-align: center;
+}
+
+#galleryContainer {
+	display: inline-block;
+    list-style: none outside none;
+	width: 475px;
+}
+
+#galleryContainer li {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 210px;
+}
+
+a.delImage {
+	text-align: right;
+}
+
+#content-pane table.admintable td.paramlist_key {
+	border: 0px solid #E9E9E9;
+	padding: 0px 0px 0px 20px;
+	text-align: left;
+}
+
+.numericfield {
+	margin-right: 10px;
+	text-align: right;
+}
+
+.icon-32-save-new {
+    background-image: url("../images/icon-32-save-new.png");
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+

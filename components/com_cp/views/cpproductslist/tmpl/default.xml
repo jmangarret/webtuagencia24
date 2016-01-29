@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="com_cp_view_product_list" option="com_cp_view_product_list_option">
+		<message><![CDATA[com_cp_view_product_list]]></message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_cp/models/fields">
+			<field name="tourismtype_id" size="1" type="sql" query="SELECT tourismtype_id, IF(published = 1, tourismtype_name, CONCAT(tourismtype_name, '*')) as text FROM #__cp_tourismtype ORDER BY tourismtype_name ASC" key_field="tourismtype_id" value_field="text" label="COM_CP_MENUCPTOURISMTYPELIST" description="Optional">
+				<option value=""><![CDATA[COM_CP_SELECT_TOURISM_TYPE]]></option>
+			</field>
+			<field name="category_id" size="1" type="sql" query="SELECT category_id, IF(published = 1, category_name, CONCAT(category_name, '*')) as text FROM #__cp_category ORDER BY 2 ASC" key_field="category_id" value_field="text" label="COM_CP_MENUCPCATEGORY" description="Optional">
+				<option value=""><![CDATA[COM_CP_SELECT_CATEGORY]]></option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

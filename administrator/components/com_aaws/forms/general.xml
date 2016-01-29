@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="urlconfig"
+        label="COM_AAWS_SERVICE_CONFIG_LABEL"
+        description="COM_AAWS_SERVICE_CONFIG_DESC" >
+        <field
+            name="air_service"
+            type="text"
+            default=""
+            size="110"
+            class="required"
+            label="COM_AAWS_AIR_SERVICE_LABEL"
+            description="COM_AAWS_AIR_SERVICE_DESC" />
+    </fieldset>
+    <fieldset name="component"
+        label="COM_AAWS_COMPONENT_LABEL"
+        description="COM_AAWS_COMPONENT_DESC"
+        addfieldpath="/administrator/components/com_content/models/fields">
+        <field
+            name="tos_id" type="modal_article"
+            label="COM_AAWS_TOS_LABEL"
+            description="COM_AAWS_TOS_DESC" />
+    </fieldset>
+</form>

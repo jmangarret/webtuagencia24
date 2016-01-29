@@ -1,0 +1,10 @@
+2015-05-22 19:02:52 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-05-22 19:02:52 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-05-22 20:39:46 - DEBUG --> reserveRoom hotelId= 28, reservedItem = 0|58, current = 1 
+2015-05-22 20:39:46 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|58|1";} 
+2015-05-22 20:56:37 - DEBUG --> reserveRoom hotelId= 28, reservedItem = 0|51, current = 1 
+2015-05-22 20:56:37 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|51|1";} 
+2015-05-22 21:01:10 - DEBUG --> reserveRoom hotelId= 28, reservedItem = 0|50, current = 1 
+2015-05-22 21:01:10 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|50|1";} 
+2015-05-22 21:13:47 - DEBUG --> reserveRoom hotelId= 28, reservedItem = 0|50, current = 1 
+2015-05-22 21:13:47 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|50|1";} 

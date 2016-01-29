@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>YoSiViajo.net</name>
+	<creationDate>Octubre 2013</creationDate>
+	<author>Jairo Giovanni lopez Jacomussi</author>
+	<authorEmail>giovanni.lopez@amadeus.net.co</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>2.5.0</version>
+	<description>YoSiViajo.net</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>css/images</folder>
+              <folder>img</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+	</files>
+
+	<positions>
+		<position>menuUsuarios</position>
+		<position>logotipo</position>
+		<position>areaSuperior</position>
+		<position>menuPrincipal</position>
+		<position>buscador</position>
+		<position>migaDePan</position>
+		<position>quickSearch</position>
+		<position>destacados</position>
+		<position>ofertas</position>
+		<position>destinos</position>
+		<position>extrasArriba</position>
+		<position>extrasAbajo</position>
+		<position>derecha</position>
+		<position>izquierda</position>
+		<position>publicidad1</position>
+		<position>publicidad2</position>
+		<position>piePagina1</position>
+		<position>piePagina2</position>
+		<position>piePagina3</position>
+		<position>social</position>
+		<position>syndicate</position>
+	</positions>
+
+</extension>

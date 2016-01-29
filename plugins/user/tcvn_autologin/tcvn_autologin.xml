@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+
+	<name>User - TCVN Auto Login</name>
+	<creationDate>July 25, 2012</creationDate>
+    <author>Thecoders.vn</author>
+    <copyright>Copyright (C) 2011 - 2012 Thecoders.vn. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>mr_hiennc@yahoo.com</authorEmail>
+    <authorUrl>http://Thecoders.vn</authorUrl>
+    <version>1.0.1</version>
+	
+	<description>
+		<![CDATA[ <div style="font-size:10px;">
+			<a target="_blank" href="http://thecoders.vn"><b>TCVN Auto Login</b></a>
+			<br><br><i>This plugin allows you to login users immediately after they have registered to the site, without having to re-enter their login information to access.</i><br><br>
+			Copyright <a href="http://thecoders.vn"><i>Thecoders.vn</i></a>
+		]]>
+	</description>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="return_url" type="text" default="" label="Return URL"  description="Return page after login." size="40" />
+			</fieldset>
+		</fields>
+	</config>
+	
+	<files>
+		<filename plugin="tcvn_autologin">tcvn_autologin.php</filename>
+	</files>
+	
+</extension>

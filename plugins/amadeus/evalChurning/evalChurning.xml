@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="2.5" type="plugin" group="amadeus">
+  <name>Verificacion Churning</name>
+  <creationDate>Marzo 2014</creationDate>
+  <author>Oskar Eduardo</author>
+  <authorEmail>oskar.bermudez@amadeus.com</authorEmail>
+  <copyright>Amadeus</copyright>
+  <license>Amadeus</license>
+  <version>1.0</version>
+  <description>Plugin para evaluar el posible Churning presentado en el portal.</description>
+  <files>
+    <filename plugin="evalChurning">evalChurning.php</filename>
+    <filename plugin="evalChurning">InsqlChurning.sql</filename>
+    <filename plugin="evalChurning">UnsqlChurning.sql</filename>
+  </files>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">InsqlChurning.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">UnsqlChurning.sql</file>
+    </sql>
+  </uninstall>  
+</install>

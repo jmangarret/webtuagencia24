@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Producto Alojamientos: Amenities/Facilities</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Producto Alojamientos: Amenities/Facilities</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_hotels_amenity">
+  		<field type="referenceid" name="amenity_id" translate="0">ID</field>
+  		<field type="titletext" name="amenity_name" translate="1">Nombre</field>
+  		<field type="text" name="imageurl" translate="1">Imagen</field>
+  	</table>
+  </reference>
+</joomfish>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>Tu Agencia 24</name>
+	<creationDate>30 Abr 2014</creationDate>
+	<author>Juan Salleg</author>
+	<authorEmail>jsalleg@gmail.com</authorEmail>
+	<authorUrl>http://juansalleg.me</authorUrl>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>Plantilla para el sitio Tu Agencia 24</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+	</files>
+
+	<positions>
+		<position>menu-tools</position>
+		<position>logo</position>
+		<position>info</position>
+		<position>menu</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>top-c</position>
+		<position>side-a</position>
+		<position>side-b</position>
+		<position>main-top</position>
+		<position>main-bottom</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>bottom-c</position>
+		<position>menu-footer</position>
+		<position>info-footer</position>
+		<position>footer</position>
+	</positions>
+</extension>

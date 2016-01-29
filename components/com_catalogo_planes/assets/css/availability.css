@@ -1,0 +1,173 @@
+.centro_disponibilidad_planes {
+	float: right;
+	height: auto;
+	width: 75%;
+}
+
+.top_titulo_cp {
+	padding:6px 10px 3px;
+	font-size: 14px;
+	height: auto;
+	min-height: 20px;
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.datos_espe {
+	float: right;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0 10px;
+}
+
+.campo_lista_pasajeros {
+	border: 1px solid #B0B2B8;
+	font-size: 11px;
+	height: 20px;
+	width: auto;
+}
+
+.num_link_resultados {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.num_resultados {
+	float: left;
+	font-weight: bold;
+}
+
+.link_resultados {
+	float: right;
+}
+
+.fila_resultado_planes {
+	height: auto;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: auto;
+}
+
+.conte_dispo_planes {
+	float: left;
+	height: auto;
+	min-height: 20px;
+}
+
+.rating_titulo {
+	clear: both;
+}
+
+.seccion_titulo {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	width: 290px;
+}
+
+.seccion_rating {
+	background: url("../images/rating.png") no-repeat scroll left top
+		transparent;
+	float: right;
+	padding-left: 22px;
+	height: 18px;
+}
+
+.seccion_destino {
+	font-weight: bold;
+}
+
+.seccion_detalles {
+	width: 350px;
+}
+
+.tarifas_vuelos {
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	height: 150px;
+	min-height: 20px;
+	padding: 5px;
+	width: 134px;
+	border-left: 1px dotted #CFCFCF;
+}
+
+.precio_tarifas_vuelos {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navPagination {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#centro_top_centro {
+	width: 987px;
+}
+
+.izq_disponibilidad_planes {
+	border-radius: 5px 5px 5px 5px;
+	float: left;
+	height: auto;
+	min-height: 100px;
+	padding: 6px 8px 8px;
+	width: 219px;
+}
+
+.interno {
+	border-radius: 5px 5px 5px 5px;
+	height: auto;
+	padding: 5px;
+	width: auto;
+}
+
+.conte_filtros {
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.title_filter {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+
+.txt_filtros {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.derFilter {
+	float: right;
+}
+
+.select_filter {
+	width: 100%;
+	border: 1px solid #B0B2B8;
+	font-size: 11px;
+	height: 20px;
+}
+
+.parent_slider {
+	overflow: visible !important;
+	height: 5px !important;
+	margin-top: 2px !important;
+	margin-bottom: 0px !important;
+}
+
+#priceSlider {
+	margin: 0 0 0 5px !important;
+}
+
+.msgDates {
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-top: -9px;
+}
+.clear{
+    clear:both;
+}

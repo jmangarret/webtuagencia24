@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fields name="params"><fieldset name="basic" label="Configuración">
+        <field menu="hide" name="cfg_country_id" type="sql" label="CP.DEFAULT_COUNTRY_NAME" query="SELECT country_id, country_name FROM #__cp_prm_country WHERE published = 1 ORDER BY country_name ASC" key_field="country_id" value_field="country_name" class="requiredfield" />
+        <field menu="hide" name="cfg_use_regions" type="radio" label="CP.DEFAULT_USE_REGIONS" class="requiredfield" default="1">
+                <option value="0">CP.JNO</option>
+                <option value="1">CP.JYES</option>
+        </field>
+        <field menu="hide" name="cfg_use_regions_hotel" type="radio" label="CP.DEFAULT_USE_REGIONS_HOTELS" class="requiredfield" default="1">
+                <option value="0">CP.JNO</option>
+                <option value="1">CP.JYES</option>
+        </field>
+            <field menu="hide" name="cfg_use_countries" type="radio" label="CP.DEFAULT_USE_COUNTRIES" class="requiredfield" default="1">
+                <option value="0">CP.JNO</option>
+                <option value="1">CP.JYES</option>
+        </field>	    
+        <field menu="hide" name="cfg_supplement_image_folder" type="text" size="30" default="/images" label="CP.DEFAULT_SUPPLEMENT_IMAGE_FOLDER" description="" />
+        <field menu="hide" name="cfg_hotelamenity_image_folder" type="text" size="30" default="/images" label="CP.DEFAULT_HOTELAMENITY_IMAGE_FOLDER" description="" />
+        <field menu="hide" name="cfg_rows_per_page" type="text" size="30" default="20" label="CP.DEFAULT_ROWS_PER_PAGE" description="" />
+        <field menu="hide" name="cfg_no_image_url" size="50" type="text" default="" label="CP.DEFAULT_NO_IMAGE_URL" description="CP.DEFAULT_NO_IMAGE_URL_DESC" />
+        <field menu="hide" name="cfg_comments_invitation" type="text" size="30" default="" label="CP.COMMENTS_MAX_INVITATION_EMAILS_LABEL" description="CP.COMMENTS_MAX_INVITATION_EMAILS_DESCRIPTION" />
+        <field menu="hide" type="spacer" default="CP.DEFAULT_PRODUCTS_INFO_SECTION_LABEL" />        
+        <field menu="hide" name="cfg_adults_age" type="text" size="30" default="18" label="CP.MIN_ADULT_AGE" description="CP.MIN_ADULT_AGE_DESCRIPTION" />        
+        <field menu="hide" name="cfg_price_promo" type="radio" default="0" label="CP.SHOW_PRICE_PROMO" description="CP.SHOW_PRICE_PROMO_DESCRITION">
+        	<option value="0">CP.JNO</option>
+                <option value="1">CP.JYES</option>
+        </field>
+        <field menu="hide" name="cfg_require_register" type="radio" default="0" label="CP.SHOW_REQUIRE_REGISTER" description="CP.SHOW_REQUIRE_REGISTER_DESCRITION">
+        	<option value="0">CP.JNO</option>
+                <option value="1">CP.JYES</option>
+        </field>		
+        <!-- param menu="hide" name="cfg_car_pick_up_date" size="50" type="list" default="" label="CP.CAR_PICK_UP_HOUR" description="CP.CAR_PICK_UP_HOUR_DESC" >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+        </field>
+        <field menu="hide" name="cfg_car_delivery_date" size="50" type="list" default="" label="CP.CAR_DELIVERY_HOUR" description="CP.CAR_DELIVERY_HOUR_DESC" >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+        </param-->
+        <field menu="hide" name="cfg_range_days" type="text" size="30" default="" label="CP.DAYS_RANGE_PACKAGE" description="CP.DAYS_RANGE_PACKAGE_DESCRIPTION"/>
+        <field menu="hide" type="spacer" default="CP.DEFAULT_STOCK_SECTION_LABEL" />
+        <field menu="hide" name="cfg_stock_lower_limit" type="text" size="30" default="20" label="CP.DEFAULT_STOCK_LOWER_LIMIT" description="CP.DEFAULT_STOCK_LOWER_LIMIT_DESCRIPTION" />
+        <field menu="hide" name="cfg_stock_upper_limit" type="text" size="30" default="20" label="CP.DEFAULT_STOCK_UPPER_LIMIT" description="CP.DEFAULT_STOCK_UPPER_LIMIT_DESCRIPTION" />
+        <field menu="hide" name="cfg_stock_green_alert_color" type="text" size="30" default="#FFFFFF" label="CP.DEFAULT_STOCK_GREEN_ALERT_COLOR" description="CP.DEFAULT_STOCK_GREEN_ALERT_COLOR_DESCRIPTION" />
+        <field menu="hide" name="cfg_stock_yellow_alert_color" type="text" size="30" default="#FFCC66" label="CP.DEFAULT_STOCK_YELLOW_ALERT_COLOR" description="CP.DEFAULT_STOCK_YELLOW_ALERT_COLOR_DESCRIPTION" />
+        <field menu="hide" name="cfg_stock_red_alert_color" type="text" size="30" default="#FF6600" label="CP.DEFAULT_STOCK_RED_ALERT_COLOR" description="CP.DEFAULT_STOCK_RED_ALERT_COLOR_DESCRIPTION" />
+        <field menu="hide" type="spacer" default="CP.DEFAULT_ARTICLE_CONDITIONS_SECTION_LABEL" />
+        <field menu="hide" name="cfg_hotels_service_conditions" type="text" size="30" label="CP.DEFAULT_HOTELS_SERVICE_CONDITIONS_LABEL" description="CP.DEFAULT_HOTELS_SERVICE_CONDITIONS_DESCRIPTION" />
+        <field menu="hide" name="cfg_cars_service_conditions" type="text" size="30" label="CP.DEFAULT_CARS_SERVICE_CONDITIONS_LABEL" description="CP.DEFAULT_CARS_SERVICE_CONDITIONS_DESCRIPTION" />
+        <field menu="hide" name="cfg_plans_service_conditions" type="text" size="30" label="CP.DEFAULT_PLANS_SERVICE_CONDITIONS_LABEL" description="CP.DEFAULT_PLANS_SERVICE_CONDITIONS_DESCRIPTION" />
+	<field menu="hide" name="cfg_tours_service_conditions" type="text" size="30" label="CP.DEFAULT_TOURS_SERVICE_CONDITIONS_LABEL" description="CP.DEFAULT_TOURS_SERVICE_CONDITIONS_DESCRIPTION" />        
+        <field menu="hide" name="cfg_transfers_service_conditions" type="text" size="30" label="CP.DEFAULT_TRANSFERS_SERVICE_CONDITIONS_LABEL" description="CP.DEFAULT_TRANSFERS_SERVICE_CONDITIONS_DESCRIPTION" />
+        <field menu="hide" type="spacer" default="CP.DEFAULT_ARTICLE_CANCELATION_SECTION_LABEL" />
+        <field menu="hide" name="cfg_hotels_service_cancelation" type="text" size="30" label="CP.DEFAULT_HOTELS_SERVICE_CANCELATION_LABEL" description="CP.DEFAULT_HOTELS_SERVICE_CANCELATION_DESCRIPTION" />
+        <field menu="hide" name="cfg_cars_service_cancelation" type="text" size="30" label="CP.DEFAULT_CARS_SERVICE_CANCELATION_LABEL" description="CP.DEFAULT_CARS_SERVICE_CANCELATION_DESCRIPTION" />
+        <field menu="hide" name="cfg_plans_service_cancelation" type="text" size="30" label="CP.DEFAULT_PLANS_SERVICE_CANCELATION_LABEL" description="CP.DEFAULT_PLANS_SERVICE_CANCELATION_DESCRIPTION" />
+        <field menu="hide" name="cfg_tours_service_cancelation" type="text" size="30" label="CP.DEFAULT_TOURS_SERVICE_CANCELATION_LABEL" description="CP.DEFAULT_TOURS_SERVICE_CANCELATION_DESCRIPTION" />
+        <field menu="hide" name="cfg_transfers_service_cancelation" type="text" size="30" label="CP.DEFAULT_TRANSFERS_SERVICE_CANCELATION_LABEL" description="CP.DEFAULT_TRANSFERS_SERVICE_CANCELATION_DESCRIPTION" />
+        <field name="use_jquery" type="list" default="2" label="Usar JQuery" description="Indica si se instancia el jquery que viene con el modulo, en caso de ya tener instanciado JQuery en el portal colocar no">
+                <option selected="selected" value="1">Si</option>
+                <option value="2">No</option>				
+        </field>
+        <field name="use_jqueryUI" type="list" default="2" label="Usar JQuery UI" description="Indica si se instancia el jquery UI que viene con el modulo, en caso de ya tener instanciado JQuery UI en el portal colocar no">
+                <option selected="selected" value="1">Si</option>
+                <option value="2">No</option>				
+        </field>			
+        <field name="use_jquery_validate" type="list" default="2" label="Usar JQuery Validate" description="Indica si se instancia el jquery Validate que viene con el modulo, en caso de ya tener instanciado JQuery Validate en el portal colocar no">
+                <option selected="selected" value="1">Si</option>
+                <option value="2">No</option>				
+        </field>
+    </fieldset></fields>
+</config> 

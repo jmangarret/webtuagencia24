@@ -1,0 +1,438 @@
+#centro_top_centro {
+	color: #666666;
+}
+
+.conte_plan {
+	float: left;
+	height: auto;
+	min-height: 200px;
+	width: 652px;
+	margin-left: 4px;
+}
+
+.top_titulo_cp_detail {
+
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	min-height: 20px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-top: 6px;
+	width: auto;
+}
+
+.ciudad_pais_precio_plan {
+
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.descripcion_corta_plan {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.amenities_plan {
+	float: right;
+	width: auto;
+}
+
+.ciudad_pais_plan {
+	float: left;
+	width: auto;
+}
+
+.derecha_desc_plan {
+	float: right;
+	width: auto;
+	font-weight: bold;
+}
+
+.conte_slider_fotos {
+	height: 339px;
+	width: 652px;
+}
+
+.conte_info_plan {
+	height: auto;
+	margin-top: 10px;
+	width: 100%;
+	overflow: hidden;
+	padding:2px;
+}
+
+ul.tabs {
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 32px;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul.tabs li {
+	background: none repeat scroll 0 0 #F68A08;
+	border-color: #999999;
+	border-image: none;
+	border-style: solid solid solid none;
+	border-width: 1px 1px 1px medium;
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	margin: 0 0 -1px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+html ul.tabs li.active,html ul.tabs li.active a:hover {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+ul.tabs li a {
+	border: 1px solid #FFFFFF;
+	color: #FFF;
+	display: block;
+	font-size: 12px;
+	outline: medium none;
+	padding: 0 8px;
+	text-decoration: none;
+}
+
+ul.tabs li.active a {
+	color: #006A5D;
+}
+
+ul.tabs li a:hover {
+	background: #CCCCCC;
+}
+
+.tab_container {
+	border: 1px solid #999999;
+	clear: both;
+	float: left;
+	overflow: hidden;
+	width: auto;
+}
+
+.tab_content {
+	width: 631px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#map_canvas {
+	height: 430px;
+	width: 626px;
+}
+
+.comment {
+	background: none repeat scroll 0 0 #F5F5F5;
+	border: 1px solid #E5E5E5;
+	color: #828282;
+	float: left;
+	margin: 0 10px 10px;
+	min-height: 29px;
+	padding: 10px;
+	width: 460px;
+}
+
+.comment_image {
+	float: left;
+}
+
+.conte_tarif {
+	float: right;
+	margin-left: 4px;
+	width: 322px;
+}
+
+.conte_tarif .seccion_title {
+	border-bottom: 1px solid #CFCFCF;
+	border-top: 1px solid #CFCFCF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 5px 5px 15px;
+	color: #666666;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.conte_tarif h3.ui-state-default {
+	background: url("../images/accordion_flecha2.png") no-repeat scroll
+		right top transparent;
+}
+
+.conte_tarif h3.ui-state-active {
+	background: url("../images/accordion_flecha.png") no-repeat scroll right
+		top transparent;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+	background-image: none;
+}
+
+.ui-accordion .ui-accordion-header {
+	margin-top: 0 !important;
+}
+
+.conte_tarif .seccion_title img {
+	float: left;
+	margin-right: 10px;
+}
+
+.conte_tarif .detalles_precio_plan {
+	border-bottom: 1px solid #CFCFCF;
+	border-left: 1px solid #CFCFCF;
+	border-right: 1px solid #CFCFCF;
+	margin-bottom: 10px;
+}
+
+.conte_tarif .conte_calendar {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	padding: 20px 26px;
+	text-align: center;
+}
+
+.unavaiblecalendarcell span.ui-state-default {
+	background: #939393;
+	border: 1px solid #939393;
+}
+
+.selectedcalendarcell a.ui-state-active {
+	background: #FAB35B;
+}
+
+.conte_calendar .adult {
+	float: left;
+}
+
+.title_params {
+	background: url("../images/j_arrow.png") no-repeat scroll 20px 50%
+		transparent;
+	border-bottom: 1px solid #CFCFCF;
+	border-top: 1px solid #CFCFCF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 5px 5px 41px;
+	cursor: pointer;
+}
+
+#content_params h3.active {
+	background: url("../images/j_arrow_down.png") no-repeat scroll 20px 50%
+		transparent;
+}
+
+.param2 {
+	clear: both;
+	height: 17px;
+	padding-bottom: 10px;
+}
+
+.supplement_info,.supplement_info2 {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.supplement_info div {
+	float: left;
+	padding-left: 5px;
+}
+
+.supplement_info2 div {
+	padding-left: 5px;
+}
+
+.param2 div {
+	float: left;
+	padding-left: 4px;
+}
+
+.contain_params .title {
+	font-weight: bold;
+	height: 14px;
+	padding-bottom: 6px;
+	padding-top: 5px;
+}
+
+.contain_params .title div {
+	text-decoration: underline;
+}
+
+.param2 select,.supplement_info select,.supplement_info2 select {
+	border: 1px solid #CCCCCC;
+	font-size: 10px;
+}
+
+.param2 .param1_value1 {
+	width: 77px;
+}
+
+.param2 .param1_value2 {
+	width: 102px;
+}
+
+.param2 .param1_value2 select {
+	width: 100px;
+}
+
+.param2 .child_value1 {
+	width: 60px;
+}
+
+.param2 .child_value2 {
+	width: 140px;
+}
+
+.param2 .child_value2 select {
+	width: 140px;
+}
+
+#cant_child {
+	text-align: center;
+}
+
+.param2 .supplement_value1,.supplement_info .supplement_value1 {
+	width: 160px;
+}
+
+.param2 .supplement_value2,.supplement_info .supplement_value2 {
+	width: 90px;
+}
+
+.supplement_info {
+	height: 17px;
+}
+
+#seccion_subtotal {
+	border-top: 1px solid #CFCFCF;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#subtotal {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+#note {
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#conte_loader #loader {
+	height: 19px;
+	margin-left: 22px;
+	width: 222px;
+}
+
+.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled
+	{
+	opacity: 1;
+	filter: none;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+	background: #939393;
+	border-color: #939393;
+}
+
+.param2 div.conteDateSupplement {
+	float: none;
+}
+
+.conteGeneralDatesSupplement {
+	height: 16px;
+	margin-bottom: 4px;
+}
+
+.conteGeneralDatesSupplement div {
+	float: left;
+}
+
+.conteDateSupplement {
+	width: 150px;
+}
+
+.contePriceSupplement {
+	width: 90px;
+}
+
+#conte_button {
+	height: 20px;
+	padding: 10px;
+	text-align: right;
+}
+
+#contain_param3 .address_num {
+	padding: 5px 40px;
+}
+
+.hour_car {
+	margin-top: 10px;
+}
+
+.car_delivery_city {
+	padding: 15px;
+}
+
+#price_car_subtotal {
+	font-weight: bold;
+}
+
+.der_arrow {
+	background: url("../images/flecha_tabs_der.png") no-repeat scroll right
+		top transparent;
+	cursor: pointer;
+	display: none;
+	float: right;
+	height: 25px;
+	margin-top: 3px;
+	position: absolute;
+	right: 4px;
+	width: 23px;
+	z-index: 1000;
+}
+
+.izq_arrow {
+	background: url("../images/flecha_tabs_izq.png") no-repeat scroll right
+		top transparent;
+	cursor: pointer;
+	display: none;
+	float: right;
+	height: 25px;
+	margin-top: 3px;
+	position: absolute;
+	right: 29px;
+	width: 23px;
+	z-index: 1000;
+}
+
+.conte_tags_arrows {
+	overflow: hidden;
+	width: 555px;
+}
+.clear{
+    clear:both;
+}

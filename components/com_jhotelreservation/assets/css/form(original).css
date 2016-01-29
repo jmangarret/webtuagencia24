@@ -1,0 +1,291 @@
+/*------buttons -------*/
+
+.ui-hotel-button, a.ui-hotel-button, .ui-hotel-button.ui-hotel-button-disabled:hover, input.ui-hotel-button[disabled="disabled"]:hover, button.ui-hotel-button[disabled="disabled"]:hover {
+	background: #0095DD ;
+    background: -moz-linear-gradient(center top , #0095DD 0%, #0077B7 80%) repeat scroll 0 0 rgba(0, 0, 0, 0) ;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095DD), to(#0077B7) ) ;
+	background: -webkit-linear-gradient(top, #0095DD, #0077B7) ;
+	background: linear-gradient(top, #0095DD, #0077B7) ;
+    
+}
+.ui-hotel-button, a.ui-hotel-button {
+    border: 1px solid #0087D0 ;
+    border-radius: 0px !important;
+    color: #FFFFFF!important;
+    display: inline-block;
+    font-family: 'DepotNewRegular','Helvetica Neue',Helvetica,Arial,Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 3px;
+    overflow: visible;
+    padding: 8px 16px !important;
+    position: relative;
+    text-decoration: none !important;
+    text-shadow: 1px 1px #00659B;
+}
+
+button.ui-hotel-button{
+	min-width:110px !important;	
+}
+
+.ui-hotel-button:hover {
+	background: #0077B7;
+    background: -moz-linear-gradient(center top , #0077B7 0%, #0095DD 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0077B7), to(#0095DD) );
+	background: -webkit-linear-gradient(top, #0077B7, #0095DD);
+	background: linear-gradient(top, #0077B7, #0095DD);
+    cursor: pointer;
+    text-shadow: 1px -1px #1B98C7;
+}
+.ui-hotel-button:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) inset;
+}
+.ui-hotel-button .ui-hotel-button-text {
+    color: #FFFFFF;
+}
+.ui-hotel-button .ui-hotel-button-text {
+    line-height: 1;
+}
+.ui-hotel-button-text-icon-primary .ui-hotel-button-text, .ui-hotel-button-text-icons .ui-hotel-button-text {
+    padding: 0 0 0 17px;
+}
+.ui-hotel-button-icon-only .ui-icon, .ui-hotel-button-text-icon-primary .ui-icon, .ui-hotel-button-text-icon-secondary .ui-icon, .ui-hotel-button-text-icons .ui-icon, .ui-hotel-button-icons-only .ui-icon {
+    margin-left: -8px;
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+}
+.ui-hotel-button-large, a.ui-hotel-button-large {
+    font-size: 18px;
+    padding: 10px 16px;
+}
+.ui-hotel-button-icon-only {
+    padding: 4px !important;
+}
+.ui-hotel-button-small, a.ui-hotel-button-small {
+    font-size: 14px;
+    padding: 5px;
+}
+.ui-hotel-button-dark-green, a.ui-hotel-button-dark-green, .ui-hotel-button-dark-green.ui-hotel-button-disabled:hover, input.ui-hotel-button-dark-green[disabled="disabled"]:hover, button.ui-hotel-button-dark-green[disabled="disabled"]:hover {
+    background: #ADD773;
+    background: -moz-linear-gradient(center top , #ADD773 0%, #83B33F 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ADD773), to(#83B33F) );
+	background: -webkit-linear-gradient(top, #ADD773, #83B33F);
+	background: linear-gradient(top, #ADD773, #83B33F);
+    border: 1px solid #79AB2F !important;
+    text-shadow: 0 1px 0 #789A2B !important;
+}
+.ui-hotel-button-dark-green:hover, a.ui-hotel-button-dark-green:hover {
+	background: #83B33F;
+    background: -moz-linear-gradient(center top , #83B33F 0%, #ADD773 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#83B33F), to(#ADD773) );
+	background: -webkit-linear-gradient(top, #83B33F, #ADD773);
+	background: linear-gradient(top, #83B33F, #ADD773);
+    text-shadow: 0 -1px 0 #789A2B !important;
+}
+
+.ui-hotel-button.green, a.ui-hotel-button.green, .ui-hotel-button.green.ui-hotel-button-disabled:hover, input.ui-hotel-button.green[disabled="disabled"]:hover, button.ui-hotel-button.green[disabled="disabled"]:hover {
+	background: #87D215 !important;
+    background: -moz-linear-gradient(center top , #87D215 0%, #63B412 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#87D215), to(#63B412) );
+	background: -webkit-linear-gradient(top, #87D215, #63B412);
+	background: linear-gradient(top, #87D215, #63B412);
+    border: 1px solid #79AB2F !important;
+    text-shadow: 0 1px 0 #83B802 !important;
+}
+
+.ui-hotel-button.green:hover, a.ui-hotel-button.green:hover {
+	background: #63B412;
+    background: -moz-linear-gradient(center top , #63B412 0%, #87D215 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#63B412), to(#87D215) );
+	background: -webkit-linear-gradient(top, #63B412, #87D215);
+	background: linear-gradient(top, #63B412, #87D215);
+	border: 1px solid #79AB2F !important;
+    text-shadow: 0 -1px 0 #789A2B !important;
+}
+
+.ui-hotel-button-orange, a.ui-hotel-button-orange, .ui-hotel-button-orange.ui-hotel-button-disabled:hover, input.ui-hotel-button-orange[disabled="disabled"]:hover, button.ui-hotel-button-orange[disabled="disabled"]:hover {
+    background: #FFBF15;
+    background: -moz-linear-gradient(center top , #FFBF15 0%, #FF8900 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFBF15), to(#FF8900) );
+	background: -webkit-linear-gradient(top, #FFBF15, #FF8900);
+	background: linear-gradient(top, #FFBF15, #FF8900);
+    
+    border: 1px solid #FF8900 !important;
+    text-shadow: 0 1px 0 #789A2B !important;
+}
+.ui-hotel-button-orange:hover, a.ui-hotel-button-orange:hover {
+	background: #FF8900;
+    background: -moz-linear-gradient(center top , #FF8900 0%, #FFBF15 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF8900), to(#FFBF15) );
+	background: -webkit-linear-gradient(top, #FF8900, #FFBF15);
+	background: linear-gradient(top, #FF8900, #FFBF15);
+    text-shadow: 0 -1px 0 #789A2B !important;
+}
+
+.ui-hotel-button-grey, a.ui-hotel-button-grey, .ui-hotel-button-grey.ui-hotel-button-disabled:hover, input.ui-hotel-button-grey[disabled="disabled"]:hover, button.ui-hotel-button-grey[disabled="disabled"]:hover {
+	background: #E9EAEA;
+    background: -moz-linear-gradient(center top , #E9EAEA 0%, #CECFD0 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9EAEA), to(#CECFD0) );
+	background: -webkit-linear-gradient(top, #E9EAEA, #CECFD0);
+	background: linear-gradient(top, #E9EAEA, #CECFD0);
+    border: 1px solid #B5B5B5 !important;
+    box-shadow: 0 0 1px #F9F9F9 inset, 0 1px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px #DDDDDD !important;
+}
+.ui-hotel-button-grey .ui-button-text, .ui-hotel-button-grey {
+    color: #333333 !important;
+}
+.ui-hotel-button-grey:hover, a.ui-hotel-button-grey:hover {
+	background: #CECFD0;
+    background: -moz-linear-gradient(center top , #CECFD0 0%, #E9EAEA 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#CECFD0), to(#E9EAEA) );
+	background: -webkit-linear-gradient(top, #CECFD0, #E9EAEA);
+	background: linear-gradient(top, #CECFD0, #E9EAEA);
+    text-shadow: 1px -1px #DDDDDD !important;
+}
+.ui-hotel-button-disabled, input[disabled="disabled"], button[disabled="disabled"] {
+    cursor: default;
+    opacity: 0.4;
+}
+
+.hotel_reservation dt{
+	line-height: 23px;
+	display: table-column;
+	font-size: 13px;
+}
+
+.hotel_reservation dt{
+	float: left;
+	clear: left;
+	width: 140px;
+	margin-bottom: 5px;
+	display: table-cell;
+	line-height: 21px;
+}
+.hotel_reservation dd{
+	margin-bottom: 8px;
+	display: block;
+	line-height: 21px;
+}
+.hotel_reservation dd div{
+	display: block;
+	width: 100%;
+	min-width: 400px;
+}
+
+.hotel_reservation dd ul{
+	margin: 0;
+	padding: 0;
+}
+
+.hotel_reservation dd ul li{
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sp-methods dt{
+	float: none;
+	clear: both;
+	width: auto;
+}
+
+.hotel_reservation select, .hotel_reservation textarea, .hotel_reservation input[type="text"] {
+	color: #555555;
+	display: inline-block;
+	min-height: 26px;
+	line-height: 26px;
+	margin: 0;
+	padding: 2px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	border: 1px solid #bbb;
+	border-radius: 0px !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.hotel_reservation .guestDetails input[type="text"], .hotel_reservation .guestDetails textarea, .hotel_reservation .guestDetails select{
+	width: 300px;
+}
+
+.hotel_reservation .guestDetails select{
+	height: 26px !important;
+}
+
+ .hotel_reservation .guestDetails textarea{
+ 	max-width: 600px;
+ }
+
+.hotel_reservation textarea, .hotel_reservation select{
+	height: auto;
+}
+
+.hotel_reservation textarea:focus, .hotel_reservation input:focus, .hotel_reservation select:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+
+.styled-select {
+   width:40%;
+   overflow: hidden;
+   background: #fff;
+   border: 1px solid #bbb;
+   height: 30px;
+   min-width: 50px;
+ }
+ 
+.styled-select select {
+  width: 150% !important;
+  border: 0;
+  margin: 0 !important;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  appearance: none;
+  padding-left:5px;
+  background: url("../img/arrows.png") no-repeat scroll 55% 8px !important;
+  background-size: 31px 251px;
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background: transparent url("../img/arrows2x.png") no-repeat scroll 55% 8px;
+      background-size: 16px 144px;
+    }
+}
+
+
+.poptext{
+	background-color: #000 !important;
+	border: 0px !important;
+	opacity:0.8;
+	dispaly: block;
+	color:#fff !important; 
+}
+.hotel_reservation .controls{
+	display:flex !important;
+	width: auto !important;
+}
+.hotel_reservation .controls input{
+	float: none;
+    margin-top: 2px;
+    padding: 0!important;
+}
+
+.hotel_reservation .controls label{
+    margin-right: 5px!important;
+}
+
+.controls > .radio:first-child, .controls > .checkbox:first-child {
+    padding-top: 0px !important;
+}
+
+div.blockUI.blockMsg.blockPage{
+	z-index:9999 !important;
+}

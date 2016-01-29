@@ -1,0 +1,407 @@
+#title-header-aws {
+	background-color: $color-blue;
+	color: white;
+	display: none;
+	font-size: 16px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+
+	#from,
+	#to {
+		color: $color-yellow;
+	}
+}
+#aaws-qs-top {
+	background: none;
+	color: $color-base;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 100%;
+}
+#quick-search-in {
+	overflow: hidden;
+	width: 100%;
+
+	.ui-tabs-nav {
+		border-bottom: 5px solid $color-blue;
+		border-radius: 0;
+		width: 100%;
+		padding-left: 10px;
+		li {
+			background: none;
+			background-color: $color-yellow;
+			border: none;
+			display: inline-block;
+			line-height: 25px;
+			padding: 0 10px;
+
+			&.ui-state-active {
+				background-color: $color-blue;
+
+				a {
+					color: white;
+				}
+			}
+
+			a {
+				color: $color-blue;
+			}
+		}
+	}
+
+	[id*="tab-"] {
+		background-color: #ebebeb;
+		border-radius: 0 0 10px 10px;
+		padding: 10px;
+
+		.m-title {
+			border-bottom: 1px dashed #ccc;
+		}
+
+		.options {
+			width: 100%;
+			li {
+				display: block;
+				margin: 0;
+			}
+		}
+
+		[type="radio"] {
+			vertical-align: middle;
+		}
+
+		.cities,
+		.passengers {
+			select,
+			[type="text"] {
+				background: white;
+				border: 1px solid #ccc;
+				height: 25px;
+				margin: 0;
+				padding: 4px;
+				width: 203px;
+			}
+
+			label {
+				margin: 0;
+			}
+		}
+
+		.dates {
+			width: 100%;
+
+			&>div {
+				width: 100%;
+			}
+
+			label {
+				width: 100px;
+			}
+
+			img {
+				right: 0px;
+				top: 4px;
+			}
+
+			[type="text"] {
+				width: 80px;
+			}
+		}
+
+		.passengers {
+			.field {
+				width: 100%;
+			}
+
+			label {
+				display: block;
+			}
+		}
+
+		[type="submit"] {
+			background-color: $color-blue;
+			background-image: url(../images/btn-arw-r.png);
+			background-position: 100% 50%;
+			background-repeat: no-repeat;
+			border: none;
+			border-radius: 6px;
+			color: white;
+			display: inline-block;
+			margin-top: 10px;
+			padding: 6px 24px 6px 12px;
+			text-align: center;
+			width: 100%;
+
+			&:hover {
+				background-color: shade($color-blue,20%);
+			}
+		}
+	}
+}
+
+#availability_main {
+	margin-left: -10px;
+	width: $wd;
+
+	#left-container {
+		width: 100%;
+
+		#filters {
+			background-color: white;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			padding: 10px;
+			width: 100%;
+
+			h3.title {
+				color: $color-blue;
+				border-bottom: 1px dashed #ccc;
+				line-height: 30px;
+			}
+
+			&>div {
+				border: none;
+
+				h4 {
+					background-color: $color-yellow;
+					border-radius: 0;
+					color: $color-base;
+					font-size: 13px;
+					line-height: 24px;
+					padding: 0 10px;
+				}
+
+				.jui-slider {
+					width: 190px;
+				}
+			}
+		}
+
+		#filters .jui-slider .ui-slider-handle {
+			background: url(../images/slide-ctrl.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+			height: 20px;
+			width: 14px;
+		}
+	}
+}
+
+#availability_header {
+	margin-bottom: 0;
+
+	.als-container-stops {
+		display: none;
+	}
+
+	#airlines {
+		height: auto;
+		width: 100%;
+
+		.als-container {
+			background-color: #ebebeb;
+			border: none;
+			border-radius: 10px;
+			height: auto;
+			padding: 4px 0;
+			width: 100%;
+		}
+
+		.als-prev,
+		.als-next {
+			border: none;
+			height: 26px;
+			top: 50%;
+			margin-top: -13px;
+			width: 26px;
+		}
+
+		.als-prev {
+			background: url(../images/btn-sld-l.png) 0 0 no-repeat;
+			left: 5px;
+		}
+
+		.als-next {
+			background: url(../images/btn-sld-r.png) 0 0 no-repeat;
+			right: 5px;
+		}
+
+		.als-viewport {
+			width: 640px;
+		}
+
+		.als-item {
+			background-color: $color-blue;
+			border-radius: 6px;
+			color: white;
+			margin: 0 2px;
+			padding: 5px;
+
+			.icon {
+				border-radius: 4px;
+			}
+
+			[class*="stops-"] {
+				border-top: 1px dashed white;
+				text-align: right;
+			}
+
+			.stops-0 {
+				border-top: none;
+
+				&:before {
+					content: "Directo";
+					float: left;
+					color: tint($color-blue, 50%);
+				}
+			}
+
+			.stops-1 {
+				&:before {
+					content: "1 escala";
+					float: left;
+					color: tint($color-blue, 50%);
+				}
+			}
+
+			.stops-2 {
+				&:before {
+					content: "2 escalas";
+					float: left;
+					color: tint($color-blue, 50%);
+				}
+			}
+		}
+
+		.all-airlines {
+			background: none;
+			color: $color-base;
+			font-weight: normal;
+			text-align: left;
+			text-decoration: underline;
+
+			&:hover {
+				color: $color-blue;
+			}
+		}
+	}
+
+	#availability-title {
+		display: none;
+	}
+}
+
+
+#right-container {
+	#recommendations {
+		float: none;
+		width: 100%;
+
+		.recommendation {
+			border-radius: 10px;
+			margin: 0 0 20px;
+			width: 100%;
+		}
+
+		.segment-header.go,
+		.segment-header.multiply {
+			.icon {
+				background: url(../images/btn-ida.png) 0 0 no-repeat;
+				display: inline-block;
+				height: 23px;
+				overflow: hidden;
+				text-indent: -100px;
+				width: 94px;
+			}
+		}
+
+		.segment-header.return {
+			.icon {
+				background: url(../images/btn-regreso.png) 0 0 no-repeat;
+				display: inline-block;
+				height: 24px;
+				overflow: hidden;
+				text-indent: -100px;
+				width: 106px;
+			}
+		}
+
+		.values {
+			background: $color-yellow;
+			border-radius: 6px;
+			color: $color-blue;
+
+			.total {
+				background: none;
+				border-bottom: 1px solid $color-blue;
+				color: $color-blue;
+				float: none;
+				left: 0;
+				height: auto;
+				padding: 10px 0;
+				width: 100%;
+
+				.label {
+					display: block;
+					float: none;
+				}
+
+				.value {
+					float: none;
+				}
+			}
+		}
+
+		.fare_taxes {
+			color: shade($color-blue, 20%);
+			font-size: 13px !important;
+			margin-bottom: 20px;
+
+			.fare {
+				color: shade($color-blue, 20%);
+				font-size: 13px !important;
+			}
+
+			.value {
+				font-weight: bold;
+			}
+		}
+
+		[type="submit"] {
+			background-color: $color-blue;
+			background-image: url(../images/btn-arw-r.png);
+			background-position: 100% 50%;
+			background-repeat: no-repeat;
+			border: none;
+			border-radius: 6px;
+			color: white;
+			display: inline-block;
+			padding: 6px 24px 6px 12px;
+			text-align: center;
+
+			&:hover {
+				background-color: shade($color-blue,20%);
+			}
+		}
+	}
+}
+
+
+#passenger_main {
+	font-size: 13px !important;
+	margin: 0 auto;
+	width: 100%;
+
+	#r-container {
+		width: 660px;
+	}
+
+	#resume-flight {
+		width: 280px;
+	}
+
+	.fare_taxes {
+		.total {
+			width: 290px;
+		}
+	}
+}

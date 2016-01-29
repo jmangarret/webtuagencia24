@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Vigencia</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Vigencia</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_season">
+  		<field type="referenceid" name="season_id" translate="0">ID</field>
+  		<field type="titletext" name="season_name" translate="1">Nombre</field>
+  	</table>
+  </reference>
+</joomfish>

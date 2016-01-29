@@ -1,0 +1,6 @@
+/**
+ *
+ */
+tr.last input[type=button] {
+    display: none;
+}

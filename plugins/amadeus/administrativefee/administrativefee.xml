@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="amadeus">
+    <name>AAWS - Administrative Fee</name>
+    <author>Amadeus IT</author>
+    <creationDate>April 2013</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>Plugin that modifies the availabity response, to add the administrative fee into it</description>
+    <files>
+        <filename plugin="administrativefee">administrativefee.php</filename>
+        <filename>transform.xslt</filename>
+    </files>
+</install>

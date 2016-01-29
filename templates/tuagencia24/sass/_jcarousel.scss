@@ -1,0 +1,83 @@
+.jcarousel-skin-planes {
+	.jcarousel-container-horizontal {
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.jcarousel-prev-horizontal {
+		// position: absolute;
+		top: -26px !important;
+		// left: auto;
+		right: 30px !important;
+		// width: 22px;
+		// height: 25px;
+		// cursor: pointer;
+		// background: url(../images/prev_planes.jpg) 0 0 no-repeat;
+		z-index: 100;
+	}
+
+	.jcarousel-next-horizontal {
+		// position: absolute;
+		top: -26px !important;
+		// right: 0px;
+		// width: 22px;
+		// height: 25px;
+		// cursor: pointer;
+		// background: url(../images/next_planes.jpg) 0 0 no-repeat;
+		z-index: 100;
+	}
+
+	.jcarousel-clip-horizontal {
+		width: 100% !important;
+		height: auto !important;
+		// overflow: hidden;
+		// top: -1px;
+		// position: relative;
+	}
+
+	.jcarousel-item {
+		// width: auto !important;
+		height: auto !important;
+		// float: left;
+		// margin: 0;
+		// padding: 0;
+
+		.vm-image {
+			overflow: hidden;
+		}
+
+		.vm-title {
+			// vertical-align: middle;
+			// text-align: left;
+			font-family: sans-serif !important;
+			color: $color-blue !important;
+			// padding-top: 4px;
+			// padding-bottom: 7px;
+			// font-size: 16px;
+			// width: 170px;
+			height: auto !important;
+			margin-bottom: 0 !important;
+			font-style: italic;
+		}
+
+		.vm-price {
+			text-align: left !important;
+
+			a {
+				display: inline-block !important;
+				width: auto !important;
+				height: auto !important;
+				padding: 4px 12px !important;
+				// background-color: #006AB1;
+				// color: #FFF;
+				// text-decoration: none;
+				// background-image: url(../img/blue_bullet.jpg);
+				// background-repeat: no-repeat;
+				// background-position: 5px 8px;
+				// color: #E6F4FC;
+				border-radius: 4px;
+				font-size: 11px;
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+.reservation-details {
+    background: -moz-linear-gradient(center top , #A98A3D, #A98A3D, #A98A3D) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(center top , #A98A3D 0%, #A98A3D 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#A98A3D), to(#A98A3D) );
+	background: -webkit-linear-gradient(top, #A98A3D, #A98A3D);
+	background: linear-gradient(top, #A98A3D, #A98A3D);
+    
+    border-bottom: 1px solid #7eb2c7;
+    font-size: 1em;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-left: 0 !important;
+    padding: 5px 10px;
+}
+
+.hotel_reservation .reservation-details-holder  h3,.rsv_dtls_main_header,.rsv_dtls_header,.rsv_dtls_main_header th,.rsv_dtls_header td {
+	background-color:#593D00;	
+	color: #fff !important;
+}
+
+.hotel_reservation a:link {color: #593D00 ;}
+
+.ui-hotel-button, a.ui-hotel-button {
+    border: 1px solid #593D00 !important ;
+   	background: #593D00;
+    background: -moz-linear-gradient(center top , #795200 0%, #593D00 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#795200), to(#593D00) );
+	background: -webkit-linear-gradient(top, #795200, #593D00);
+	background: linear-gradient(top, #795200, #593D00);
+	text-shadow:none !important;
+	color:#fff !important;
+	
+}
+.ui-hotel-button:hover {
+	background: #795200;
+	background: -moz-linear-gradient(center top , #593D00 0%, #795200 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#593D00), to(#795200) );
+	background: -webkit-linear-gradient(top, #593D00, #795200);
+	background: linear-gradient(top, #593D00, #795200);
+    cursor: pointer;
+	text-shadow:none !important;
+}
+
+.ui-hotel-button-grey, a.ui-hotel-button-grey, .ui-hotel-button-grey.ui-hotel-button-disabled:hover, input.ui-hotel-button-grey[disabled="disabled"]:hover, button.ui-hotel-button-grey[disabled="disabled"]:hover {
+	text-shadow:none !important;
+ 	color:#333 !important;
+ 	border: 0px !important;
+ 	background: #E9EAEA;
+    background: -moz-linear-gradient(center top , #E9EAEA 0%, #CECFD0 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9EAEA), to(#CECFD0) );
+	background: -webkit-linear-gradient(top, #E9EAEA, #CECFD0);
+	background: linear-gradient(top, #E9EAEA, #CECFD0);
+ 	
+}
+
+.ui-hotel-button-grey:hover, a.ui-hotel-button-grey:hover {
+	background: #CECFD0;
+    background: -moz-linear-gradient(center top , #CECFD0 0%, #E9EAEA 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#CECFD0), to(#E9EAEA) );
+	background: -webkit-linear-gradient(top, #CECFD0, #E9EAEA);
+	background: linear-gradient(top, #CECFD0, #E9EAEA);
+    text-shadow: 1px -1px #DDDDDD !important;
+}
+
+.reservation-steps ul li.completed {
+	background: #a98a3d;
+}
+ 

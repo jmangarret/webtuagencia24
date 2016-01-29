@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Language>
+    <Constants>
+        <Months>
+            <January Number="01" ShortName="ene">Enero</January>
+            <February Number="02" ShortName="feb">Febrero</February>
+            <March Number="03" ShortName="mar">Marzo</March>
+            <April Number="04" ShortName="abr">Abril</April>
+            <May Number="05" ShortName="may">Mayo</May>
+            <June Number="06" ShortName="jun">Junio</June>
+            <July Number="07" ShortName="jul">Julio</July>
+            <August Number="08" ShortName="ago">Agosto</August>
+            <September Number="09" ShortName="sep">Septiembre</September>
+            <October Number="10" ShortName="oct">Octubre</October>
+            <November Number="11" ShortName="nov">Noviembre</November>
+            <December Number="12" ShortName="dic">Diciembre</December>
+        </Months>
+        <PaxTreatment>
+            <Option Value="">Seleccione...</Option>
+            <Option Value="MR">Sr</Option>
+            <Option Value="MRS">Sra</Option>
+            <Option Value="MS">Srta</Option>
+        </PaxTreatment>
+        <PaxDocumentType>
+            <Option Value="">Seleccione...</Option>
+            <Option Value="5">Identificación Nacional</Option>
+            <Option Value="2">Pasaporte</Option>
+            <Option Value="1">Visa</Option>
+        </PaxDocumentType>
+        <PaxGenre>
+            <Option Value="">Seleccione...</Option>
+            <Option Value="Male">Masculino</Option>
+            <Option Value="Female">Femenino</Option>
+        </PaxGenre>
+    </Constants>
+    <Translations>
+        <CoinSymbol><![CDATA[$]]></CoinSymbol>
+        <TotalValue><![CDATA[Valor Total]]></TotalValue>
+        <Fare><![CDATA[Tarifa Base :]]></Fare>
+        <Taxes><![CDATA[Impuestos :]]></Taxes>
+        <Fees><![CDATA[Cargos :]]></Fees>
+        <SubmitButton><![CDATA[Seleccionar]]></SubmitButton>
+        <Go><![CDATA[Ida]]></Go>
+        <Return><![CDATA[Regreso]]></Return>
+        <Multiply><![CDATA[Vuelo %d]]></Multiply>
+        <DepartureHour><![CDATA[Sale :]]></DepartureHour>
+        <ArrivalHour><![CDATA[Llega :]]></ArrivalHour>
+        <Date><![CDATA[%d de %m del %y]]></Date>
+        <ItineraryDetail><![CDATA[%dmy, de %dc a %ac]]></ItineraryDetail>
+        <TimeDuration><![CDATA[%h[h] %m[min]]]></TimeDuration>
+        <Direct><![CDATA[Directo]]></Direct>
+        <Scale><![CDATA[%d escala]]></Scale>
+        <Scales><![CDATA[%d escalas]]></Scales>
+        <MultipleAirLines><![CDATA[Varias aerolíneas]]></MultipleAirLines>
+        <!-- Airlines titles -->
+        <Title1><![CDATA[Selecciona tu vuelo desde <span>%co</span> hasta <span>%cd</span>]]></Title1>
+        <Title2><![CDATA[Selecciona tus vuelos]]></Title2>
+        <EmptySymbol><![CDATA[]]></EmptySymbol>
+        <AllAirLines><![CDATA[Todas las recomendaciones]]></AllAirLines>
+        <!-- Filter titles -->
+        <TitleFilter><![CDATA[Filtrar resultados]]></TitleFilter>
+        <Price><![CDATA[Precio]]></Price>
+        <Stops><![CDATA[Escalas / Paradas]]></Stops>
+        <AirLines><![CDATA[Aerolíneas]]></AirLines>
+        <Schedule><![CDATA[Horarios de vuelo]]></Schedule>
+        <!-- Flight detail titles -->
+        <FlightDurationTitle><![CDATA[Duración total del vuelo:]]></FlightDurationTitle>
+        <DateDetail><![CDATA[%d %sm %y %h]]></DateDetail>
+        <DepartureDetail><![CDATA[Sale de %c, %a (%i) <span>%d</span>]]></DepartureDetail>
+        <ArrivalDetail><![CDATA[Llega a %c, %a (%i) <span>%d</span>]]></ArrivalDetail>
+        <ScaleDetail><![CDATA[Conexión %c con espera de %f]]></ScaleDetail>
+        <!-- Class -->
+        <Economy><![CDATA[Turista]]></Economy>
+        <First><![CDATA[Primera]]></First>
+        <Business><![CDATA[Negocios]]></Business>
+        <!-- Resume screen titles -->
+        <ResumeTitle><![CDATA[Resumen de la reserva]]></ResumeTitle>
+        <PriceDetail><![CDATA[Detalle del precio]]></PriceDetail>
+        <PriceNote><![CDATA[Precio final + impuestos]]></PriceNote>
+        <FarePassengerType>
+            <ADT><![CDATA[%d adulto(s):]]></ADT>
+            <CHD><![CDATA[%d niño(s):]]></CHD>
+            <INF><![CDATA[%d infante(s):]]></INF>
+        </FarePassengerType>
+        <Itinerary><![CDATA[Itinerario]]></Itinerary>
+        <Duration><![CDATA[Duración :]]></Duration>
+        <AirLine><![CDATA[Aerolínea :]]></AirLine>
+        <Flight><![CDATA[Vuelo :]]></Flight>
+        <FlightDetail><![CDATA[Detalle del vuelo]]></FlightDetail>
+        <!-- Passenger form -->
+        <PassengerScreenTitle><![CDATA[<h2>INGRESA LOS DATOS Y SELECCIONA EL MEDIO DE PAGO</h2><div class="note">Los campos marcados con <span>*</span> son obligatorios.</div>]]></PassengerScreenTitle>
+        <ContactInfoTitle><![CDATA[<h3>INFORMACIÓN DE CONTACTO</h3><div class="note">Cuentanos en donde te podemos contactar para informarte sobre la reserva.</div>]]></ContactInfoTitle>
+        <ContactName><![CDATA[Nombre del contacto <span>*</span>:]]></ContactName>
+        <ContactEmail><![CDATA[Correo electrónico <span>*</span>:]]></ContactEmail>
+        <ContactPhone><![CDATA[Teléfono <span>*</span>:]]></ContactPhone>
+        <SuggestCountry><![CDATA[País]]></SuggestCountry>
+        <SuggestArea><![CDATA[Área]]></SuggestArea>
+        <SuggestPhoneNumber><![CDATA[Número]]></SuggestPhoneNumber>
+        <ContactPassword><![CDATA[Contraseña :]]></ContactPassword>
+        <IdentifyButton><![CDATA[Identificarse]]></IdentifyButton>
+        <ContinueButton><![CDATA[Deseo continuar el proceso sin ingresar en el sistema.]]></ContinueButton>
+        <PassengerInfoTitle><![CDATA[<h3>DATOS DE LOS PASAJEROS</h3>]]></PassengerInfoTitle>
+        <PassengerTypes>
+            <ADT><![CDATA[Adulto]]></ADT>
+            <CHD><![CDATA[Niño]]></CHD>
+            <INF><![CDATA[Infante]]></INF>
+        </PassengerTypes>
+        <PassengerTypeTitle><![CDATA[Pasajero %d - %t]]></PassengerTypeTitle>
+        <PaxTreatment><![CDATA[Tratamiento <span>*</span>:]]></PaxTreatment>
+        <PaxFirstName><![CDATA[Nombre completo  <span>*</span>:]]></PaxFirstName>
+        <PaxLastName><![CDATA[Apellido completo  <span>*</span>:]]></PaxLastName>
+        <PaxDocumentType><![CDATA[Tipo de documento  <span>*</span>:]]></PaxDocumentType>
+        <PaxDocumentNumber><![CDATA[Número de Documento  <span>*</span>:]]></PaxDocumentNumber>
+        <PaxBornDate><![CDATA[Fecha de nacimiento  <span>*</span>:]]></PaxBornDate>
+        <PaxGenre><![CDATA[Género  <span>*</span>:]]></PaxGenre>
+        <PaxNacionality><![CDATA[Nacionalidad  <span>*</span>:]]></PaxNacionality>
+        <PaymentMethodTitle><![CDATA[<h3>SELECCIÓN DE MEDIO DE PAGO</h3>]]></PaymentMethodTitle>
+        <PlaceToPayPayment><![CDATA[Pago eléctronico con]]></PlaceToPayPayment>
+        <ConditionsAndRestrictions><![CDATA[Declaro conocer los <a href="#">términos y condiciones</a> de Viajes Elite]]></ConditionsAndRestrictions>
+        <Day>Día</Day>
+        <Month>Mes</Month>
+        <Year>Año</Year>
+        <PayBooking><![CDATA[Pagar Reserva]]></PayBooking>
+    </Translations>
+</Language>

@@ -1,0 +1,48 @@
+#box-footer {
+	background-color: $color-lightgray;
+	border-top: 10px solid $color-yellow;
+	font-size: 11px;
+	border-bottom: 1px dashed #ccc;
+}
+
+#menu-footer {
+	.menu {
+		list-style: none;
+		margin: 15px 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+
+			&:hover,
+			&.active {
+				a {
+					text-decoration: underline;
+				}
+			}
+
+			&:first-child {
+				a {
+					border-left: none;
+					padding-left: 0;
+				}
+			}
+		}
+
+		a {
+			border-left: 1px solid tint($color-base,25%);
+			color: tint($color-base,25%);
+			display: block;
+			padding: 0 10px;
+			text-decoration: none;
+		}
+	}
+}
+
+#footer {
+	p {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}

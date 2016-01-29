@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="com_cp_view_product" option="com_cp_view_product_option">
+		<message><![CDATA[com_cp_view_product]]></message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_cp/models/fields">
+        	<field name="id" type="text" label="COM_CP_PRODUCT_ID_MENUITEM" />
+		</fieldset>
+	</fields>
+</metadata>

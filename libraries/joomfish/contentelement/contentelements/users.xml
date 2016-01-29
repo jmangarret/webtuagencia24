@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Users</name>
+  <author>I. Apostolov</author>
+  <version>2.5.1</version>
+  <description>Definition for the core user management component</description>
+  <copyright>2003 - 2013, Think Network GmbH, Konstanz</copyright>
+  <reference>
+  	<table name="users">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="name" translate="1">Name</field>
+  	</table>
+  </reference>
+  <translationfilters>
+  	  <published>published</published>
+  </translationfilters> 
+</joomfish>

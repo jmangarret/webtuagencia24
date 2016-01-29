@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5" type="plugin" group="amadeus">
+	<name>Guardar Cotizaciones de Planes</name>
+	<author>Carlos Fernando Sema</author>
+	<creationDate>Agosto 2013</creationDate>
+	<copyright>Amadeus</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>carlos.sema@periferia-it.com</authorEmail>
+	<authorUrl>www.amadeus.com</authorUrl>
+	<version>1.0</version>
+	<description>Plugin para guardar las cotizaciones de los planes</description>
+
+	<files>
+		<filename plugin="savePlan">savePlan.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params"></fields>
+	</config>
+</extension>

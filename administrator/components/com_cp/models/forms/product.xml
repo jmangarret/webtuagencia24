@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_cp/models/fields">
+		<field name="product_name" type="text" label="COM_CP_PRODUCT_NAME" description="COM_CP_PRODUCT_NAME" size="50" maxlength="255" required="true" />
+		<field name="featured" type="checkbox" label="COM_CP_FEATURED" description="COM_CP_FEATURED" value="1" />
+		<field name="product_id" type="text" class="readonly" readonly="true" default="0" label="COM_CP_PRODUCT_ID" description="COM_CP_PRODUCT_ID_TOOLTIP" />
+		<field name="country_code" type="sqlcountries" label="COM_CP_COUNTRY" description="COM_CP_COUNTRY" query="SELECT DISTINCT co.`Code2` as value, co.`Name` as text FROM `#__cp_country` co JOIN `#__cp_cities` ci ON co.`Code2` = ci.`countryCode` WHERE ci.`language` = '__lang__' ORDER BY co.`Name`" key_field="value" value_field="text" required="true">
+			<option value="">COM_CP_SELECT_COUNTRY</option>
+		</field>
+		<field name="city" type="text" label="COM_CP_CITY" description="COM_CP_CITY" required="true" />
+		<field name="price" type="text" default="" label="COM_CP_PRICE" description="COM_CP_PRICE_TOOLTIP" class="numericfield" required="true" />
+		<field name="product_desc" type="textarea" default="" rows="5" cols="30" label="COM_CP_PRODUCT_DESC" description="COM_CP_PRODUCT_DESC_TOOLTIP" required="true" />
+		<field name="quota" type="text" default="" label="COM_CP_QUOTA" description="COM_CP_QUOTA_TOOLTIP" class="numericfield" required="true" />
+		<field name="product_code" type="text" default="" label="COM_CP_PRODUCT_CODE" description="COM_CP_PRODUCT_CODE_TOOLTIP" />
+		<field name="tourismtype_id" size="8" class="multiselect" type="sql" query="SELECT tourismtype_id, IF(published = 1, tourismtype_name, CONCAT(tourismtype_name, '*')) as text FROM #__cp_tourismtype ORDER BY tourismtype_name ASC" key_field="tourismtype_id" value_field="text" multiple="multiple" label="COM_CP_MENUCPPRODUCTTOURISMTYPELIST" description="COM_CP_MENUCPPRODUCTTOURISMTYPELIST_TOOLTIP" />
+		<field name="category_id" type="sql" label="COM_CP_PRODUCT_CATEGORY_NAME" description="COM_CP_PRODUCT_CATEGORY_NAME" query="SELECT category_id, IF(published = 1, category_name, CONCAT(category_name, '*')) AS category_name FROM #__cp_category" key_field="category_id" value_field="category_name" required="true" />
+		<field name="access" type="accesslevel" size="1" default="1" label="COM_CP_ACCESS" description="COM_CP_ACCESS_TOOLTIP" required="true" />
+		<field name="published" type="radio" default="0" label="COM_CP_PUBLISHED" description="COM_CP_PUBLISHED_TOOLTIP" required="true">
+			<option value="1">COM_CP_ACTIVE</option>
+			<option value="0">COM_CP_INACTIVE</option>
+		</field>
+		<field name="publish_up" type="text" default="" label="COM_CP_PUBLISH_UP" description="COM_CP_PUBLISH_UP" maxlength="10" size="10" required="true" readonly="true" />
+		<field name="publish_down" type="text" default="" label="COM_CP_PUBLISH_DOWN" description="COM_CP_PUBLISH_DOWN" maxlength="10" size="10" readonly="true" />
+		<field name="latitude" type="text" default="" label="COM_CP_LATITUDE" description="COM_CP_LATITUDE_TOOLTIP" />
+		<field name="longitude" type="text" default="" label="COM_CP_LONGITUDE" description="COM_CP_LONGITUDE_TOOLTIP" />
+		<field name="tag_name1" type="text" size="50" label="COM_CP_TAG1_LABEL" description="COM_CP_TAG1_LABEL" />
+		<field name="tag_name2" type="text" size="50" label="COM_CP_TAG2_LABEL" description="COM_CP_TAG2_LABEL" />
+		<field name="tag_name3" type="text" size="50" label="COM_CP_TAG3_LABEL" description="COM_CP_TAG3_LABEL" />
+		<field name="tag_name4" type="text" size="50" label="COM_CP_TAG4_LABEL" description="COM_CP_TAG4_LABEL" />
+		<field name="tag_name5" type="text" size="50" label="COM_CP_TAG5_LABEL" description="COM_CP_TAG5_LABEL" />
+		<field name="tag_name6" type="text" size="50" label="COM_CP_TAG6_LABEL" description="COM_CP_TAG6_LABEL" />
+		<field name="tag_content1" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+		<field name="tag_content2" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+		<field name="tag_content3" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+		<field name="tag_content4" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+		<field name="tag_content5" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+		<field name="tag_content6" type="editor" class="inputbox" label=" " description=" " filter="JComponentHelper::filterText" buttons="true" width="550" height="300" rows="60" cols="20" />
+	</fieldset>
+</form>

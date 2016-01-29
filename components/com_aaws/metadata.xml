@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <menu>
+        <options var="task">
+            <option name="COM_AAWS_AVAILABILITY_LABEL" msg="COM_AAWS_AVAILABILITY_DESC" value="air.availability"/>
+            <option name="COM_AAWS_PASSENGERS_LABEL" msg="COM_AAWS_PASSENGERS_DESC" value="air.passenger" />
+            <option name="COM_AAWS_BOOKING_LABEL" msg="COM_AAWS_BOOKING_DESC" value="air.booking" />
+        </options>
+    </menu>
+</metadata>

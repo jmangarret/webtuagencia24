@@ -1,0 +1,35 @@
+*, *:after, *:before { 
+	@include box-sizing(border-box);
+	outline: none;
+}
+.container {
+	margin: 0 auto;
+	width: $wd;
+}
+.row {
+	&:before {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+
+	&:after {
+		@extend .row:before;
+		clear: both;
+	}
+}
+[class*="col-"] {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+
+	&.full {
+		padding: 0;
+	}
+}
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		width: 100% / 12 * $i;
+	}
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<Language>
+    <Constants>
+        <Months>
+            <January Number="01" ShortName="ene">Ene</January>
+            <February Number="02" ShortName="feb">Feb</February>
+            <March Number="03" ShortName="mar">Mar</March>
+            <April Number="04" ShortName="abr">Abr</April>
+            <May Number="05" ShortName="may">May</May>
+            <June Number="06" ShortName="jun">Jun</June>
+            <July Number="07" ShortName="jul">Jul</July>
+            <August Number="08" ShortName="ago">Ago</August>
+            <September Number="09" ShortName="sep">Sep</September>
+            <October Number="10" ShortName="oct">Oct</October>
+            <November Number="11" ShortName="nov">Nov</November>
+            <December Number="12" ShortName="dic">Dic</December>
+        </Months>
+        <SelectEmpty>
+            <Option Value="">Seleccione...</Option>
+        </SelectEmpty>
+        <PaxTreatment>
+            <Option Value="MR">Sr</Option>
+            <Option Value="MRS">Sra</Option>
+            <Option Value="MS">Srta</Option>
+        </PaxTreatment>
+        <PaxDocumentType>
+            <Option Value="5">Cédula de Identidad</Option>
+            <Option Value="4">Cédula de extranjero</Option>
+            <Option Value="2">Pasaporte</Option>
+        </PaxDocumentType>
+        <PaxDocumentTypeCI>
+            <Option Value="5">Documento de Identidad</Option>
+            <Option Value="2">Pasaporte</Option>
+        </PaxDocumentTypeCI>
+        <PaxGenre>
+            <Option Value="Male">Masculino</Option>
+            <Option Value="Female">Femenino</Option>
+        </PaxGenre>
+        <PayerDocumentType>
+            <Option Value="CC">Cédula Colombiana</Option>
+            <Option Value="CE">Cédula extranjería</Option>
+            <Option Value="NIT">NIT</Option>
+            <Option Value="TI">Tarjeta de identidad</Option>
+            <Option Value="PPN">Pasaporte</Option>
+            <Option Value="RC">Registro civil</Option>
+            <Option Value="SSN">Número de Seguridad Social</Option>
+            <Option Value="LIC">Licencia conducción</Option>
+            <Option Value="TAX">Identificación impositiva</Option>
+        </PayerDocumentType>
+          <PayCardOption>
+            <Option Value="American Express">American Express</Option>
+            <Option Value="Diners Club">Diners Club</Option>
+            <Option Value="Mastercard">Mastercard</Option>
+            <Option Value="Visa">Visa</Option>
+        </PayCardOption>
+        <InvoiceOption>
+        <Option Value="1">Empresa</Option>
+            <Option Value="0">Persona natural</Option>
+        </InvoiceOption>
+        <InvoiceHome>
+            <Option Value="1">Edificio</Option>
+            <Option Value="0">Casa</Option>
+        </InvoiceHome>
+        
+    </Constants>
+    <Translations>
+        <CoinSymbol><![CDATA[Bsf. ]]></CoinSymbol>
+        <TotalValue><![CDATA[Total]]></TotalValue>
+        <Fare><![CDATA[Tarifa Base :]]></Fare>
+        <Taxes><![CDATA[Imp + Tasas :]]></Taxes>
+        <Fees><![CDATA[Cargos :]]></Fees>
+        <SubmitButton><![CDATA[Seleccionar]]></SubmitButton>
+        <Go><![CDATA[Ida]]></Go>
+        <Return><![CDATA[Regreso]]></Return>
+        <Multiply><![CDATA[Vuelo %d]]></Multiply>
+        <DepartureHour><![CDATA[Sale :]]></DepartureHour>
+        <ArrivalHour><![CDATA[Llega :]]></ArrivalHour>
+        <Date><![CDATA[%d de %m del %y]]></Date>
+        <ItineraryDetail><![CDATA[%dmy, de %dc a %ac]]></ItineraryDetail>
+        <TimeDuration><![CDATA[%h[h] %m[min]]]></TimeDuration>
+        <Direct><![CDATA[Directo]]></Direct>
+        <Scale><![CDATA[%d escala]]></Scale>
+        <Scales><![CDATA[%d escalas]]></Scales>
+        <MultipleAirLines><![CDATA[Varias aerolíneas]]></MultipleAirLines>
+        <!-- Airlines titles -->
+        <Title1><![CDATA[Selecciona tu vuelo desde <span>%co</span> hasta <span>%cd</span>]]></Title1>
+        <Title2><![CDATA[Selecciona tus vuelos]]></Title2>
+        <EmptySymbol><![CDATA[]]></EmptySymbol>
+        <AllAirLines><![CDATA[Todas las recomendaciones]]></AllAirLines>
+        <!-- Filter titles -->
+        <TitleFilter><![CDATA[Filtrar resultados]]></TitleFilter>
+        <Price><![CDATA[Precio]]></Price>
+        <Stops><![CDATA[Escalas / Paradas]]></Stops>
+        <AirLines><![CDATA[Aerolíneas]]></AirLines>
+        <Schedule><![CDATA[Horarios de vuelo]]></Schedule>
+        <!-- Flight detail titles -->
+        <FlightDurationTitle><![CDATA[Duración total del vuelo:]]></FlightDurationTitle>
+        <DateDetail><![CDATA[%d %sm %y %h]]></DateDetail>
+        <DepartureDetail><![CDATA[Sale de %c, %a (%i) <span>%d</span>]]></DepartureDetail>
+        <ArrivalDetail><![CDATA[Llega a %c, %a (%i) <span>%d</span>]]></ArrivalDetail>
+        <ScaleDetail><![CDATA[Conexión %c con espera de %f]]></ScaleDetail>
+        <!-- Class -->
+        <Economy><![CDATA[Turista]]></Economy>
+        <First><![CDATA[Primera]]></First>
+        <Business><![CDATA[Negocios]]></Business>
+        <!-- Resume screen titles -->
+        <ResumeTitle><![CDATA[Resumen de la reserva]]></ResumeTitle>
+         <!-- <PriceDetail><![CDATA[Detalle del precio]]></PriceDetail>
+        <PriceNote><![CDATA[Precio final + impuestos]]></PriceNote>-->
+        <Total><![CDATA[Total:]]></Total>
+        <FarePassengerType>
+            <ADT><![CDATA[%d adulto(s):]]></ADT>
+            <CHD><![CDATA[%d niño(s):]]></CHD>
+            <INF><![CDATA[%d infante(s):]]></INF>
+            <YCD><![CDATA[%d tercera edad:]]></YCD>
+        </FarePassengerType>
+        <Itinerary><![CDATA[Itinerario]]></Itinerary>
+        <Duration><![CDATA[Duración :]]></Duration>
+        <AirLine><![CDATA[Aerolínea :]]></AirLine>
+        <Flight><![CDATA[Vuelo :]]></Flight>
+        <FlightDetail><![CDATA[Detalle del vuelo]]></FlightDetail>
+        <FareRestrictions><![CDATA[Condiciones y Restricciones]]></FareRestrictions>
+        <CodePE><![CDATA[Penalidades]]></CodePE>
+        <CodeSU><![CDATA[Cargos adicionales]]></CodeSU>
+        <CodeSO><![CDATA[Escalas]]></CodeSO>
+        <CodeTF><![CDATA[Tránsitos]]></CodeTF>
+        <CodeEL><![CDATA[Condiciones]]></CodeEL>
+        <CodeFL><![CDATA[Validez del vuelo]]></CodeFL>
+        <CodeMN><![CDATA[Mínimo]]></CodeMN>
+        <CodeMX><![CDATA[Máximo]]></CodeMX>
+        <CodeTR><![CDATA[Restricciones del viaje]]></CodeTR>
+        <PassengerFrecuent><![CDATA[<h3>Pasajero Frecuente</h3>]]></PassengerFrecuent>
+        <CodeMD><![CDATA[Misceláneos]]></CodeMD>
+        <Bancos><![CDATA[Banco :]]></Bancos>
+        <ContactEmailConfirm><![CDATA[Confirmar Correo electrónico :]]></ContactEmailConfirm>
+      
+        <!-- Passenger form -->
+        <PassengerScreenTitle><![CDATA[<h1>Ingresa los datos y selecciona la forma de pago</h1><div class="note">Los campos marcados con <span>*</span> son obligatorios.</div>]]></PassengerScreenTitle> 
+        <ContactInfoTitle><![CDATA[<div class="note"><h3>Cu&eacutentanos en donde te podemos contactar para informarte sobre la reserva.</h3></div>]]></ContactInfoTitle>
+        <ContactName><![CDATA[Nombre completo <span>*</span>:]]></ContactName>
+        <ContactDocumentType><![CDATA[Tipo de documento <span>*</span>:]]></ContactDocumentType>
+        <ContactDocumentID><![CDATA[Número de documento <span>*</span>:]]></ContactDocumentID>
+        <ContactEmail><![CDATA[Correo electrónico <span>*</span>:]]></ContactEmail>
+        <ContactPhone><![CDATA[Número telefónico <span>*</span>:]]></ContactPhone>
+        <SuggestCountry><![CDATA[País]]></SuggestCountry>
+        <SuggestArea><![CDATA[Área]]></SuggestArea>
+        <SuggestPhoneNumber><![CDATA[Número]]></SuggestPhoneNumber>
+        <ContactPassword><![CDATA[Contraseña :]]></ContactPassword>
+        <IdentifyButton><![CDATA[Identificarse]]></IdentifyButton>
+        <ContinueButton><![CDATA[Deseo continuar el proceso sin ingresar en el sistema.]]></ContinueButton>
+        <PassengerInfoTitle><![CDATA[<h3>Datos de los pasajeros</h3>]]></PassengerInfoTitle>
+        <PassengerTypes>
+            <ADT><![CDATA[Adulto]]></ADT>
+            <CHD><![CDATA[Niño]]></CHD>
+            <INF><![CDATA[Infante]]></INF>
+            <YCD><![CDATA[Tercera Edad]]></YCD>
+        </PassengerTypes>
+        <PassengerTypeTitle><![CDATA[Pasajero %d - %t]]></PassengerTypeTitle>
+        <PaxTreatment><![CDATA[Tratamiento <span>*</span>:]]></PaxTreatment>
+        <PaxFirstName><![CDATA[Nombre completo  <span>*</span>:]]></PaxFirstName>
+        <PaxLastName><![CDATA[Apellido completo  <span>*</span>:]]></PaxLastName>
+        <PaxDocumentType><![CDATA[Tipo de documento  <span>*</span>:]]></PaxDocumentType>
+        <PaxDocumentNumber><![CDATA[Número de documento  <span>*</span>:]]></PaxDocumentNumber>
+        <PaxBornDate><![CDATA[Fecha de nacimiento  <span>*</span>:]]></PaxBornDate>
+        <PaxGenre><![CDATA[Género  <span>*</span>:]]></PaxGenre>
+        <PaxNacionality><![CDATA[Nacionalidad  <span>*</span>:]]></PaxNacionality>
+        <PaxAirline><![CDATA[Aerolinea :]]></PaxAirline>
+        <PaxFrecPass><![CDATA[Número de pasajero frecuente:]]></PaxFrecPass>
+        <PaymentMethodTitle><![CDATA[<h3>SELECCIÓN DE MEDIO DE PAGO</h3>]]></PaymentMethodTitle>
+        <FiscalNumber><![CDATA[Dirección Fiscal:]]></FiscalNumber>
+        <FiscalPhoneNumber><![CDATA[Teléfono:]]></FiscalPhoneNumber>
+        <PlaceToPayPayment><![CDATA[Pago eléctronico con]]></PlaceToPayPayment>
+        <ConditionsAndRestrictions><![CDATA[Declaro conocer los términos y condiciones de <a class="modalLink modalLinkAir" href="#tos">tuAgencia24.com</a>  ]]></ConditionsAndRestrictions>
+      	<Day>Día</Day>
+        <Month>Mes</Month>
+        <Year>Año</Year>
+        <OthersInfoTitle><![CDATA[<h3>Otras Solicitudes</h3>]]></OthersInfoTitle>
+        <Note1>Nota 1:</Note1>
+        <Note2>Nota 2:</Note2>
+        <Note3>Nota 3:</Note3>
+        <PaymentScreenTitle><![CDATA[<h3>¿Qué deseas hacer hacer con tu solicitud?</h3>]]></PaymentScreenTitle>
+        <PayBooking><![CDATA[Comprar]]></PayBooking>
+        <BuyPayment>Comprar</BuyPayment>
+        <ReservationPayment>Pagar en agencia</ReservationPayment>
+        <Reserva><![CDATA[<h2>Para conservar los cupos de tu reserva debes realizar el pago en las próximas 24 horas.</h2>]]></Reserva>
+        <payMethod><![CDATA[<h3>Forma de pago</h3>]]>   </payMethod>
+        <PayCredit>Pago con tarjeta crédito</PayCredit>
+        <PayTransfer>Pago con trasferencia</PayTransfer>
+        <PaymentCardInfo><![CDATA[Tipo de tarjeta <span>*</span>:]]></PaymentCardInfo>
+        <PaymentCardNumber><![CDATA[Número de tarjeta <span>*</span>:]]></PaymentCardNumber>
+        <PaymentCardDate><![CDATA[Fecha de vencimiento <span>*</span>:]]>  </PaymentCardDate>
+        <PaymentCardCode><![CDATA[Código de seguridad <span>*</span>:]]>   </PaymentCardCode>
+        <PaymentCardName> <![CDATA[Nombre del titular <span>*</span>:]]>  </PaymentCardName>
+        <PaymentCardIdent><![CDATA[Cédula del titular <span>*</span>:]]>  </PaymentCardIdent>
+        <PaymentTrans> <![CDATA[Código trasferencia <span>*</span>:]]>    </PaymentTrans>
+        <InvoiceData><![CDATA[<h3>Datos de facturación</h3>]]> </InvoiceData>
+        <InvoiceSend><![CDATA[<h3>Envío de factura</h3>]]> </InvoiceSend>
+        <InvoiceToName> <![CDATA[A nombre de <span>*</span>:]]> </InvoiceToName>
+        <InvoiceRIF><![CDATA[RIF/Cédula:]]>  </InvoiceRIF>
+        <InvoiceName><![CDATA[Nombre:]]>  </InvoiceName>
+        <InvoicePhone><![CDATA[Teléfono:]]> </InvoicePhone>
+        <InvoiceAddress><![CDATA[Dirección:]]>  </InvoiceAddress>
+        <InvoiceCity><![CDATA[Ciudad:]]> </InvoiceCity>
+        <InvoiceUrban><![CDATA[Dirección:]]> </InvoiceUrban>
+        <InvoiceStreet><![CDATA[Calle/avenida <span>*</span>:]]> </InvoiceStreet>
+        <InvoiceHome><![CDATA[Edificio/casa <span>*</span>:]]>  </InvoiceHome>
+        <InvoiceCode><![CDATA[Código postal:]]>  </InvoiceCode>
+        <PayBooking><![CDATA[Pagar Reserva]]></PayBooking>
+        <LabelCard><![CDATA[El código de seguridad está localizado <br> en los 3 últimos dígitos detrás de la tarjeta.]]></LabelCard>
+        <PaymenMessage><![CDATA[<h2>Ingresa el nombre del titular como aparece en la tarjeta de crédito</h2>]]></PaymenMessage>
+    	<PassengerInfoLabel><![CDATA[<h2>Ingresa nombres y apellidos como aparecen en tu pasaporte.</h2>]]></PassengerInfoLabel>
+    	
+    </Translations>
+</Language>

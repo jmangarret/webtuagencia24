@@ -1,0 +1,475 @@
+.icon-48-currency {
+	background-image: url("../images/ultimos/moneda.png");
+}
+
+.icon-48-taxes {
+	background-image: url("../images/ultimos/tax.png");
+}
+
+.icon-48-location {
+	background-image: url("../images/ultimos/destino.png");
+}
+
+.icon-48-car {
+	background-image: url("../images/ultimos/car.png");
+}
+
+.icon-48-hotel {
+	background-image: url("../images/ultimos/alojamiento.png");
+}
+
+.icon-48-plan {
+	background-image: url("../images/ultimos/paquetes.png");
+}
+
+.icon-48-supplier {
+	background-image: url("../images/ultimos/suppliers.png");
+}
+
+.icon-48-transfer {
+	background-image: url("../images/ultimos/traslados.png");
+}
+
+.icon-48-tourism_type {
+	background-image: url("../images/ultimos/tourism_type.png");
+}
+.icon-48-tour {
+	background-image: url("../images/ultimos/tour.png");
+}
+.icon-48-season {
+	background-image: url("../images/ultimos/vigencias.png");
+}
+
+.icon-32-cpanel {
+	background-image: url(../images/ultimos/icon_cpanel.png);
+}
+
+.icon-48-supplement {
+	background-image: url(../images/ultimos/suplementos.png);
+}
+
+.icon-48-comment {
+	background-image: url(../images/ultimos/comments.png);
+}
+
+.icon-32-save-new {
+	background-image: url("../images/ultimos/icon-32-save-new.png");
+}
+
+.icon-32-copy {
+	background-image: url("../images/ultimos/icon-32-copy.png");
+}
+
+.icon-32-new-special-season {
+	background-image: url("../images/ultimos/vigencias_especiales-32.png");
+}
+
+.icon-32-rates,.icon-48-rates {
+	background-image: url("../images/ultimos/rate-32.png");
+}
+.icon-32-stock {
+	background-image: url("../images/ultimos/stok-32.png");
+}
+.icon-48-stock {
+	background-image: url("../images/ultimos/stock.png");
+}
+.icon-48-hotels {
+	background-image: url("../images/ultimos/alojamiento.png");
+}
+
+.season_date_tooltip-tip {
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	font-size: 12px;
+	padding: 1px 10px;
+}
+
+.season_date_tooltip-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.season_date_tooltip-text {
+	padding: 5px 0px;
+}
+
+td.selectedcalendarcell a.ui-state-default,td.ui-state-disabled.unselectedcalendarcell span.ui-state-default
+	{
+	background: url("images/ui-bg_gloss-wave_50_6eac2c_500x100.png")
+		repeat-x scroll 50% 50% #6EAC2C;
+	border: 1px solid #ACDD4A;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+td.unselectedcalendarcell a.ui-state-default.ui-state-active {
+	background: url("images/ui-bg_glass_45_0078ae_1x400.png") repeat-x
+		scroll 50% 50% #0078AE;
+	border: 1px solid #77D5F7;
+	color: #FFFFFF;
+	font-weight: normal;
+	opacity: 1;
+}
+
+td.ui-state-disabled.unselectedcalendarcell {
+	opacity: 1;
+}
+
+td.unselectedcalendarcell a.ui-state-highlight.ui-state-active {
+	background: url("images/ui-bg_glass_55_f8da4e_1x400.png") repeat-x
+		scroll 50% 50% #F8DA4E;
+	border: 1px solid #FCD113;
+	color: #915608;
+}
+
+/*
+.ui-widget {
+    font-size: 13px;
+}*/
+.paramlist_value img {
+	vertical-align: top;
+}
+
+.multiselect {
+	width: 100%;
+}
+
+a.modal-button {
+	float: left;
+	margin: 0px 20px 0px 0px;
+	text-align: center;
+}
+
+#galleryContainer {
+	display: inline-block;
+	list-style: none outside none;
+	width: 475px;
+}
+
+#galleryContainer li {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 210px;
+}
+
+a.delImage {
+	text-align: right;
+}
+
+a.delImage img {
+	vertical-align: bottom;
+}
+
+#content-pane table.admintable td.paramlist_key {
+	border: 0px solid #E9E9E9;
+	padding: 0px 0px 0px 20px;
+	text-align: left;
+}
+
+.numericfield {
+	margin-right: 10px;
+	text-align: right;
+}
+
+.paramsdiv {
+	background-color: #FFFFFF;
+	border: 1px solid #E9E9E9;
+	max-height: 150px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+
+div.taxescontent img {
+	cursor: pointer;
+	vertical-align: bottom;
+}
+
+div.taxescontent select {
+	font-size: 12px;
+	width: 300px;
+}
+
+div.taxescontent {
+	font-size: 12px;
+	padding: 10px;
+}
+
+#rate-table {
+    width: auto;
+}
+
+#basic-pane div#system-message {
+	width: 100%;
+}
+
+#rate-table td.paramlist_key {
+	width: 96px;
+}
+
+#rate-table td.paramlist_value div {
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: auto;
+}
+
+#rate-table td.paramlist_value select, #detailstourismtypes {
+	width: auto;
+}
+
+#supplement_search_message {
+    color: #FF0000;
+}
+
+#supplements_tab td.supplement_text_cell {
+	/*width: 230px;*/
+}
+
+#supplements_tab td.supplement_image_cell {
+	width: 140px;
+}
+
+#supplements_tab td.supplement_label_cell {
+	width: 70px;
+}
+
+#supplements_tab td {
+	vertical-align: top;
+}
+
+#supplements_tab .supplement_image,#supplementImageContainer .supplement_image {
+	width: 135px;
+}
+
+#detailscountry_id,#detailsregion_id,#detailscity_id,#detailszone_id {
+	max-width: 150px;
+}
+
+a.button_link:link,a.button_link:visited,a.button_link:link {
+	background-color: #F0F0F0;
+	border: 1px solid silver;
+	color: #000000;
+	margin: 0;
+	padding: 1px 5px;
+	text-decoration: none;
+}
+
+div#errorMessage {
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#supplements_tab td,#supplements_tab img {
+	vertical-align: top;
+}
+
+#supplements_tab img.deletesupplement {
+	cursor: pointer;
+}
+
+a.deletesupplement:active,a.deletesupplement:visited,a.deletesupplement:link
+	{
+	color: #666666;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.add_standard_season img,.add_special_season img {
+	margin: 10px 0px 0px;
+	vertical-align: bottom;
+}
+
+a.add_standard_season:active,
+a.add_special_season:active,
+a.add_standard_season:link,
+a.add_special_season:link,
+a.add_standard_season:visited,
+a.add_special_season:visited {
+	color: #333333;
+	float: none;
+	font-size: 13px;
+	margin: 10px 5px 0px 0px;
+	text-decoration: underline;
+}
+
+.season_initial_date,.season_end_date {
+	margin: 0px 3px 0px 0px;
+	vertical-align: top;
+}
+
+#standard_season_dates {
+	border: 1px solid silver;
+	display: none;
+	width: 350px;
+}
+
+#details_season {
+	height: 170px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0px 20px;
+}
+
+table.admintable table.season_dates td,table.season_dates input {
+	margin: 0px;
+	padding: 2px;
+}
+
+table.listrateparams,table.listratesupplements {
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.listrateparams th {
+	border: 1px solid #BCBCBC;
+	font-weight: normal;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+table.listrateparams td {
+	border: 1px solid #BCBCBC;
+	height: 20px;
+	padding: 5px;
+}
+
+table.listrateparams input,table.listratesupplements input,#previous_value,#basic_price
+	{
+	font-size: 12px;
+	text-align: right;
+}
+
+table.listrateparams .odd {
+	background-color: #E4E4E4;
+}
+
+table.listrateparams .even {
+	background-color: #FFFFFF;
+}
+
+table.listrateparams .bolded {
+	font-weight: bold;
+}
+
+table.listrateparams th.principalrateparam {
+	background-color: #003366;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 200px;
+}
+
+.dayinput {
+	margin: 5px 0px;
+}
+
+div#system-message {
+	margin: 0px;
+}
+
+#system-message div.info, #system-message div.notice {
+	font-weight: bold;
+	margin: 0px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+#system-message div.info ul {
+	background: #C3D2E5 url(../images/ultimos/notice-info.png) 4px center no-repeat;;
+	border-bottom: 3px solid #84A7DB;
+	border-top: 3px solid #84A7DB;
+	color: #0055BB;
+	list-style: none outside none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#system-message div.notice ul {
+	background: #EFE7B8 url("../images/ultimos/notice-note.png") no-repeat scroll 4px top;
+	border-bottom: 3px solid #F0DC7E;
+	border-top: 3px solid #F0DC7E;
+	color: #CC0000;
+	list-style: none outside none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#stockInfo fieldset.search_form {
+	width: 450px;
+}
+
+#stockInfo fieldset.search_form label {
+	font-weight: bold;
+}
+
+#stockInfo img.ui-datepicker-trigger {
+	vertical-align: bottom;
+}
+
+#adminForm legend {
+	color: #000000;
+}
+
+dl.tabs {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#liststockdates {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+table.liststockparams {
+	float: left;
+}
+
+#toolbar-box div.header {
+	/*padding-left: 45px;*/
+}
+
+div.hiddenerrormessage {
+	display: none;
+}
+
+.relatedrows {
+	margin: 2px 0px;
+}
+
+div a.product_link {
+	text-decoration: underline;
+}
+
+select.requiredfield {
+	width: 200px;
+}
+
+.ui-autocomplete-loading {
+	background: white url('../images/ultimos/loading.gif') right center no-repeat;
+}
+
+table.admintable table.hotelautocomplete td {
+	margin: 0;
+	padding: 2px 0px;
+}
+
+.show_less_link, .end_comment {
+	display: none;
+}
+
+td.comment_text {
+	width: 40%;
+}
+#basic-pane .cp-item{position:relative;clear:both;}
+#basic-pane .cp-item .ui-datepicker-trigger {float:left;cursor:pointer;}
+#basic-pane .content{padding: 10px;}
+#details_stars label{}

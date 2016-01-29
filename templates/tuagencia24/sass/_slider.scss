@@ -1,0 +1,26 @@
+.theme-tuagencia {
+	height: 375px;
+	margin-top: 25px;
+	overflow: hidden;
+
+	[class*="slider-"] {
+		height: 370px !important;
+		width: 470px !important;
+	}
+
+	.nivo-controlNav {
+		bottom: 10px;
+		position: absolute;
+		right: 10px;
+
+		&>a {
+			background-color: rgba(white,0.7);
+			border: 1px solid #ccc;
+			display: inline-block;
+			line-height: 20px;
+			margin: 0 1px;
+			text-align: center;
+			width: 18px;
+		}
+	}
+}

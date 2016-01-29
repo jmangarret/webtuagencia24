@@ -1,0 +1,1242 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F4F4F4;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+ 
+
+.Cont {
+    width: 940px;
+    margin: 0 auto;
+	
+}
+.clear {
+    clear: both;
+}
+img{
+    border:none;
+}
+
+strong.mandatory {
+    color: #F7931E;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tip-wrap {
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 5px;
+}
+
+/*Start General UI elements*/
+input[type=text], input[type=password], input[type=email], textarea {
+    border: solid 1px #999;
+    padding: 3px;
+    color: #5A5A5A;
+}
+input[type=submit], button[type=submit] {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #56391C;
+    cursor: pointer;
+}
+select{
+	border:solid 1px #999;
+	appearance: none;
+	-moz-appearance: none;
+    -webkit-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none; 
+	background-image: url(../img/ArrowSelect.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding:3px;
+	min-width:40px;
+}
+
+
+/*End General UI elements*/
+
+/* Start Header*/
+
+#MainHeader {
+    width: 100%;
+}
+
+/* Start menuUsuarios*/
+
+.MainGlobal {
+    width: 100%;
+    background-color: #213E7A;
+    color: #fff;
+}
+.menuUsuarios {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.menuUsuarios .moduletable {
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid 1px;
+}
+.menuUsuarios a {
+    color: #fff;
+    text-decoration: none;
+}
+.menuUsuarios ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.menuUsuarios p {
+    padding: 0;
+    margin: 0;
+}
+.menuUsuarios #login a {
+    font-weight: lighter;
+    color: #56391C;
+    background-image: url(../img/btnSuscription.png);
+    display: block;
+    font-size: 11px;
+    padding: 3px 5px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.menuUsuarios #login a:hover {
+    background-position: left bottom;
+}
+.menuUsuarios .login-greeting {
+    float: left;
+}
+.menuUsuarios .logout-button {
+    float: right;
+}
+.menuUsuarios .logout-button .button {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnLogOut.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 2px 0;
+    text-align: center;
+    width: 111px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.menuUsuarios .logout-button .button:hover {
+    background-position: 0 -32px;
+}
+/* End menuUsuarios*/
+
+/* Start logo and Suscription*/
+
+.MainLogo {
+    width: 100%;
+    background-color: #fff;
+}
+.Logo {
+    float: left;
+    padding: 14px 0;
+}
+.MailSuscription {
+    float: right;
+    margin: 35px 0;
+    position: relative;
+}
+.MainLogo .moduletableformSuscription {
+    background-color: #F2F2F2;
+    padding: 10px 15px 10px 60px;
+}
+.MailSuscription h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 5px 0;
+    background-image: url(../img/MailIcon.png);
+    background-repeat: no-repeat;
+    background-position: 110px 6px;
+}
+.MailSuscription input[type=submit] {
+    background-image: url(../img/btnMail.png);
+    background-repeat: no-repeat;
+    border: none;
+    padding: 3px 0;
+    font-size: 14px;
+    cursor: pointer;
+    background-position: 0 0;
+    text-align: center;
+    width: 63px;
+    background-color: transparent;
+}
+.MailSuscription input[type=submit]:hover {
+    background-position: 0 -36px;
+}
+.moduletablebestPrice {
+    position: absolute;
+    top: -2px;
+    left: -46px;
+}
+/* End Logo and Suscription*/
+
+/*Start Menu and Search*/
+.menuAndSearch {
+    width: 100%;
+    background-color: #F2F2F2;
+    border-bottom: solid 5px #213D7A;
+}
+.menuAndSearch .MainMenu {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    font-size: 14px;
+}
+.menuAndSearch ul.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+	position:relative;
+	z-index:200;
+}
+.menuAndSearch ul > li {
+    float: left;
+    padding-left: 10px;
+    border-left: solid 1px #999;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+.menuAndSearch ul li:first-child{
+     padding-left: 0;
+     border-left: none;
+}
+.menuAndSearch .MainMenu a {
+    text-decoration: none;
+    color: #979696;
+}
+.menuAndSearch .MainMenu a:hover{
+	color:#000;
+}
+.menuAndSearch ul.menu li > ul{
+    position: absolute;
+	width: 180px;
+	background: #F2F2F2;
+	border: solid 1px #999;
+    top: 26px;
+    left: -1px;
+    padding: 0;
+	display:none;
+}
+.menuAndSearch ul.menu ul li{
+	padding: 10px 12px;
+	border:none;
+	border-top:solid 1px #999;
+	margin:0px;
+	display:block;
+	width:156px;
+}
+.menuAndSearch ul.menu ul li a{
+	display:block;
+}
+.menuAndSearch ul.menu ul li:hover{
+	background: #E4E4E4;
+}
+.menuAndSearch ul.menu ul li:first-child{
+	border-top:none;
+}  
+.menuAndSearch ul.menu li  ul ul{
+	top:-1px;
+	left:180px;
+	background: #E4E4E4;
+}
+.menuAndSearch ul.menu li  ul ul li:hover{
+	background: #F2F2F2;
+}
+.menuAndSearch ul.menu li:hover > ul{
+display: block;
+}
+/*End Menu and Search*/
+
+/*Start system messages*/
+.mainSystemMessages {
+    width: 100%;
+    background-color: #213E7A;
+	color:#fff;
+}
+#system-message {
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+#system-message dt{
+    display: inline-block;
+    font-size: 17px;
+}
+#system-message  dd {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+}
+#system-message dd  ul {
+    list-style: none;
+}
+/*End system messages*/
+
+/*Start Slider an QuickSearch*/
+#SliderAndQuickSearch {
+    width: 100%;
+    height: 400px;
+    background-color: #0A84C1;
+    position: relative;
+}
+.MainQuickSearch {
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+}
+.MainQuickSearch #tab-air {
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border: solid 1px #999;
+    border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    -ms-border-radius: 0 5px 5px 5px;
+    -o-border-radius: 0 5px 5px 5px;
+    max-width: 380px;
+    position: relative;
+    top: -1px;
+}
+.tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tabs ul.ui-tabs-nav li {
+    background-color: rgba(206,230,243,1);
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    z-index: 30;
+    border: solid 1px #999;
+    border-bottom: none;
+    background-image: none;
+}
+.tabs ul.ui-tabs-nav li a {
+    display: block;
+    padding: 5px 10px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: none;
+}
+.MainQuickSearch input[type="text"]{
+	width:162px;
+	padding:5px;
+}
+.MainQuickSearch h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.MainQuickSearch .options {
+    margin-bottom: 10px;
+}
+.MainQuickSearch .options ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.MainQuickSearch .options li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+}
+.MainQuickSearch .options li input[type=radio] {
+    vertical-align: -2px;
+}
+.MainQuickSearch .cities, .MainQuickSearch .dates {
+    display: block;
+    width: 100%;
+}
+.MainQuickSearch .cities div[class^=field], .MainQuickSearch .dates div[class^=field] {
+    float: left;
+    width: 190px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.MainQuickSearch .dates div[class^=field] img {
+    position: absolute;
+    right: 21px;
+    top: 17px;
+}
+.MainQuickSearch .passengers {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+.MainQuickSearch .clase {
+    display: inline-block;
+}
+.MainQuickSearch .advanced #adv-title {
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-image: url(../img/QuickBlueBullet.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.MainQuickSearch .advanced #adv-title:hover{
+	text-decoration:underline;
+}
+.MainQuickSearch  .advanced .field label {
+      width: 166px;
+      float: left;
+}
+.MainQuickSearch  .advanced .field, .advanced .airline, .advanced .stops {
+      margin-bottom:5px;
+}
+.MainQuickSearch  .airline label, .MainQuickSearch  .stops label {
+    width: 100px;
+    float: left;
+}
+.MainQuickSearch input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnQuickSearch.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+    width: 127px;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 14px;
+    left: 251px;
+}
+.MainQuickSearch input[type="submit"]:hover{
+	background-position: 0 -60px;
+}
+.MainQuickSearch .cities select {
+    width:175px;
+}
+/*End Slider an QuickSearch*/
+
+/*Star modules home*/
+.modulesHome h3 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #0A84C1;
+    margin: 20px 0;
+}
+.modulesHome ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+}
+.modulesHome ul.tabs li {
+    float: left;
+    margin-left: 20px;
+}
+.modulesHome ul.tabs li a {
+    display: block;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #B3B3B3;
+}
+.modulesHome ul.tabs li.activa {
+    border: solid 1px #B3B3B3;
+    border-bottom: none;
+    background-image: url(../img/bgTabsOfer.jpg);
+    background-repeat: repeat-x;
+    background-color: #F4F4F4;
+}
+.modulesHome ul.tabs li.activa a {
+    color: #0A84C1;
+}
+.modulesHome .contenedor_tab {
+    float: left;
+    width: 100%;
+    border-top: solid 1px #B3B3B3;
+    top: -1px;
+    position: relative;
+    padding: 20px 0;
+}
+.modulesHome .destination {
+    float: left;
+    background-color: #fff;
+    width: 218px;
+    margin-left: 20px;
+    border: solid 1px #999999;
+    position: relative;
+    padding-bottom: 10px;
+}
+.modulesHome .destination:first-child{
+    margin-left: 0;
+}
+.destination h4 {
+    top: 10px;
+    position: relative;
+    width: 213px;
+    height: 33px;
+    margin: 0;
+    background-image: url(../img/fndTitleDestination.png);
+    background-repeat: no-repeat;
+    left: -5px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    padding: 10px 16px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.modulesHome .journey {
+    width: 180px;
+    margin: 0 auto 10px auto;
+    padding-top: 10px;
+    border-top: solid 1px #B3B3B3;
+}
+.modulesHome .journey:first-child{
+	border-top:none;
+}
+.modulesHome .cities   {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #66A9DD;
+}
+.modulesHome .cities a:hover{
+	text-decoration: underline;
+	color:#085C96;
+}
+.modulesHome .price {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.modulesHome .price .from {
+    font-size: 14px;
+}
+.modulesHome .price .money {
+    font-size: 18px;
+}.mainDestinos .banneritem {
+    float: left;
+}
+.mainDestinos {
+    border-top: solid 1px #B3B3B3;
+}
+/*End modules home*/
+
+/*Start footer*/
+.mainMiscellaneous {
+    border-top: solid 1px #B3B3B3;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.mainMiscellaneous div[class^=moduletable]{
+	float:left;
+	margin-left:20px;
+}
+.mainMiscellaneous div[class^=moduletable]:first-child{
+	margin-left:0;
+}
+.mainMiscellaneous .moduletableSuscription {
+    width: 210px;
+}
+.mainMiscellaneous h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mainMiscellaneous input[type=submit] {
+    float: right;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/btnSuscriptionFooter.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 7px 0;
+    font-size: 14px;
+    text-align: center;
+    width: 76px;
+}
+.mainMiscellaneous input[type=submit]:hover{
+	background-position: 0 -49px;
+}
+.mainMiscellaneous a {
+    padding-left: 21px;
+    background-image: url(../img/bluBullet.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #66A9DD;
+    font-weight: bold;
+    background-position: 0 0;
+}
+.mainMiscellaneous a:hover{
+	color:#085C96;
+	text-decoration: underline;
+	background-position: 0 -27px;
+}
+.menuAndSocial .mainMenuFooter {
+    float: left;
+}
+.menuAndSocial .mainMenuFooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.menuAndSocial .mainSocial {
+    float: right;
+}
+.menuAndSocial {
+    border-top: solid 1px #B3B3B3;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menuAndSocial .mainMenuFooter ul li {
+    float: left;
+    margin-left: 20px;
+}
+.menuAndSocial .mainMenuFooter ul li:first-child{
+    margin-left: 0;
+}
+.menuAndSocial .mainMenuFooter ul a {
+    text-decoration: none;
+    color: #000;
+}
+.menuAndSocial h3 {
+    float: left;
+    margin: 0;
+}
+.menuAndSocial .bannergroup {
+    float: left;
+}
+.menuAndSocial .banneritem {
+    float: left;
+}
+.SyndicateAndCopy {
+    border-top: solid 1px #B3B3B3;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.mainSyndicate {
+    float: left;
+}
+.SyndicateAndCopy .Copy {
+    float: right;
+}
+.mainSyndicate ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainSyndicate ul li {
+    float: left;
+    margin-right: 15px;
+}
+.mainSyndicate ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #808080;
+}.mainSyndicate ul li a:hover{
+	color:#000;
+}
+/*End footer*/	
+
+/*Inside Pages*/
+.compAndModFull {
+    padding: 20px 0;
+}
+.MainComponent h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+.MainComponent h3 {
+    font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #4D4D4D;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.MainComponent h4, .MainComponent h5, .MainComponent h6  {
+    font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #4D4D4D;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.MainComponent h4{
+    font-size: 18px;
+}
+.MainComponent h5{
+    font-size: 16px;
+}
+.MainComponent h6{
+    font-size: 14px;
+}
+.MainComponent p, .MainComponent ul  {
+    line-height: 21px;
+    font-size: 12px;
+}
+/*Only Module Right activate*/
+.compAndModLeft {
+    float: left;
+    width: 700px;
+    margin: 20px 0;
+}
+.ModulesRight {
+    float: right;
+    width: 220px;
+    margin-top: 20px;
+}
+/*Only Module Left activate*/
+.ModulesLeft {
+    width: 220px;
+    float: left;
+	margin-top: 20px;
+}
+/*Left and Right activate*/
+.componentCenter {
+    width: 460px;
+    float: left;
+}
+.compAndModRight {
+    float: right;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.compAndModRightCenter {
+    float: right;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.compAndModRightCenter .ModulesRight{
+	margin-top:0;
+}
+/*Start Contact*/
+.contact {
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 20px;
+}
+.contact-form dt {
+    float: left;
+    width: 100%;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+.contact-form dd {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.contact-form button[type=submit] {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnRegistration.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 16px;
+    width: 124px;
+    margin-right: 10px;
+}
+.contact-form button[type=submit]:hover{
+	background-position: 0 -49px;
+}
+/*End contact*/
+
+/*Star Articles*/
+.item-article {
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px #999;
+}
+.MainComponent ul {
+    list-style-image: url(../img/blueBullet.jpg);
+    list-style-position: initial;
+    padding: 0 38px;
+    display: block;
+}
+/*End Articles*/
+
+/*Start Login*/
+.compAndModFull .login {
+    float: left;
+    background-color: #fff;
+    border: solid 1px #999999;
+    width: 430px;
+    padding: 15px;
+    min-height: 230px;
+}
+.compAndModFull .otherOption {
+    float: right;
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 15px;
+    width: 430px;
+    min-height: 230px;
+}
+.login-fields{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.login-fields label {
+    float: left;
+    width: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color:#4D4D4D;
+	font-size:16px;
+}
+.login-fields label.remember{
+    float: left;
+	width: 80%;
+}
+.login-fields input {
+    float: left;
+}
+.login-fields input[type=text], .login-fields input[type=password] {
+    width: 244px;
+    padding: 5px;
+}
+.login button[type=submit]{
+	background-color: transparent;
+	border: none;
+	background-image: url(../img/btnFormLogin.png);
+	background-position: 0 0;
+	text-align: center;
+	width: 257px;
+	background-repeat: no-repeat;
+	padding: 8px 0;
+	margin-right: 11px;
+	font-size: 16px;
+}
+.login button[type=submit]:hover{
+	background-position: 0 -64px;
+}
+.rememberPassword a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 15px;
+    color: #F7931E;
+}
+.rememberPassword a:hover{
+	text-decoration: underline;
+}
+.otherOption .newRegistration {
+    display: block;
+    text-align: center;
+}
+.otherOption .newRegistration a {
+    display: block;
+    background-image: url(../img/btnFormLogin.png);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #56391C;
+    background-repeat: no-repeat;
+    width: 257px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+.otherOption .newRegistration a:hover{
+	background-position: 0 -64px;
+}
+.otherOption ul.benefits {
+    padding: 0 94px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4D4D4D;
+}
+.otherOption ul.benefits li{
+	margin-bottom:10px;
+} 
+/*End Login*/
+
+/*Start Registration*/
+.registration {
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px #999;
+}
+.registration legend {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #4D4D4D;
+}
+span.spacer {
+    margin-bottom: 15px;
+}
+.registration .text {
+    margin-bottom: 15px;
+    display: block;
+}
+.registration dl {
+    float: left;
+    width: 100%;
+}
+.registration dt {
+    width: 262px;
+    margin: 0 10px 11px 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: right;
+    display: inline-block;
+}
+.registration dd {
+    display: inline-block;
+    width: 600px;
+    -webkit-margin-start: 0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+#jform_spacer-lbl {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left !important;
+    display: block;
+}
+.registration dd span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4D4D4D;
+    padding-left: 18px;
+}
+.registration span.star {
+    color: #F7931E;
+    font-weight: bold;
+    font-size: 14px;
+}
+.registration button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnRegistration.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 16px;
+    width: 124px;
+    margin-right: 10px;
+}
+.registration button[type="submit"]:hover {
+    background-position: 0 -49px;
+}
+.registration a[title=Cancelar] {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #F7931E;
+    display: inline-block;
+    margin-left: 10px;
+}
+.registration a[title=Cancelar]:hover{
+	text-decoration: underline;
+}
+.registration dd #jform_password1, .registration dd #jform_password2 {
+    margin-left: 6px;
+}
+
+/*End Registration*/
+
+/*Start remember password*/
+.reset {
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 20px;
+}
+.reset legend {
+    font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #4D4D4D;
+}
+.reset dt {
+    float: left;
+	display: inline-block;
+    width: 262px;
+    margin: 0 10px 11px 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: right;
+}
+.reset dd {
+    float: left;
+}
+.reset dl {
+    padding: 0 114px;
+    margin-top: 23px;
+}
+.reset .star {
+    color: #F7931E;
+    font-weight: bold;
+    font-size: 14px;
+}
+.reset button[type=submit] {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnResetPas.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 124px;
+    padding: 8px 0;
+    position: relative;
+    left: 503px;
+}
+.reset button[type=submit]:hover{
+	background-position: 0 -55px;
+}
+/*End remember password*/
+
+/*Star reset confirm*/
+.reset-confirm, .reset-complete, .profile, .profile-edit {
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 20px;
+}
+.reset-confirm h1, .reset-complete h1, .profile legend, .profile-edit legend  {
+    font-family: 'Oswald', sans-serif;      font-size: 24px;      font-weight: 300;      color: #4D4D4D;
+    margin-top: 0;
+}
+.reset-confirm dl,.reset-complete dl , .profile dl{
+    padding: 0 122px;
+}
+.reset-confirm dt, .reset-complete dt{
+    float: left;
+	display: inline-block;
+    width: 262px;
+    margin: 0 10px 11px 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: right;
+}
+.reset-confirm dd , .reset-complete  dd{
+    float: left;
+}
+.star {
+    color: #F7931E;
+    font-weight: bold;
+    font-size: 14px;
+}
+.reset-confirm  button[type=submit], .reset-complete  button[type=submit]{
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnResetPas.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 124px;
+    padding: 8px 0;
+    position: relative;
+    left: 503px;
+}
+.reset-confirm  button[type=submit]:hover, .reset-complete  button[type=submit]:hover{
+	background-position: 0 -55px;
+}
+.reset-confirm #jform_username {
+    width: 204px;
+}
+/*End Reset confirm*/
+
+/*Star Profile*/
+.profile dt {
+    float: left;
+    width: 288px;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+.profile dd {
+    float: left;
+    padding-bottom: 10px;
+    padding-top:8px;
+    width:200px;
+}
+.profile a{
+background-color: transparent;
+    border: none;
+    background-image: url(../img/btnResetPas.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 124px;
+    padding: 8px 0;
+    position: relative;
+    left: 503px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #56391C;
+	display: block;
+}
+.profile a:hover{
+	background-position: 0 -55px;
+}
+/*End profile*/
+
+/*Star edit profile*/
+.profile-edit dl {
+    float: left;
+    width: 655px;
+    padding: 0 100px;
+}
+.profile-edit dt {
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding-bottom: 18px;font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+.profile-edit dd {
+    float: left;
+}
+.profile-edit  button[type=button]{
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnResetPas.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 124px;
+    padding: 9px 0;
+	cursor:pointer;
+}
+.profile-edit  button[type=button]:hover{
+	background-position: 0 -55px;
+}
+.profile-edit a{
+font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #F7931E;
+    display: inline-block;
+    margin-left: 10px;
+}
+.profile-edit a:hover{
+	text-decoration: underline;
+}
+/*End profile*/
+
+/*Start Testimonals*/
+p.RSWS_submit_link a {
+    padding-left: 21px;
+    background-image: url(../img/bluBullet.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #66A9DD;
+    font-weight: bold;
+    background-position: 0 0;
+}
+p.RSWS_submit_link a:hover {
+	color:#085C96;
+	text-decoration: underline;
+	background-position: 0 -27px;
+}
+input.RSWS_form_button {
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/btnImageTest.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-align: center;
+    width: 207px;	
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #56391C;
+    padding: 8px 0;
+    cursor: pointer;
+}
+input.RSWS_form_button:hover{
+	background-position: 0 -71px;
+}
+div.RSWS_form_heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+/*End Testimonials*/	
+
+/*Start Autocomplete Quick Search*/
+ul.ui-autocomplete {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 200px;
+	border:solid 1px #999;
+}
+ul.ui-autocomplete  li.ui-menu-item{
+	display:block;
+	border-top:solid 1px #999;
+	padding:3px 0;
+	cursor:pointer;
+}
+ul.ui-autocomplete  li.ui-menu-item-first-child{
+   border-top:none;   
+}
+ul.ui-autocomplete  li:hover{
+	background-color: #E6F0F4;
+	padding:0;
+}
+.mainMiscellaneous .banneritem a {
+    padding: 0;
+    background-image: none;
+}
+/*End Autocomplete Quick Search*/

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user">
+    <name>PLG_USER_EXTRAINFO</name>
+    <author>Manuel Mora</author>
+    <creationDate>June 2013</creationDate>
+    <copyright></copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>mams.827@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_USER_EXTRAINFO_XML_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="extrainfo">extrainfo.php</filename>
+        <filename>index.html</filename>
+        <folder>fields</folder>
+        <folder>profiles</folder>
+    </files>
+    <languages folder="languages">
+        <language tag="es-ES">es-ES.plg_user_extrainfo.ini</language>
+        <language tag="es-ES">es-ES.plg_user_extrainfo.sys.ini</language>
+        <language tag="en-GB">en-GB.plg_user_extrainfo.ini</language>
+        <language tag="en-GB">en-GB.plg_user_extrainfo.sys.ini</language>
+    </languages>
+
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="register-require-user"
+                    type="spacer"
+                    class="text"
+                    label="PLG_USER_EXTRAINFO_FIELD_NAME_REGISTER_REQUIRE_USER"/>
+
+                <field
+                    name="register-require_documenttype"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_DOCUMENTYPE_DESC"
+                    label="PLG_USER_EXTRAINFO_DOCUMENTYPE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="register-require_documentnumber"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_DESC"
+                    label="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="register-require_phone"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_PHONE_DESC"
+                    label="PLG_USER_EXTRAINFO_PHONE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="register-require_gender"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_GENDER_DESC"
+                    label="PLG_USER_EXTRAINFO_GENDER_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="register-require_borndate"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_BORNDATE_DESC"
+                    label="PLG_USER_EXTRAINFO_BORNDATE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+
+                <field
+                    name="spacer1"
+                    type="spacer"
+                    hr="true"/>
+
+                <field
+                    name="profile-require-user"
+                    type="spacer"
+                    class="text"
+                    label="PLG_USER_EXTRAINFO_FIELD_NAME_PROFILE_REQUIRE_USER"/>
+
+                <field
+                    name="profile-require_documenttype"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_DOCUMENTYPE_DESC"
+                    label="PLG_USER_EXTRAINFO_DOCUMENTYPE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="profile-require_documentnumber"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_DESC"
+                    label="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="profile-require_phone"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_PHONE_DESC"
+                    label="PLG_USER_EXTRAINFO_PHONE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="profile-require_gender"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_GENDER_DESC"
+                    label="PLG_USER_EXTRAINFO_GENDER_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+                <field
+                    name="profile-require_borndate"
+                    type="list"
+                    description="PLG_USER_EXTRAINFO_BORNDATE_DESC"
+                    label="PLG_USER_EXTRAINFO_BORNDATE_LABEL">
+                    <option value="2">JOPTION_REQUIRED</option>
+                    <option value="1">JOPTION_OPTIONAL</option>
+                    <option value="0">JDISABLED</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

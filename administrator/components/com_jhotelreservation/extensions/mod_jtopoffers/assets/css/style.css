@@ -1,0 +1,556 @@
+.top-offers h3 {
+	font-size: 150%;
+	margin-left: 0px;
+}
+
+.top-header {
+	line-height: 35px;
+	background: url('../images/delimiter.jpg') repeat-x bottom;
+	/*text-shadow: 0px 1px 0px #8A8A8A; */
+}
+
+.top-header span {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px 10px;
+	color: #A2A2A2;
+}
+
+.top-offers ul li {
+	clear: both;
+	display: block;
+	padding: 10px 0;
+	float: left;
+}
+
+.top-offers ul {
+	padding: 0;
+	margin: 0;
+}
+
+.top-offers ul li:hover {
+	background: #F7F7F7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7),
+		to(#E2E2E2) );
+	background: -webkit-linear-gradient(top, #F7F7F7, #E2E2E2);
+	background: -moz-linear-gradient(top, #F7F7F7, #E2E2E2);
+	background: linear-gradient(top, #F7F7F7, #E2E2E2);
+}
+
+
+.top-offers .image{
+	width: 25%;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+
+
+.top-offers li .info{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    display: block;
+    height: 44px;
+    min-height: 44px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 2;
+    margin: 3px;
+}
+
+.top-offers li .image:hover .info{
+	height: 100%;
+	min-height: 100%;
+	cursor: pointer;
+}
+
+.top-offers li .info{
+    float: right;
+}
+
+.top-offers li .info h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+    white-space: nowrap;
+}
+
+.top-offers li .info h2 a{
+	color: #FFFFFF;
+}
+
+.top-offers li .hover_info { 
+    transition: all 0.5s ease 0s;
+}
+
+.top-offers li .info .hover_info{
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    min-height: 44px;
+    text-align: center;
+}
+
+.top-offers li .image:hover .hover_info{
+	display: block;
+}
+
+.top-offers li .overflow_cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.top-offers li .info .hover_info {
+    color: #fff;
+ }
+ 
+.top-offers li .btn {
+    background-color: #67b700;
+    background-image: none;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 0;
+    outline: medium none;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: none;
+    transition: all 0.2s ease 0s;
+    white-space: nowrap;
+}
+
+.top-offers .image a{
+	padding: 0;
+	margin: 0;
+}
+
+.top-offers .image img{
+	width: 100%;
+	background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 4px #CCCCCC;
+    padding: 3px;
+}
+
+.top-offers ul li a {
+	padding: 5px 15px 8px 0;
+	font-size: 13px;
+}
+
+.top-offers ul li a:hover{
+	color: #1E6386;
+	text-decoration: underline;
+}
+
+.top-offers .number{
+	float: left;
+	padding: 1px 0;
+	text-align: center;
+	background-color: #C00074;
+    color: #FFFFFF;
+    font-size: 13pt;
+    margin: 20px 7px 20px 4px;
+    width: 9%;
+    border-radius: 4px;
+}
+
+.top-offers .offer{
+	display: inline;
+	width: 100%;
+}
+
+.top-offers .offer p{
+	margin-left: 39px;
+}
+
+.top-offers.flat .offer  p {
+    margin-left: 0px !important;
+}
+.top-offers.flat .number{
+	display:none;
+}
+
+.top-offers.flat ul li:hover {
+	background: #777;
+}
+
+.right {
+	float: right;
+}
+
+.offer-lowest-price {
+	font-size: 13px;
+}
+ 
+.green {
+	color: #529E43;
+}
+
+.fucsia {
+	color: #C00074!important;
+	
+}
+
+span.currency-sign {
+	font-weight: bold;
+	float: left;
+}
+
+.top-offers .price {
+	font-size: 13px;
+	padding: 0 5px 0 1px;
+	font-weight: bold;
+	float: right;
+}
+
+.view-all-offers{
+	text-align: center;
+	display: block;
+	margin: 10px; 0
+}
+
+
+/*----------- grid layout -----------*/
+
+#grid-content{
+	margin-top: 20px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.grid4 .post {
+    float: left;
+    font-size: 95%;
+    line-height: 110%;
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 22%;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.8s;
+}
+.isotope {
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    transition-duration: 0s;
+}
+.isotope.infinite-scrolling {
+    transition: none 0s ease 0s;
+}
+
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.8s;
+}
+
+#grid-content .post {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#grid-content .post-inner {
+    padding: 10px;
+}
+
+#grid-content .post-content p {
+    margin: 0 0 1.2em;
+    padding: 0;
+}
+
+#grid-content .post-image {
+    margin: 0 0 8px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#grid-content article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+#grid-content article img {
+    height: auto;
+    width: 100%;
+}
+
+#grid-content article img, article fieldset {
+    border: 0 none;
+}
+
+
+#grid-content .info{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    display: block;
+    height: 44px;
+    min-height: 44px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 2;
+}
+
+#grid-content .post-image:hover .info{
+	height: 100%;
+	min-height: 100%;
+	cursor: pointer;
+}
+
+#grid-content .info{
+    float: right;
+}
+
+#grid-content .info h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+    white-space: nowrap;
+}
+
+#grid-content .info h2 a{
+	color: #FFFFFF;
+}
+
+#grid-content .hover_info { 
+    transition: all 0.5s ease 0s;
+}
+
+#grid-content .info .hover_info{
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    min-height: 44px;
+    text-align: center;
+}
+
+#grid-content .post-image:hover .hover_info{
+	display: block;
+}
+
+#grid-content .overflow_cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#grid-content .info .hover_info {
+    color: #fff;
+ }
+ 
+#grid-content .btn {
+    background-color: #67b700;
+    background-image: none;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 0;
+    outline: medium none;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: none;
+    transition: all 0.2s ease 0s;
+    white-space: nowrap;
+}
+
+
+#grid-content .post-content {
+    min-width: 120px;
+}
+
+#grid-content .post .author-pic {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+#grid-content  .grid4 .post-title {
+    font-size: 120%;
+}
+
+#grid-content  .post-date {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    margin: 0 0 4px;
+}
+
+#grid-content  .post-meta {
+    clear: both;
+    color: #999999;
+    font-size: 85%;
+    line-height: 110%;
+    margin: 0 0 10px;
+}
+
+#grid-content.offers-container{
+	margin-top: 0;
+}
+
+#grid-content.offers-container .post{
+	border-radius: 0;
+	box-shadow: none;
+	border: 1px solid #CCC;
+}
+
+#grid-content.offers-container .company-clasificaiton{
+	margin-bottom: 0;
+}
+
+.grid-view-2 #grid-content .post-inner {
+    padding: 3px 1px;
+
+}
+.grid-view-2  #grid-content .post {
+    background: none repeat scroll 0 0 #111;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.grid-view-2  #grid-content .post-title{
+	margin: 0px;
+}
+
+.grid-view-2  #grid-content .post h1 a{
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+.grid-view-2  #grid-content .post-image {
+    margin: 0 0 5px;
+}
+
+
+.list-post .post-meta em {
+    display: none;
+}
+.list-post .post-meta .post-author, .list-post .post-meta .post-category, .list-post .post-meta .post-tag, .list-post .post-meta .post-author, .list-post .post-meta .post-comment a {
+    border-top: 1px solid #DDDDDD;
+    display: block;
+    padding: 5px 0;
+    text-align: right;
+}
+.list-post .author-pic {
+    left: -60px;
+    position: absolute;
+    top: 0;
+}
+.module.list-post .post-content {
+    margin-left: 0;
+}
+.module.list-post .post-meta {
+    position: static;
+    width: auto;
+}
+.module.list-post .post-meta .post-author, .module.list-post .post-meta .post-category, .module.list-post .post-meta .post-tag, .module.list-post .post-meta .post-author, .module.list-post .post-meta .post-comment a {
+    border-top: medium none;
+    display: inline;
+    padding: 0 5px 0 0;
+    text-align: left;
+}
+.module.list-post .author-pic {
+    position: static;
+}
+.grid4 .post-title {
+    font-size: 100%;
+    line-height: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.grid3 .post {
+    float: left;
+    margin-left: 20px;
+    width: 306px;
+}
+.grid3 .post-title {
+    font-size: 150%;
+}
+.grid2 .post {
+    float: left;
+    margin-left: 20px;
+    width: 474px;
+}
+.grid2 .post-title {
+    font-size: 170%;
+}
+.post-video, .embed-youtube {
+    height: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.post-video iframe, .post-video object, .post-video embed, .embed-youtube iframe, .embed-youtube object, .embed-youtube embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*----------- end grid layout -----------*/
+
+
+/*---------- responsive settings */
+@media (max-width: 767px) {
+   .grid4 .post {
+	    width: 30%;
+	}
+}
+
+
+@media (max-width: 480px) {
+	 .grid4 .post {
+	    width: 98%;
+	}
+	
+	.top-offers .image{
+		 width: 98%;
+	}
+	
+	.top-offers .offer p {
+	    margin-left: 0;
+	}
+}

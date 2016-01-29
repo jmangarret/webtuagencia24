@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Detalle">
+		<message>
+			<![CDATA[Plantilla de presentacion de detalle de tours]]>
+		</message>
+	</layout>
+	<state>
+		<name>Detalle de tours</name>
+		<description>Plantilla de presentacion de detalle de tours</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param name="productId" type="text" default=""
+				label="CP.CONFIG.TOUR.PRODUCTID.LABEL" description="CP.CONFIG.TOUR.PRODUCTID.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

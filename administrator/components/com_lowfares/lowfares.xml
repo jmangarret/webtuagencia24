@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5"  method="upgrade">
+    <name>COM_LOWFARES</name>
+    <creationDate>July 2013</creationDate>
+    <author>Manuel Mora</author>
+    <authorEmail>mams.827@gmail.com</authorEmail>
+    <copyright>Amadeus</copyright>
+    <license>Amadeus</license>
+    <version>0.1.0</version>
+    <description>COM_LOWFARES_DESCRIPTION</description>
+
+    <scriptfile>script.php</scriptfile>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <administration>
+        <menu>COM_LOWFARES</menu>
+        <files folder="admin">
+            <filename>access.xml</filename>
+            <filename>index.html</filename>
+            <filename>config.xml</filename>
+            <filename>lowfares.php</filename>
+
+            <folder>controllers</folder>
+            <folder>css</folder>
+            <folder>helpers</folder>
+            <folder>js</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+
+        <languages folder="admin">
+            <language tag="es-ES">languages/es-ES/es-ES.com_lowfares.ini</language>
+            <language tag="es-ES">languages/es-ES/es-ES.com_lowfares.sys.ini</language>
+            <language tag="en-GB">languages/en-GB/en-GB.com_lowfares.ini</language>
+            <language tag="en-GB">languages/en-GB/en-GB.com_lowfares.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

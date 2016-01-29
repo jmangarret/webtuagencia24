@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>MOD_DISCOUNTFLIGHTS</name>
+	<creationDate></creationDate>
+	<author>Dora Peña Antury</author>
+	<authorEmail>dora.pena@periferia-it.com</authorEmail>
+	<authorUrl>www.amadeus.com</authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version>1.0</version>
+	<description></description>
+	<files>
+		<filename module="mod_discountflights">mod_discountflights.php</filename>
+		<filename>mod_discountflights.xml</filename>
+		<filename>helper.php</filename>
+		<folder>js</folder>		
+		<folder>languages</folder>
+		<folder>tmpl</folder>		
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.mod_discountflights.ini</language>
+		<language tag="es-ES">es-ES/es-ES.mod_discountflights.ini</language>
+		<language tag="es-ES">es-ES/es-ES.mod_discountflights.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">  
+			<field
+                    type="category"
+                    name="category"
+                    extension="com_lowfares"
+                    label="MOD_LOWFARES_CATEGORY_LABEL"
+                    description="MOD_LOWFARES_CATEGORY_DESC"/>              
+            </fieldset>              			
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/module-install.dtd">
+<extension type="module" version="1.6">
+	<name>Paquetes Aleatorios</name>
+	<creationDate>Noviembre 28</creationDate>
+	<author>Amadeus IT Group S.A.S</author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>(C) 2011 All rights reserved.</copyright>
+	<license></license>
+	<version>2.0.0</version>
+	<description>
+	<![CDATA[Muestra dentro de un carrusel de manera aleatoria, paquetes
+	almacenados en el sistema.</description>
+	]]>
+	</description>
+	<files>
+		<filename>index.html</filename>
+		<filename module="mod_random_planes">mod_random_planes.php</filename>
+		<filename>helper.php</filename>
+		<filename>mod_random_planes.xml</filename>
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+	</files>
+	<languages>
+		<language tag="es-ES">es-ES.mod_random_planes.ini</language>
+		<language tag="es-ES">es-ES.mod_random_planes.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_random_planes.ini</language>
+		<language tag="en-GB">en-GB.mod_random_planes.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="advanced">
+			<field type="spacer" label="OPTIONS_CSS" />
+			<field name="moduleclass_sfx" type="text" default="planes" label="CLASS" description="DESC_CLASS" />
+			<field name="class_sfx" type="text" default="planes" label="SUBCLASS" description="DESC_SUBCLASS" />
+			<field type="spacer" default="OPTIONS_PLANS" />
+			<field name="show_name" type="radio" default="1" label="SHOW_TITLE" description="DESC_SHOW_TITLE">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field name="show_price" type="radio" default="1" label="SHOW_PRICE" description="DESC_SHOW_PRICE">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field name="show_detail" type="radio" default="1" label="SHOW_DETAIL" description="DESC_SHOW_DETAIL">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field name="show_description" type="radio" default="1" label="SHOW_DESCRIPTION" description="DESC_SHOW_DESCRIPTION">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field name="show_image" type="radio" default="1" label="SHOW_IMAGE" description="DESC_SHOW_IMAGE">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field type="spacer" default="OPTIONS_JCAROUSEL" />
+			<field name="scroll" type="list" default="1" label="SCROLL" description="DESC_SCROLL">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</field>
+			<field name="visible" type="list" default="1" label="VISIBLE" description="DESC_VISIBLE">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</field>
+			<field name="rtl" type="radio" default="1" label="MOVEMENT" description="DESC_MOVEMENT">
+				<option value="1">LEFT_RIGHT</option>
+				<option value="0">RIGHT_LEFT</option>
+			</field>
+			<field name="animation" type="text" default="500" label="ANIMATION" description="DESC_ANIMATION" />
+			<field name="auto" type="list" default="0" label="AUTO" description="DESC_AUTO">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</field>
+			<field name="wrap" type="list" default="null" label="MOVE_FROM" description="DESC_MOVE_FROM">
+				<option value="null">RP_NULL</option>
+				<option value="first">FIRST</option>
+				<option value="last">LAST</option>
+				<option value="both">BOTH</option>
+				<option value="circular">CIRCLE</option>
+			</field>
+		</fieldset>
+	</fields>
+	</config>
+</extension>

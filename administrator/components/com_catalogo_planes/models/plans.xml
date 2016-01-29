@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Product Params</name>
+        <config>
+           <fields name="details" addfieldpath="/administrator/components/com_catalogo_planes/elements">
+            <fieldset name="basic" label="basic">
+		<field name="productid" type="label" default="" label="CP.PRODUCT_ID"
+			description="CP.PRODUCT_ID_TOOLTIP" />
+		<field name="publish_up" type="text" label="CP.PUBLISH_UP"
+			format="%Y-%m-%d" description="CP.PUBLISH_UP_TOOLTIP" class="requiredfield" />
+		<field name="publish_down" type="text" default="0000-00-00"
+			label="CP.PUBLISH_DOWN" format="%Y-%m-%d" description="CP.PUBLISH_DOWN_TOOLTIP"
+			class="requiredfield" />
+		<field name="featured" type="onecheckbox" default="1" label="CP.FEATURED"
+			description="CP.FEATURED" />
+		<field name="product_desc" type="textarea" default="" rows="5"
+			cols="30" label="CP.PRODUCT_DESC" description="CP.PRODUCT_DESC_TOOLTIP"
+			class="requiredfield" />
+		<field name="product_code" type="text" default="" label="CP.PRODUCT_CODE"
+			description="CP.PRODUCT_CODE_TOOLTIP" class="requiredfield" />
+		<field name="disclaimer" type="textarea" default="" rows="5"
+			cols="30" label="CP.PRODUCT_DISCLAIMER_LABEL" description="CP.PRODUCT_DISCLAIMER_TOOLTIP" />
+		<field name="tourismtypes" size="8" class="multiselect" type="sqlmultilistx"
+			sql="SELECT tourismtype_id, IF(published = 1, tourismtype_name, CONCAT(tourismtype_name, '*')) as text FROM #__cp_prm_tourismtype ORDER BY tourismtype_name ASC"
+			key_field="tourismtype_id" value_field="text" multiple="multiple"
+			label="CP.PRODUCT_TOURISM_TYPES" description="CP.PRODUCT_TOURISM_TYPES_TOOLTIP" />
+		<field name="access" type="list" size="5" default="0"
+			label="Access Level" description="CP.PRODUCT_ACCESS_LEVEL_TOOLTIP">
+			<option value="1">Public</option>
+			<option value="2">Registered</option>
+			<option value="3">Special</option>
+		</field>
+		<field name="category_id" type="sqlmultilistx" label="CP.PLAN_CATEGORY_NAME"
+			description="CP.PLAN_CATEGORY_NAME_TOOLTIP"
+			sql="SELECT category_id, IF(published = 1, category_name, CONCAT(category_name, '*')) AS category_name FROM #__cp_prm_plans_category ORDER BY category_name ASC"
+			key_field="category_id" value_field="category_name" class="requiredfield"
+			default="" default_label="CP.SELECT" />
+		<field name="supplier_id" type="sqlmultilistx" label="CP.SUPPLIER"
+			description="CP.SUPPLIER_TOOLTIP"
+			sql="SELECT sup.supplier_id, IF(sup.published = 1, sup.supplier_name, CONCAT(sup.supplier_name, '*')) AS supplier_name FROM #__cp_prm_supplier sup JOIN #__cp_prm_supplier_product_type ty ON sup.supplier_id = ty.supplier_id JOIN #__cp_prm_product_type pro ON ty.product_type_id = pro.product_type_id WHERE LOWER(pro.product_type_code) = 'plans' ORDER BY supplier_name ASC"
+			key_field="supplier_id" value_field="supplier_name" default=""
+			default_label="CP.SELECT" class="requiredfield" />
+		<field name="published" type="radio" default="1"
+			label="CP.PRODUCT_STATE_LABEL" description="CP.STATE">
+			<option value="1">CP.ACTIVE</option>
+			<option value="0">CP.INACTIVE</option>
+		</field>
+		<field name="duration" type="text" default="" label="CP.PLAN_DURATION"
+			description="CP.PLAN_DURATION_TOOLTIP" class="requiredfield" />
+		<field name="days_total" type="list" default=""
+			label="CP.PLAN_DAYS_TOTAL" description="CP.PLAN_DAYS_TOTAL_TOOLTIP"
+			class="requiredfield">
+			<option value="">CP.SELECT</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+		</field>
+		<field name="latitude" type="text" default="" label="CP.PRODUCT_LATITUDE"
+			description="CP.PRODUCT_LATITUDE_TOOLTIP" />
+		<field name="longitude" type="text" default=""
+			label="CP.PRODUCT_LONGITUDE" description="CP.PRODUCT_LONGITUDE_TOOLTIP" />
+		<field name="product_url" type="textarea" label="CP.PRODUCT_URL"
+			description="CP.PRODUCT_URL_TOOLTIP" rows="3" cols="30" />
+	</fieldset></fields></config>
+</form>

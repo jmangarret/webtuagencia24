@@ -1,0 +1,1363 @@
+
+.clear {
+    clear: both;
+}
+#recommendations .loading, #passenger_main .loading {
+    height: 40px;
+    margin: 50px auto 15px;
+    width: 40px;
+}
+#recommendations .title-1, #passenger_main .title-1 {
+    color: #004488;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#recommendations .title-2, #passenger_main .title-2 {
+    margin-bottom: 40%;
+    text-align: center;
+}
+#passenger_main .waiting {
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin: 0 10px;
+    padding: 1px 0 0;
+}
+.componentFull .tabs ul.ui-tabs-nav li {
+    border: none;
+}
+#aaws-qs-top {
+    background-color: #66A9DD;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 920px;
+}
+#aaws-qs-top ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#aaws-qs-top ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.componentFull #quick-search .tabs ul.ui-tabs-nav li a {
+    color: #FFFFFF;
+    background-color: #66A9DD;
+ 
+}
+#aaws-qs-top ul li:first-child {
+    margin-left: 0;
+}
+#aaws-qs-top div[class^="field"] {
+    display: inline-block;
+    width: 180px;
+}
+#aaws-qs-top .cities {
+    display: inline-block;
+    float: left;
+}
+#aaws-qs-top .dates {
+    display: inline-block;
+    width: 228px;
+}
+#aaws-qs-top .itinerary {
+    float: left;
+}
+#aaws-qs-top .passengers {
+    display: inline-block;
+    float: left;
+    width: 325px;
+}
+#aaws-qs-top .dates input {
+    width: 84px;
+}
+#aaws-qs-top .dates div[class^="field"] {
+    float: left;
+    position: relative;
+    width: 114px;
+}
+#aaws-qs-top .dates img {
+    position: absolute;
+    right: 21px;
+}
+#aaws-qs-top .passengers div[class="field"] {
+    float: left;
+    width: 81px;
+}
+#aaws-qs-top .passengers div[class="field"] .age {
+    float: left;
+}
+#aaws-qs-top .passengers div[class="field"] select {
+    float: left;
+}
+#aaws-qs-top .advanced {
+    float: left;
+    margin: 7px 0 0;
+    width: 100%;
+}
+#aaws-qs-top .advanced #adv-title {
+    background: url("../../../../../templates/yosiviajo.net/img/QuickBlueBullet.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 11px;
+}
+#aaws-qs-top .advanced #adv-title:hover {
+    text-decoration: underline;
+}
+#aaws-qs-top .button {
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+#aaws-qs-top .options {
+    float: right;
+    margin-bottom: 9px;
+    
+}
+#aaws-qs-top .cities input {
+    width: 164px;
+}
+#aaws-qs-top .cities select {
+    color: #999999;
+    width: 172px;
+}
+div a[title^="Web"] {
+    display: none;
+}
+#aaws-qs-top .advanced .clase, #aaws-qs-top .advanced .airline, #aaws-qs-top .advanced .stops {
+    float: left;
+    margin-left: 20px;
+}
+#aaws-qs-top .advanced .clase {
+    margin-left: 0;
+}
+#aaws-qs-top .advanced .content {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+#aaws-qs-top input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../../../../templates/yosiviajo.net/img/btnQuickSearch.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: medium none;
+    font-size: 14px;
+    left: 251px;
+    padding: 7px 0;
+    text-align: center;
+    width: 127px;
+}
+#aaws-qs-top input[type="submit"]:hover {
+    background-position: 0 -60px;
+}
+#aaws-qs-top .cities label, #aaws-qs-top .dates label {
+    float: left;
+    margin: 8px 0;
+}
+#filters {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    width: 190px;
+}
+#filters {
+    position: relative;
+}
+#left-container {
+    float: left;
+}
+#right-container {
+    float: right;
+}
+#filters > div {
+    border-top: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+#left-container h3.title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+h3.recloc {
+    color: #DB3535;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+h4 {
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0 0 10px;
+    padding: 2px 7px;
+}
+#left-container h4 {
+    color: #0A84C1;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding: 0;
+}
+#left-container h4:hover {
+    text-decoration: underline;
+}
+#left-container h4.visible {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bulletFilters.png");
+    background-position: right 8px;
+    background-repeat: no-repeat;
+}
+#left-container h4.collapsed {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bulletFilters.png");
+    background-position: right -30px;
+    background-repeat: no-repeat;
+}
+#filters .stops ul, #filters .airlines ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#filters .stops ul li, #filters .airlines ul li {
+    padding: 3px 0;
+}
+#filters .stops ul li input, #filters .airlines ul li input {
+    margin: 3px;
+}
+#filters .stops ul li label, #filters .airlines ul li label {
+    color: #777777;
+    padding: 0 5px;
+}
+#filters span {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+#filters .r-min {
+    float: left;
+}
+#filters .r-max {
+    float: right;
+}
+#filters .jui-slider {
+    clear: both;
+}
+#filters .jui-slider .ui-slider-handle {
+    background: url("../../../../../templates/yosiviajo.net/img/flecha_filtros.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+}
+#filters .ui-corner-all, #filters .ui-corner-top, #filters .ui-corner-left, #filters .ui-corner-tl {
+    border-radius: 0;
+}
+#filters .ui-widget-content {
+    background-color: #CCCCCC;
+    border: medium none;
+    height: 8px;
+    margin-left: 6px;
+    width: 185px;
+}
+#filters .ui-widget-header {
+    background: none repeat scroll 0 0 #0A84C1;
+    height: 4px;
+    top: 2px;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-slider .ui-slider-handle {
+    border: medium none;
+    cursor: default;
+    height: 18px;
+    position: absolute;
+    width: 1.2em;
+    z-index: 2;
+}
+.ui-slider .ui-slider-handle:focus {
+    outline: medium none;
+}
+.ui-slider .ui-slider-range {
+    background-position: 0 0;
+    border: 0 none;
+    display: block;
+    font-size: 0.7em;
+    position: absolute;
+    z-index: 1;
+}
+.ui-slider.ui-state-disabled .ui-slider-handle, .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+.ui-slider-horizontal {
+    height: 0.8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -0.6em;
+    top: -0.3em;
+}
+.ui-slider-horizontal .ui-slider-range {
+    height: 100%;
+    top: 0;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+#airlines {
+    float: left;
+    height: 120px;
+    width: 857px;
+}
+#availability_main {
+    padding: 0;
+}
+#right-container {
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin-left: 10px;
+    width: 716px;
+}
+#availability_main #right-container {
+    margin-left: 0;
+}
+#recommendations {
+    float: right;
+    width: 700px;
+}
+#recommendations .recommendation form {
+    margin: 0;
+}
+#recommendations .recommendation {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto 15px;
+    padding: 10px;
+    width: 679px;
+}
+#recommendations .flights {
+    float: left;
+    width: 493px;
+}
+.segment-header {
+    padding: 10px 10px 5px;
+}
+.segment-header .icon {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 14px;
+    position: relative;
+    text-transform: uppercase;
+}
+.segment-header.go .icon {
+    background: url("../../../../../templates/yosiviajo.net/img/iconIda.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    padding-left: 22px;
+}
+.segment-header.return {
+    border-top: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+.segment-header.return .icon {
+    background: url("../../../../../templates/yosiviajo.net/img/iconRegreso.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    padding-left: 22px;
+}
+.segment-header.multiply .icon {
+    background: url("../../../../../templates/yosiviajo.net/img/iconIda.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #000000;
+    padding-left: 22px;
+}
+#recommendations .flights .segment-header .detail {
+    color: #222222;
+    float: right;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+#recommendations .flights .flight-option {
+    border-top: 1px dashed #BBBBBB;
+    font-size: 13px;
+    margin: 1px 5px;
+    padding: 5px;
+}
+#recommendations .flights .flight-option.disabled {
+    opacity: 0.3;
+}
+#recommendations .flights .segment-header + .flight-option, #recommendations .flights .flight-option.hide-option + .flight-option.show-option {
+    border-top: medium none;
+}
+#recommendations .flights div.flight-option.error {
+    border: 1px solid #FF0000;
+}
+#recommendations .flights .error-msg {
+    color: #FF0000;
+}
+#recommendations .flights .flight-option .label, #resume-order #resume-flight .flight-detail .label, #passenger_main #resume-flight .flight-detail .label {
+    color: #777777;
+    padding-right: 4px;
+    width: auto;
+}
+#recommendations .flights .flight-option .value {
+    padding-left: 2px;
+    padding-right: 7px;
+}
+#recommendations .flights .flight-option .duration {
+    display: inline-block;
+    text-align: right;
+    width: 70px;
+}
+#recommendations .flights .flight-option .airline img, #resume-order .flight-detail .airline img, #passenger_main .airline .icon img {
+    height: 30px;
+    max-width: 70px;
+    vertical-align: middle;
+}
+#recommendations .values {
+    background-color: #F4F4F4;
+    background-position: center bottom;
+    color: #666666;
+    float: right;
+    min-height: 190px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+}
+#recommendations .values > div {
+    border-radius: 5px;
+}
+#recommendations .values .total {
+    background: url("../../../../../templates/yosiviajo.net/img/bgTotal.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    float: left;
+    font-family: 'Oswald',sans-serif;
+    height: 38px;
+    left: -7px;
+    position: relative;
+    width: 190px;
+}
+#recommendations .values .fare {
+    color: #0A84C1;
+    float: left;
+    font-family: 'Oswald',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+}
+#recommendations .values .taxes {
+    float: left;
+    width: 100%;
+}
+#recommendations .values .fee {
+    float: left;
+    width: 100%;
+}
+#recommendations .values .total .label.titulo {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+#recommendations .values .total .label {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 9px;
+}
+#recommendations .values .total .value {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 2px 5px 2px 0;
+}
+#recommendations .values .total .coin {
+    float: right;
+    margin: 9px 8px 0 0;
+}
+#recommendations .values .fare_taxes {
+    display: block;
+    float: left;
+    padding: 9px 6px;
+}
+#recommendations .values .fare_taxes span {
+    display: inline-block;
+    margin: 2px 0;
+}
+#recommendations .values .fare_taxes .label {
+    float: left;
+    text-align: left;
+    width: auto;
+}
+#recommendations .values .fare_taxes .value {
+    float: right;
+    text-align: right;
+    width: auto;
+}
+#recommendations .values .button {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#recommendations .values input[type="submit"], #passenger_main input[type="button"], #passenger_main input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../../../../templates/yosiviajo.net/img/btnQuickSearch.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: medium none;
+    font-size: 14px;
+    left: 251px;
+    padding: 8px 0;
+    text-align: center;
+    width: 127px;
+}
+#recommendations .values input[type="submit"]:hover, #passenger_main input[type="button"]:hover, #passenger_main input[type="submit"]:hover {
+    background-position: 0 -60px;
+}
+span.value a {
+    color: #339FDB;
+}
+span.value a:hover {
+    text-decoration: none;
+}
+label.title {
+    text-transform: uppercase;
+}
+.als-container {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E0E0;
+    height: 120px;
+    padding: 0;
+    position: relative;
+    width: 857px;
+    z-index: 0;
+}
+.als-container-stops {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border: solid 1px #E4E4E4;
+    float: left;
+    height: 120px;
+    width: 82px;
+    z-index: 0;
+    border-right: none;
+}
+.als-container-stops ul.als-wrapper {
+    color: #0A84C1;
+    font-size: 12px;
+    list-style: none outside none;
+    margin: 53px 0 0 11px;
+    padding: 0;
+}
+.als-viewport {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.als-wrapper {
+    list-style: none outside none;
+    margin: 4px 0;
+    padding: 0;
+    position: relative;
+}
+.als-item {
+    border-left: 1px solid #E2E0E0;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    width: 129px;
+}
+.als-item img {
+    cursor: none;
+    height: 50px;
+    max-width: 120px;
+    min-height: 50px;
+}
+.als-prev {
+    background-color: #FFFFFF;
+    background-image: url("../../../../../templates/yosiviajo.net/img/prevMatriz.jpg");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #D8D8D8;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 38px;
+    z-index: 50;
+}
+.als-next {
+    background-color: #FFFFFF;
+    background-image: url("../../../../../templates/yosiviajo.net/img/nextMatriz.jpg");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border-left: 1px solid #D8D8D8;
+    border-radius: 0 5px 5px 0;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    height: 115px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    z-index: 50;
+}
+#passenger_main #right-container {
+    float: left;
+    width: 716px;
+}
+#resume-flight {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    float: right;
+    padding: 20px;
+    width: 238px;
+}
+#resume-order #resume-flight {
+    padding-bottom: 30px;
+}
+#resume-flight .total {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+#resume-flight .total .value {
+    font-size: 30px;
+    font-weight: bold;
+}
+#resume-flight .total .coin {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+#resume-flight .total .note {
+    color: #E60000;
+    display: block;
+}
+#resume-flight .fare_taxes .label {
+    display: inline-block;
+    padding: 5px 0;
+    width: 104px;
+}
+#resume-flight .fare_taxes .value {
+    color: #1B1B1B;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+    width: 92px;
+}
+#resume-flight .fare_taxes {
+    float: left;
+    width: 100%;
+}
+#resume-flight .segment-header {
+    float: left;
+    margin-top: 12px;
+    padding: 11px 0 10px;
+    width: 100%;
+}
+#resume-flight .segment-header .detail {
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px 0;
+    text-align: left;
+}
+#resume-flight .flight-info > span {
+    color: #888888;
+    display: block;
+    margin: 8px 0;
+    width: 237px;
+}
+#resume-flight .flight-info .label {
+    display: inline-block;
+    width: 70px;
+}
+#resume-flight .flight-info .value {
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+    width: 167px;
+}
+#resume-flight .flight-info .value .cityDetail {
+    color: #0A84C1;
+}
+#resume-flight .ui-widget-content, #resume-flight .ui-widget-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    position: relative;
+    z-index: 5;
+}
+#resume-flight .ui-widget-content .ui-tabs-nav {
+    padding-top: 10px;
+}
+#resume-flight .modalAir a {
+    background-image: none;
+    padding: 5px 13px 5px 20px;
+    text-align: left;
+    text-transform: none;
+    width: auto;
+}
+#resume-flight .ui-state-default, #resume-flight .ui-state-active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    font-weight: normal;
+}
+#resume-flight .ui-state-active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+}
+body.contentpane {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+#resume-flight .modalAir h2, body.contentpane .item-page h2 {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0 0 10px;
+}
+#resume-flight .fare_taxes .fare {
+    color: #0A84C1;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+#resume-flight .fare_taxes .taxes {
+    float: left;
+    width: 100%;
+}
+#resume-flight .fare_taxes .fee {
+    float: left;
+    width: 100%;
+}
+#resume-flight .fare_taxes .total {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bgPrecioPas.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #FFFFFF !important;
+    float: left;
+    height: 43px;
+    left: -26px;
+    margin-top: 19px;
+    padding: 8px 19px;
+    position: relative;
+    width: 251px;
+}
+#resume-flight h4 {
+    color: #0A84C1;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#resume-flight .fare_taxes .fare .value {
+    color: #0A84C1;
+    font-size: 18px;
+}
+#resume-flight .fare_taxes .total .value {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+#availability_header {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#load .loading {
+    background-image: url("../../../../../images/banners/fndLoading.gif");
+    height: 245px;
+    margin: 0 auto;
+    width: 720px;
+}
+.placetopay label {
+    margin-right: 67px;
+}
+.conditions a {
+    color: #0A84C1;
+}
+.conditions a:hover {
+    text-decoration: none;
+}
+#availability-title {
+    color: #4D4D4D;
+    float: left;
+    font-family: 'Oswald',sans-serif;
+    font-size: 23px;
+    margin-top: 37px;
+    width: 100%;
+}
+#availability-title span {
+    color: #66A9DD;
+    font-weight: 600;
+}
+.icon {
+    background-color: #FFFFFF;
+}
+.als-viewport div[class^="stops"] {
+    border-top: 1px solid #E2E0E0;
+    clear: both;
+}
+div[class^="stops"]:first-child {
+    border-top: medium none;
+}
+div.als-container span.label {
+    color: #C8E4FC;
+    float: left;
+    padding-left: 5px;
+}
+div.als-container span.value {
+    padding-right: 5px;
+    text-decoration: underline;
+}
+div.als-container span.value:hover {
+    text-decoration: none;
+}
+.all-airlines {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bluBullet.png");
+    background-position: 667px 11px;
+    background-repeat: no-repeat;
+    color: #66A9DD;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: right;
+    text-decoration: none;
+}
+.all-airlines:hover {
+    background-position: 667px -16px;
+    color: #085C96;
+    text-decoration: underline;
+}
+.all-airlines:hover {
+    text-decoration: none;
+}
+#r-container {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    float: left;
+    padding: 20px;
+    width: 598px;
+}
+#r-container h1 {
+    color: #4D4D4D;
+    font-family: 'Oswald',sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+#r-container h2 {
+    color: #F7931E;
+    font-family: 'Oswald',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0;
+}
+#r-container input[type="text"] {
+    width: 300px;
+}
+#r-container label {
+    color: #4D4D4D;
+    font-family: 'Oswald',sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+#r-container .note {
+    margin-bottom: 20px;
+}
+div[class^="note"] label {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+#r-container div[class^="note"] input {
+    width: 517px;
+}
+#r-container #PaymentCardCode {
+    width: 95px;
+}
+#r-container .pagos {
+    position: relative;
+}
+#r-container .pagos #image-card {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bgimage-card.jpg");
+    height: 20px;
+    position: absolute;
+    right: 247px;
+    text-align: center;
+    top: 190px;
+    width: 20px;
+}
+#r-container .pagos #image-card a {
+    color: #FFFFFF;
+    display: block;
+    padding-top: 2px;
+    text-decoration: none;
+}
+.sub-title h3 {
+    color: #0A84C1;
+    font-family: 'Oswald',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+#information .fields label {
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+    width: 211px;
+}
+#information .fields input[type="text"] {
+    border: 1px solid #D8D8D8;
+    padding: 5px;
+}
+.fields div {
+    margin-bottom: 10px;
+}
+.fields #contactdocumentid, .fields #contactname, .fields #contactemail {
+    width: 360px;
+}
+.pax-info {
+    padding: 10px 0;
+}
+.pax-info {
+    padding: 10px 0;
+}
+#information h4 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000000;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.pax-info label {
+    color: #484848;
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+    width: 206px;
+}
+.pax-info div {
+    margin-bottom: 10px;
+}
+#recommendations .flights .flight-detail, #resume-order .flight-detail, #passenger_main .flight-detail {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D3D3D3;
+    float: left;
+    font-size: 11px;
+    padding: 12px 13px;
+    position: relative;
+    width: 455px;
+}
+#resume-order .flight-detail, #passenger_main .flight-detail {
+    position: absolute;
+    z-index: 10;
+}
+.flight-detail .header {
+    background-color: #1777B8;
+    background-repeat: repeat-x;
+    border: 1px solid #1777B8;
+    border-radius: 5px;
+    clear: both;
+    padding: 4px 5px;
+    width: 447px;
+}
+.header .title {
+    color: #FFFFFF;
+    float: left;
+}
+.header .duration {
+    float: right;
+    width: 300px;
+}
+.header .duration-detail {
+    color: #C7E7F9;
+    float: right;
+}
+.header .duration-detail span {
+    color: #FFFFFF;
+}
+.flights .flight-info, .flight-detail .flight-info {
+    color: #777777;
+    margin-top: 1px;
+    width: 435px;
+}
+.flight-info .segment-departure {
+    margin-bottom: 10px;
+    width: 300px;
+}
+.flight-info .segment-arrival {
+    width: 300px;
+}
+.flight-info .airline {
+    float: right;
+    width: 67px;
+}
+#passenger_main .detail {
+    margin-bottom: 43px;
+}
+.segment-detail {
+    float: left;
+    padding-top: 13px;
+    width: 365px;
+}
+.segment-detail span {
+    color: #000000;
+    float: right;
+}
+.airline .name {
+    color: #000000;
+}
+.airline .icon {
+    margin: 0;
+    padding: 0;
+}
+.airline .icon {
+    margin: 0;
+    padding: 0;
+}
+.header .flight span {
+    color: #000000;
+}
+.flights .close, .flight-detail .close {
+    background-color: #FFFFFF;
+    border: 1px solid #9D9D9E;
+    color: #9D9D9E;
+    cursor: pointer;
+    font-weight: normal;
+    height: 14px;
+    padding: 2px;
+    position: absolute;
+    right: -14px;
+    text-align: center;
+    top: -52px;
+    width: 11px;
+}
+.flights .close:hover, .flight-detail .close:hover {
+    color: #000000;
+}
+.stop-info {
+    border-bottom: 1px dashed #A5A5A5;
+    border-top: 1px dashed #A5A5A5;
+    margin: 10px 0;
+    padding: 4px 0;
+}
+#recommendations .arrow, #resume-order .arrow, #passenger_main .arrow {
+    height: 9px;
+    position: absolute;
+    width: 12px;
+}
+#recommendations .arrow {
+    right: 196px;
+    top: -8px;
+}
+#resume-order .arrow, #passenger_main .arrow {
+    right: 70px;
+    top: -8px;
+}
+#resume-flight .title {
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#information {
+    background-color: #FFFFFF;
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+.pax-info input[type="text"] {
+    border: 1px solid #D8D8D8;
+    padding: 5px;
+}
+#resume-flight a {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bluBullet.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #66A9DD;
+    float: right;
+    font-weight: bold;
+    padding-left: 21px;
+    text-decoration: none;
+}
+#resume-flight a:hover {
+    text-decoration: underline;
+}
+#resume-flight a:hover {
+    text-decoration: none;
+}
+#resume-flight .fare-restrictions {
+    border-top: 1px solid #CCCCCC;
+    padding: 10px 0 40px;
+}
+.note span, #information .pax-info label span, #information .fields label span {
+    color: #F7931E;
+    font-weight: bold;
+}
+#information select[id="paxtreatment"], #information select[id="paxdocumenttype"], #information select[id="paxgenre"] {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: medium none;
+    padding: 6px;
+    width: 150px;
+}
+#information select[id="paxborndate-day"] {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: medium none;
+    padding: 4px;
+    width: 51px;
+}
+#information select[id="paxborndate-month"], #information [id="paxborndate-year"] {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: medium none;
+    margin-right: 5px;
+    padding: 5px;
+    width: 83px;
+}
+.payment-methods {
+    margin-bottom: 20px;
+}
+.payment-methods img {
+    margin-left: 20px;
+    vertical-align: bottom;
+    width: 290px;
+}
+#paymentbutton {
+    float: right;
+    margin-right: 35px;
+}
+#information .conditions {
+    margin: 40px 0 10px;
+}
+.msg-validation {
+    display: block;
+    left: 216px;
+    position: relative;
+    width: 450px;
+}
+.payment-methods .msg-validation, .conditions .msg-validation {
+    left: 5px;
+}
+.msg-validation.error {
+    color: #FF3333;
+}
+.msg-validation.info {
+    color: #555555;
+}
+.msg-validation.info .user {
+    font-weight: bold;
+}
+#passenger_main .identify input, #passenger_main .continue input {
+    margin-left: 216px;
+}
+#passenger_main .continue label.text {
+    float: none;
+}
+#passenger_main .phone input {
+    margin-right: 7px;
+    width: 40px;
+}
+#passenger_main .phone input#contactphonenumber {
+    width: 140px;
+}
+.modal.modalAir {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #CCCCCC;
+    height: 500px;
+    left: 113px;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    z-index: 2000;
+}
+.modalAir iframe {
+    border: 0 none;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+#resume-flight .modal.modalAir .closeBtn, .modal.modalAir .closeBtn {
+    display: block;
+    height: 20px;
+    padding: 18px;
+    right: 32px;
+    top: -20px;
+    width: 25px;
+}
+#resume-flight .modal.modalAir .closeBtn:hover, .modal.modalAir .closeBtn:hover {
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    padding: 0.2em 0.1em 0.2em 0.2em;
+    width: 12em;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+    border-bottom-width: 1px !important;
+    border-right-width: 0 !important;
+    clear: left;
+    margin: 0 -1px 0.2em 0;
+    width: 100%;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    outline: medium none;
+}
+.ui-tabs-vertical .ui-tabs-nav li a:active {
+    outline: medium none;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    border-bottom: 1px solid #CCCCCC;
+    border-right-width: 1px;
+    padding-bottom: 0;
+    padding-right: 0.1em;
+    width: 170px;
+}
+#resume-flight .ui-tabs-vertical .ui-tabs-panel {
+    border-left: 1px solid #CCCCCC;
+    border-radius: 0;
+    float: left;
+    font-size: 12px;
+    height: 445px;
+    overflow: auto;
+    padding: 0 1em;
+    position: relative;
+    width: 485px;
+    z-index: 0;
+}
+#resume-flight .fare_taxes .total .coinSimbol {
+    float: right;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.ui-tabs-vertical .ui-tabs-panel pre {
+    margin: 0;
+}
+#msn-card {
+    height: 100px;
+    width: 365px;
+}
+#msn-card #logo-card {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bgCreditCard.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 115px;
+    width: 180px;
+}
+.modal.modalAir a.closeBtn {
+    background-image: url("../../../../../templates/yosiviajo.net/img/CloseModal.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 664px;
+    position: absolute;
+    width: 20px;
+}
+.msg-validation.info {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 300px;
+}
+#overlay {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.flight-detail ul.tabs {
+    float: left;
+    margin: 0;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.flight-detail ul.tabs li {
+    background-image: none;
+    border-bottom: medium none;
+    float: left;
+    list-style: none outside none;
+    margin-right: 27px;
+    padding: 0;
+}
+.flight-detail ul.tabs li.activa {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #B3B3B3 #B3B3B3 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+}
+.flight-detail ul.tabs li a {
+    color: #696767;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+}
+.flight-detail ul.tabs li.activa a {
+    background-image: url("../../../../../templates/yosiviajo.net/img/bgTabDetalle.jpg");
+    background-repeat: repeat-x;
+    color: #0A84C1;
+}
+.contenedor_tab {
+    border-top: 1px solid #B3B3B3;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    position: relative;
+    top: -1px;
+    width: 459px;
+}
+#discount-flights {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 20;
+}
+#resume-flight .close {
+    right: -5px;
+    top: -10px;
+}
+#resume-flight .header span.title {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.modalAir ul {
+    width: 241px;
+}
+.modalAir li a {
+    background-image: none;
+}
+.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+    width: 178px;
+}

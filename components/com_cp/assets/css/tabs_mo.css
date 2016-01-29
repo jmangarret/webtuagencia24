@@ -1,0 +1,120 @@
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: auto;
+	background: #fff;
+}
+.tab_content {
+	padding: 10px;
+	min-width: 656px;
+	/*font-size: 1.2em;*/
+}
+/* ------------------------------------------------------------------------------- */
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	/*float: left;*/
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 677px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+	
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #006A5D;
+	display: block;
+	font-size: 12px;
+	padding: 0 8px;
+	border: 1px solid #fff;
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+
+/*- Menu Tabs J--------------------------- 
+
+    ul.tabs {
+      float:left;
+      width:100%;
+      /*background:#FFFFFF;
+      font-size:93%;
+      line-height:normal;
+          border-bottom:8px solid #24618E;
+      }
+    ul.tabs ul {
+	margin: 0;
+	/*padding: 10px 0px 0 5px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+    ul.tabs li {
+	display: inline;
+	margin: 0;
+	padding: 0 0px;
+}
+    ul.tabs a, ul.tabs a.vuelos, ul.tabs a.paquetes  {
+	float: left;
+	background: url(../images/tableftJ.gif) no-repeat left top;
+	margin: 0px;
+	padding: 0 0 0 5px;
+	text-decoration: none;
+}
+    ul.tabs a span  {
+	float: left;
+	display: block;
+	background: url("../images/tabrightJ.gif") no-repeat right top;
+	padding: 25px 55px 2px 6px;
+	color: #24618E;
+	margin-right: 5px;
+}
+    /* Commented Backslash Hack hides rule from IE5-Mac \
+    ul.tabs a span {float:none;}
+    /* End IE5-Mac hack 
+    ul.tabs a:hover span {
+      color:#FFF;
+      }
+    ul.tabs a:hover {
+		background-position:0% -42px;
+      }
+    ul.tabs a:hover span {
+		background-position:100% -42px;
+      }
+
+        ul.tabs #current a {
+                background-position:0% -42px;
+        }
+        ul.tabs #current a span {
+                background-position:100% -42px;
+                color:#FFF;
+        }
+	/*html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}*/

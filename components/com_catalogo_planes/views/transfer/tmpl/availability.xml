@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Disponibilidad">
+		<message>
+			<![CDATA[Plantilla de presentacion de disponibilidad de transferes]]>
+		</message>
+	</layout>
+	<state>
+		<name>Disponibilidad de transferes</name>
+		<description>Plantilla de presentacion de disponibilidad de transferes</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param menu="hide" name="type" type="radio" default="1"
+				label="CP.CONFIG.TRANSFER.TYPE.LABEL" description="CP.CONFIG.TRANSFER.TYPE.DESCRIPTION">
+				<option value="1">One way</option>
+				<option value="2">Round trip</option>
+			</param>
+			<param name="city" type="City" default=""
+				label="CP.CONFIG.TRANSFER.CITY.LABEL" description="CP.CONFIG.TRANSFER.CITY.DESCRIPTION"
+				product="transfer" />
+			<param name="category" type="Category" default=""
+				label="CP.CONFIG.TRANSFER.CATEGORY.LABEL" description="CP.CONFIG.TRANSFER.CATEGORY.DESCRIPTION"
+				product="transfer" />
+			<param name="date_start" type="Calendar" default=""
+				label="CP.CONFIG.TRANSFER.DATESTART.LABEL" description="CP.CONFIG.TRANSFER.DATESTART.DESCRIPTION" />
+			<param name="date_finish" type="text" default="0"
+				label="CP.CONFIG.TRANSFER.DATEFINISH.LABEL" description="CP.CONFIG.TRANSFER.DATEFINISH.DESCRIPTION" />
+			<param name="is_menu" type="hidden" default="1"
+				label="CP.CONFIG.TRANSFER.DATEFINISH.LABEL" description="CP.CONFIG.TRANSFER.DATESTART.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

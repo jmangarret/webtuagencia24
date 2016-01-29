@@ -1,0 +1,157 @@
+.special-offer p{
+	margin: 15px 0;
+}
+
+.special-offer {
+
+}
+.special-offer h3 {
+    color: #2D78A5;
+    font-size: 24px;
+}
+.special-offer strong {
+    color: #2D78A5;
+}
+.special-offer .offer-image-container{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 4px #CCCCCC;
+    padding: 3px;
+    position: relative;
+}
+
+.special-offer .offer-price {
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    width: 110px;
+    margin-left: 10px;
+}
+
+.special-offer .offer-price .discount{
+	font-size: 12pt;
+}
+
+.special-offer .offer-price span {
+    display: block;
+    font-size: 14pt;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 4px;
+    
+}
+.special-offer .offer-price em {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14pt;
+    
+}
+
+.special-offer .old-price{
+	text-decoration: line-through;
+}
+
+.special-offer .offer-price-details{
+	clear: both;
+	text-align: center;
+	padding: 0 5px 10px 5px;
+	background-color: #333;
+}
+
+.special-offer .offer-image{
+	position: relative;
+}
+
+.special-offer .offer-image img{
+	width: 100%;
+}
+
+.special-offer .offer-description{
+
+}
+
+.special-offer .offer-content{
+	margin-top: 16px;
+}
+
+.special-offer .info{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    display: block;
+    height: 44px;
+    min-height: 44px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 2;
+}
+
+.special-offer .offer-image:hover .info{
+	height: 100%;
+	min-height: 100%;
+	cursor: pointer;
+}
+
+.special-offer .info{
+    float: right;
+}
+
+.special-offer .info h2 {
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+    white-space: nowrap;
+    display:flex !important;
+}
+
+.special-offer .hover_info { 
+    transition: all 0.5s ease 0s;
+}
+.special-offer .info .hover_info{
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    min-height: 44px;
+    text-align: center;
+}
+
+.special-offer .offer-image:hover .hover_info{
+	display: block;
+}
+
+.overflow_cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.special-offer .info .hover_info {
+    color: #fff;
+ 
+ }
+ 
+.special-offer .btn {
+    background-color: #67b700;
+    background-image: none;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 0;
+    outline: medium none;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: none;
+    transition: all 0.2s ease 0s;
+    white-space: nowrap;
+}
+

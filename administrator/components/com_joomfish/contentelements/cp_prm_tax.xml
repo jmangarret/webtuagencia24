@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Impuesto</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Impuesto</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_tax">
+  		<field type="referenceid" name="tax_id" translate="0">ID</field>
+  		<field type="titletext" name="tax_name" translate="1">Nombre</field>
+  	</table>
+  </reference>
+</joomfish>

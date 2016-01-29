@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.5.0" method="upgrade">
+    <name>COM_CP</name>
+    <creationDate>23/05/2013</creationDate>
+    <author>Yusely Palacios B.</author>
+    <authorEmail>yupablan@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <copyright>Copyright (C) 2013 Amadeus.</copyright>
+    <license>GNU/GPL v2</license>
+    <version>2.0.0</version>
+    <install>
+        <sql>
+            <file charset="utf8" driver="mysql">install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file charset="utf8" driver="mysql">uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <files folder="site">
+        <folder>assets</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <filename>controller.php</filename>
+        <filename>cp.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages folder="languages/site">
+        <language tag="en-GB">en-GB.com_cp.ini</language>
+        <language tag="es-ES">es-ES.com_cp.ini</language>
+    </languages>
+    <administration>
+        <menu>COM_CP</menu>
+        <submenu>
+                <menu link="option=com_cp&amp;view=cpproductslist">COM_CP_MENUCPPRODUCTSLIST</menu>
+                <menu link="option=com_cp&amp;view=cpcategorylist">COM_CP_MENUCPCATEGORYLIST</menu>
+                <menu link="option=com_cp&amp;view=cptourismtypelist">COM_CP_MENUCPPRODUCTTOURISMTYPELIST</menu>
+        </submenu>
+        <files folder="admin">
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>cp.php</filename>
+            <filename>helper.php</filename>
+            <filename>index.html</filename>
+            <filename>install.mysql.utf8.sql</filename>
+            <filename>uninstall.mysql.utf8.sql</filename>
+        </files>
+        <languages folder="languages/admin">
+            <language tag="en-GB">en-GB.com_cp.ini</language>
+            <language tag="es-ES">es-ES.com_cp.ini</language>
+            <language tag="en-GB">en-GB.com_cp.sys.ini</language>
+            <language tag="es-ES">es-ES.com_cp.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

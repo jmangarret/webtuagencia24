@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Disponibilidad">
+		<message>
+			<![CDATA[Plantilla de presentacion de disponibilidad de cares]]>
+		</message>
+	</layout>
+	<state>
+		<name>Disponibilidad de cares</name>
+		<description>Plantilla de presentacion de disponibilidad de cares</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param name="city" type="City" default=""
+				label="CP.CONFIG.CAR.CITY.LABEL" description="CP.CONFIG.CAR.CITY.DESCRIPTION"
+				product="car" />
+			<param name="category" type="Category" default=""
+				label="CP.CONFIG.CAR.CATEGORY.LABEL" description="CP.CONFIG.CAR.CATEGORY.DESCRIPTION"
+				product="car" />
+			<param name="supplier" type="Supplier" default=""
+				label="CP.CONFIG.CAR.SUPPLIER.LABEL" description="CP.CONFIG.CAR.SUPPLIER.DESCRIPTION"
+				product="car" />
+			<param name="date_start" type="Calendar" default=""
+				label="CP.CONFIG.CAR.DATESTART.LABEL" description="CP.CONFIG.CAR.DATESTART.DESCRIPTION" />
+			<param name="date_finish" type="text" default="0"
+				label="CP.CONFIG.CAR.DATEFINISH.LABEL" description="CP.CONFIG.CAR.DATEFINISH.DESCRIPTION" />
+			<param name="is_menu" type="hidden" default="1"
+				label="CP.CONFIG.CAR.DATEFINISH.LABEL" description="CP.CONFIG.CAR.DATESTART.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

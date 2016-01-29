@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Producto Paquetes: Categoría</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Producto Paquetes: Categoría</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_plans_category">
+  		<field type="referenceid" name="category_id" translate="0">ID</field>
+  		<field type="titletext" name="category_name" translate="1">Nombre</field>
+  	</table>
+  </reference>
+</joomfish>

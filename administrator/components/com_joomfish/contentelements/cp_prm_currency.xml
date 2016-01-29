@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Moneda</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Moneda</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_currency">
+  		<field type="referenceid" name="currency_id" translate="0">ID</field>
+  		<field type="titletext" name="currency_name" translate="1">Nombre</field>
+  		<field type="text" name="currency_code" translate="1">Símbolo</field>
+  	</table>
+  </reference>
+</joomfish>

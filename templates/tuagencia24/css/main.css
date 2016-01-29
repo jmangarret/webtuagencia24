@@ -1,0 +1,350 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background:transparent}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+h1{font-size:2em;margin:0.67em 0}
+mark{background:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:1em 40px}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+pre{overflow:auto}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:bold}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none}
+.container{margin:0 auto;width:980px}
+.row:before,.row:after{display:table;content:"";line-height:0}
+.row:after{clear:both}
+[class*="col-"]{float:left;padding-left:10px;padding-right:10px;position:relative}
+[class*="col-"].full{padding:0}
+.col-1{width:8.33333%}
+.col-2{width:16.66667%}
+.col-3{width:25%}
+.col-4{width:33.33333%}
+.col-5{width:41.66667%}
+.col-6{width:50%}
+.col-7{width:58.33333%}
+.col-8{width:66.66667%}
+.col-9{width:75%}
+.col-10{width:83.33333%}
+.col-11{width:91.66667%}
+.col-12{width:100%}
+html{background-color:#f5f5f5}
+body{background-color:#ddf9ff;background-image:url(../images/bg.jpg);background-position:50% 0;background-repeat:no-repeat;color:#333;font-size:13px;line-height:18px}
+p{margin:15px 0}
+a{color:#1467b6;text-decoration:none}
+a:hover{text-decoration:underline}
+a.color-base{color:#333}
+a.tint-30{color:#707070}
+[type="text"],[type="password"],[type="email"]{background:white;border:1px solid #ccc;padding:6px 8px}
+[type="submit"],[type="button"]{background-color:#1467b6;background-image:url(../images/btn-arw-r.png);background-position:100% 50%;background-repeat:no-repeat;border:none;border-radius:6px;color:white;display:inline-block;padding:6px 24px 6px 12px;text-align:center}
+[type="submit"]:hover,[type="button"]:hover{background-color:#105291}
+legend{font-weight:bold;font-size:16px}
+.item-page{border:1px solid #ccc;padding:20px;margin-bottom:30px}
+.login,.otherOption,.reset,.registration{border:1px solid #ccc;padding:20px;margin-bottom:30px}
+.login label,.otherOption label,.reset label,.registration label{display:block}
+.login [type="text"],.login [type="password"],.login [type="submit"],.login [type="button"],.login [type="email"],.otherOption [type="text"],.otherOption [type="password"],.otherOption [type="submit"],.otherOption [type="button"],.otherOption [type="email"],.reset [type="text"],.reset [type="password"],.reset [type="submit"],.reset [type="button"],.reset [type="email"],.registration [type="text"],.registration [type="password"],.registration [type="submit"],.registration [type="button"],.registration [type="email"]{width:220px}
+.login [type="submit"],.otherOption [type="submit"],.reset [type="submit"],.registration [type="submit"]{margin-right:20px}
+.login .benefits,.otherOption .benefits,.reset .benefits,.registration .benefits{padding:0 0 0 10px}
+.login dd,.otherOption dd,.reset dd,.registration dd{margin:0}
+.login .mandatory,.login .star,.otherOption .mandatory,.otherOption .star,.reset .mandatory,.reset .star,.registration .mandatory,.registration .star{color:red}
+.registration dl{overflow:hidden}
+.registration dt,.registration dd{display:block;margin:5px 0;float:left}
+.registration dt{width:300px;text-align:right;padding-right:10px}
+.registration dd{width:600px}
+.registration dd span{margin-left:10px;font-size:11px}
+.registration #jform_spacer-lbl{font-size:11px}
+.registration div{margin-left:300px}
+.registration div a{margin-left:10px}
+.login-fields{margin-bottom:10px}
+.login-fields.inline label{display:inline-block}
+.login-fields.inline [type="checkbox"]{vertical-align:middle}
+.contact{border:1px solid #ccc;padding:20px;margin-bottom:30px}
+.contact dd{margin-left:0;margin-bottom:10px}
+.contact h3{display:none}
+.contact legend{font-size:11px}
+.contact label{line-height:24px;font-size:14px}
+.contact [type="text"],.contact [type="email"],.contact textarea{width:400px}
+.big-blue{color:#1467b6;font-size:16px}
+.border-dashed{border-bottom:1px dashed #707070}
+#system-message{background-color:#ff4c4c;border-bottom:2px solid red;border-top:2px solid red;color:white;text-shadow:0 1px solid #e50000;padding:10px}
+#system-message dt,#system-message ul,#system-message dd,#system-message li{margin:0;padding:0}
+.fila_resultado_planes{border:1px solid #ccc;margin:10px 0;padding:10px;text-align:left !important}
+.fila_resultado_planes .foto_dispo_plan{padding-right:10px;width:150px}
+.fila_resultado_planes td{vertical-align:top}
+.fila_resultado_planes h2{margin:0 0 10px}
+.tarifas_vuelos{text-align:center}
+.tarifas_vuelos .precio_tarifas_vuel{font-size:20px;font-weight:bold}
+.conte_info_plan{margin-top:10px}
+.conte_info_plan ul.tabs{width:100%}
+.conte_plan{border:1px solid #ccc;padding:10px}
+.conte_plan .tab_container{float:none;width:100%}
+.conte_plan .tab_container .tab_content{width:100% !important;min-width:1px}
+.top_zona_verde{font-weight:bold;font-size:20px;line-height:32px}
+.ciudad_pais_precio_plan{font-size:11px;margin-bottom:10px}
+.descripcion_corta_plan,.conte_slider_fotos{margin-bottom:10px}
+#conte_form_reserva_plan td{padding-bottom:10px}
+#box-page{background-color:white;border-radius:15px 15px 0 0;box-shadow:0 8px 8px rgba(0,0,0,0.3);margin:0 auto;padding-bottom:10px;width:1000px}
+#box-header,#box-top-a,#box-top-bc,#box-bottom-bc,#box-bottom-a{margin-bottom:20px}
+#box-menu-tools{font-size:11px}
+#menu-tools{text-align:right}
+#menu-tools>*{display:inline-block}
+#menu-tools .menu{list-style:none;margin:15px 0;padding:0}
+#menu-tools .menu li{display:inline-block}
+#menu-tools .menu li:hover a,#menu-tools .menu li.active a{text-decoration:underline}
+#menu-tools .menu li:first-child a{border-left:none;padding-left:0}
+#menu-tools .menu a{border-left:1px solid #333;color:#333;display:block;padding:0 10px;text-decoration:none}
+#menu-tools img{vertical-align:middle}
+#menu{background-color:#fff110;margin-left:-10px;padding:0 20px;width:1000px}
+#menu .menu{list-style:none;margin:0;padding:0}
+#menu .menu li{display:inline-block;font-size:15px;line-height:36px;position:relative}
+#menu .menu li.parent ul{background-color:#fff110;box-shadow:0 10px 12px rgba(0,0,0,0.3);display:none;left:0;margin:0;padding:0;position:absolute;width:180px;z-index:10}
+#menu .menu li.parent li{border-bottom:1px solid #333;display:block;padding:0 10px}
+#menu .menu li.parent li:last-child{border:none}
+#menu .menu li.parent li a{border:none;padding:0;text-decoration:none}
+#menu .menu li.parent li a:hover,#menu .menu li.parent li a.active{text-decoration:underline}
+#menu .menu li.parent:hover ul{display:block}
+#menu .menu li:hover a,#menu .menu li.active a{text-decoration:underline; font-weight:bold}
+#menu .menu li.active a{color:#1467b6}
+#menu .menu li:first-child a{border-left:none;padding:0 10px 0 0}
+#menu .menu li a{border-left:1px solid #333;color:#333;padding:0 10px;text-decoration:none}
+#info{color:#707070;line-height:24px;text-align:right}
+#info img{vertical-align:middle}
+#logo{line-height:0}
+#box-footer{background-color:#f5f5f5;border-top:10px solid #fff110;font-size:11px;border-bottom:1px dashed #ccc}
+#menu-footer .menu{list-style:none;margin:15px 0;padding:0}
+#menu-footer .menu li{display:inline-block}
+#menu-footer .menu li:hover a,#menu-footer .menu li.active a{text-decoration:underline}
+#menu-footer .menu li:first-child a{border-left:none;padding-left:0}
+#menu-footer .menu a{border-left:1px solid #666;color:#666;display:block;padding:0 10px;text-decoration:none}
+#footer p:first-child{margin-top:0}
+#browsehappy{position:absolute;width:100%;height:100%;background:#ddf9ff;z-index:10000000000000000000}
+#title-header-aws{background-color:#1467b6;color:white;display:none;font-size:16px;line-height:40px;margin:0 auto 10px;padding:0 10px}
+#title-header-aws #from,#title-header-aws #to{color:#fff110}
+#aaws-qs-top{background:none;color:#333;margin-bottom:20px;padding:0;width:100%}
+#quick-search-in{overflow:hidden;width:100%}
+#quick-search-in .ui-tabs-nav{border-bottom:5px solid #1467b6;border-radius:0;width:100%;padding-left:10px}
+#quick-search-in .ui-tabs-nav li{background:none;background-color:#fff110;border:none;display:inline-block;line-height:25px;padding:0 10px}
+#quick-search-in .ui-tabs-nav li.ui-state-active{background-color:#1467b6}
+#quick-search-in .ui-tabs-nav li.ui-state-active a{color:white}
+#quick-search-in .ui-tabs-nav li a{color:#1467b6}
+#quick-search-in [id*="tab-"]{background-color:#ebebeb;border-radius:0 0 10px 10px;padding:10px}
+#quick-search-in [id*="tab-"] .m-title{border-bottom:1px dashed #ccc}
+#quick-search-in [id*="tab-"] .options{width:100%}
+#quick-search-in [id*="tab-"] .options li{display:block;margin:0}
+#quick-search-in [id*="tab-"] .advanced .hours,#quick-search-in [id*="tab-"] .advanced .clase,#quick-search-in [id*="tab-"] .advanced .airline,#quick-search-in [id*="tab-"] .advanced .stops{float:none;margin:10px 0 0}
+#quick-search-in [id*="tab-"] [type="radio"]{float:left;margin-right:6px;margin-top:2px;vertical-align:middle}
+#quick-search-in [id*="tab-"] .cities select,#quick-search-in [id*="tab-"] .cities [type="text"],#quick-search-in [id*="tab-"] .passengers select,#quick-search-in [id*="tab-"] .passengers [type="text"]{background:white;border:1px solid #ccc;height:25px;margin:0;padding:4px;width:203px}
+#quick-search-in [id*="tab-"] .cities label,#quick-search-in [id*="tab-"] .passengers label{margin:0;overflow:hidden}
+#quick-search-in [id*="tab-"] .cities label .qs-name,#quick-search-in [id*="tab-"] .passengers label .qs-name{float:left;margin-right:6px}
+#quick-search-in [id*="tab-"] .dates{width:100%}
+#quick-search-in [id*="tab-"] .dates>div{width:100%}
+#quick-search-in [id*="tab-"] .dates label{width:100px}
+#quick-search-in [id*="tab-"] .dates img{right:0px;top:4px}
+#quick-search-in [id*="tab-"] .dates [type="text"]{width:80px}
+#quick-search-in [id*="tab-"] .passengers{width:204px}
+#quick-search-in [id*="tab-"] .passengers select{width:50px}
+#quick-search-in [id*="tab-"] .passengers label{height:40px}
+#quick-search-in [id*="tab-"] .passengers .field{width:68px}
+#quick-search-in [id*="tab-"] .passengers label{display:block}
+#quick-search-in [id*="tab-"] [type="submit"]{background-color:#1467b6;background-image:url(../images/btn-arw-r.png);background-position:100% 50%;background-repeat:no-repeat;border:none;border-radius:6px;color:white;display:inline-block;margin-top:10px;padding:6px 24px 6px 12px;text-align:center;width:100%}
+#quick-search-in [id*="tab-"] [type="submit"]:hover{background-color:#105291;background-position:100% 50%}
+#availability_main{margin-left:-10px;width:980px}
+#availability_main #left-container{width:100%}
+#availability_main #left-container #filters{background-color:white;border:1px solid #ccc;border-radius:10px;padding:10px;width:100%}
+#availability_main #left-container #filters h3.title{color:#1467b6;border-bottom:1px dashed #ccc;line-height:30px}
+#availability_main #left-container #filters>div{border:none}
+#availability_main #left-container #filters>div h4{background-color:#fff110;border-radius:0;color:#333;font-size:13px;line-height:24px;padding:0 10px}
+#availability_main #left-container #filters>div .jui-slider{width:190px}
+#availability_main #left-container #filters .jui-slider .ui-slider-handle{background:url(../images/slide-ctrl.png) no-repeat scroll 0 0 rgba(0,0,0,0);height:20px;width:14px}
+#availability_header{margin-bottom:0}
+#availability_header .als-container-stops{display:none}
+#availability_header #airlines{height:auto;width:100%}
+#availability_header #airlines .als-container{background-color:#ebebeb;border:none;border-radius:10px;height:auto;padding:4px 0;width:100%}
+#availability_header #airlines .als-prev,#availability_header #airlines .als-next{border:none;height:26px;top:50%;margin-top:-13px;width:26px}
+#availability_header #airlines .als-prev{background:url(../images/btn-sld-l.png) 0 0 no-repeat;left:5px}
+#availability_header #airlines .als-next{background:url(../images/btn-sld-r.png) 0 0 no-repeat;right:5px}
+#availability_header #airlines .als-viewport{overflow:hidden;width:650px !important}
+#availability_header #airlines .als-wrapper{width:70000px;overflow:hidden}
+#availability_header #airlines .als-item{background-color:#1467b6;border:none;border-radius:6px;color:white;margin:0 2px;padding:5px;width:126px}
+#availability_header #airlines .als-item .icon{border-radius:4px}
+#availability_header #airlines .als-item [class*="stops-"]{border-top:1px dashed white;text-align:right}
+#availability_header #airlines .als-item .stops-0{border-top:none}
+#availability_header #airlines .als-item .stops-0:before{content:"Directo";float:left;color:#89b3da}
+#availability_header #airlines .als-item .stops-1:before{content:"1 escala";float:left;color:#89b3da}
+#availability_header #airlines .als-item .stops-2:before{content:"2 escalas";float:left;color:#89b3da}
+#availability_header #airlines .all-airlines{background:none;color:#333;font-weight:normal;text-align:left;text-decoration:underline}
+#availability_header #airlines .all-airlines:hover{color:#1467b6}
+#availability_header #availability-title{display:none}
+#right-container #recommendations{float:none;width:100%}
+#right-container #recommendations .recommendation{border-radius:10px;margin:0 0 20px;width:100%}
+#right-container #recommendations [type="radio"]{margin-right:6px;vertical-align:middle}
+#right-container #recommendations .segment-header.go .icon,#right-container #recommendations .segment-header.multiply .icon{background:url(../images/btn-ida.png) 0 0 no-repeat;display:inline-block;height:23px;overflow:hidden;text-indent:-100px;width:94px}
+#right-container #recommendations .segment-header.return .icon{background:url(../images/btn-regreso.png) 0 0 no-repeat;display:inline-block;height:24px;overflow:hidden;text-indent:-100px;width:106px}
+#right-container #recommendations .values{background:#fff110;border-radius:6px;color:#1467b6}
+#right-container #recommendations .values .total{background:none;border-bottom:1px solid #1467b6;color:#1467b6;float:none;left:0;height:auto;padding:10px 0;width:100%}
+#right-container #recommendations .values .total .label{display:block;float:none}
+#right-container #recommendations .values .total .value{float:none}
+#right-container #recommendations .fare_taxes{color:#105291;font-size:13px !important;margin-bottom:20px}
+#right-container #recommendations .fare_taxes .fare{color:#105291;font-size:13px !important}
+#right-container #recommendations .fare_taxes .value{font-weight:bold}
+#right-container #recommendations [type="submit"]{background-color:#1467b6;background-image:url(../images/btn-arw-r.png);background-position:100% 50%;background-repeat:no-repeat;border:none;border-radius:6px;color:white;display:inline-block;padding:6px 24px 6px 12px;text-align:center}
+#right-container #recommendations [type="submit"]:hover{background-color:#105291}
+#right-container #recommendations .flights>div{overflow:hidden}
+#right-container #recommendations .flight-detail{margin:20px 0;width:100% !important}
+#right-container #recommendations .flight-detail .activa{border:none}
+#right-container #recommendations .flight-detail .activa a{background-image:none}
+#right-container #recommendations .flight-detail .contenedor_tab{border:none;position:relative;width:100%}
+#right-container #recommendations .flight-detail .contenedor_tab .map_canvas,#right-container #recommendations .flight-detail .contenedor_tab [id="tab-mapa"]{height:300px !important;width:445px !important}
+#right-container #recommendations .flight-detail .contenedor_tab .close{border-radius:50%;height:20px;padding:0;right:10px;top:-33px;width:20px;z-index:100}
+#passenger_main{font-size:13px !important;margin:0 auto;width:100%}
+#passenger_main #r-container{width:660px}
+#passenger_main #r-container [type="radio"]{margin-right:10px}
+#passenger_main #resume-flight{width:280px}
+#passenger_main #resume-flight .fare_taxes .fare,#passenger_main #resume-flight .fare_taxes .taxes,#passenger_main #resume-flight .fare_taxes .fee{line-height:28px !important;height:28px}
+#passenger_main #resume-flight .fare_taxes .total{padding:12px 19px 0}
+#passenger_main #resume-flight .fare_taxes .total .coin,#passenger_main #resume-flight .fare_taxes .total .coinSimbol,#passenger_main #resume-flight .fare_taxes .total .value{margin:0}
+#passenger_main #resume-flight .fare_taxes .label{width:auto !important;padding:0}
+#passenger_main .fare_taxes .total{width:290px}
+#passenger_main .flight-detail.positioned{float:none;left:50% !important;margin-left:-236px;margin-top:-60px;position:fixed;top:50% !important;width:472px}
+#passenger_main .flight-detail .close{border-radius:50%;line-height:12px;height:20px;width:20px}
+#passenger_main .flight-detail .segment-detail span{float:none}
+#restrictions.modal.modalAir{margin-top:-250px;position:fixed;top:50% !important}
+#restrictions [role="tab"]{overflow:hidden}
+.resume-flight{float:none;position:absolute;right:30px;top:0;z-index:10}
+#resume-order{overflow:hidden;min-height:1220px}
+#tos{position:fixed !important;top:50% !important;margin-top:-250px !important}
+#quick-search .ui-tabs-nav{border-bottom:5px solid #1467b6;border-radius:0}
+#quick-search .ui-tabs-nav li{background:none;background-color:#fff110;border:none;display:inline-block;line-height:25px;padding:0 10px}
+#quick-search .ui-tabs-nav li.ui-state-active{background-color:#1467b6}
+#quick-search .ui-tabs-nav li.ui-state-active a{color:white}
+#quick-search .ui-tabs-nav li a{color:#1467b6}
+#quick-search [id*="tab-"]{background-color:#fff110;border-radius:0 0 10px 10px;padding:20px}
+#quick-search [id*="tab-"] ul{margin:0;padding:0;list-style:none}
+#quick-search [id*="tab-"] li{display:inline-block}
+#quick-search [id*="tab-"] label{display:block}
+#quick-search [id*="tab-"] select,#quick-search [id*="tab-"] [type="text"]{background:white;border:1px solid #ccc;height:25px;margin:0;padding:4px;width:200px}
+#quick-search [id*="tab-"] [type="radio"]{vertical-align:middle}
+#quick-search [id*="tab-"] .m-title{border-bottom:2px solid #333;font-weight:bold;line-height:24px;margin-bottom:6px}
+#quick-search [id*="tab-"] .options{margin-bottom:20px}
+#quick-search [id*="tab-"] .options li{margin-left:60px}
+#quick-search [id*="tab-"] .options li:first-child{margin-left:0}
+#quick-search [id*="tab-"] .options label{display:inline-block}
+#quick-search [id*="tab-"] .cities,#quick-search [id*="tab-"] .dates,#quick-search [id*="tab-"] .airline-box{height:43px;margin-bottom:15px}
+#quick-search [id*="tab-"] .cities>div,#quick-search [id*="tab-"] .dates>div,#quick-search [id*="tab-"] .airline-box>div{display:inline-block !important;vertical-align:top;width:200px}
+#quick-search [id*="tab-"] .cities>div:first-child,#quick-search [id*="tab-"] .dates>div:first-child,#quick-search [id*="tab-"] .airline-box>div:first-child{margin-right:20px}
+#quick-search [id*="tab-"] .dates [type="text"]{width:160px}
+#quick-search [id*="tab-"] .dates img{margin-left:5px;vertical-align:top}
+#quick-search [id*="tab-"] .passengers{border-top:1px dashed white;margin-top:30px;padding:20px 0}
+#quick-search [id*="tab-"] .passengers .field{display:inline-block}
+#quick-search [id*="tab-"] .passengers label{display:inline-block;vertical-align:middle}
+#quick-search [id*="tab-"] .passengers label span.qs-name{font-size:12px}
+#quick-search [id*="tab-"] .passengers label span{display:block;font-size:10px}
+#quick-search [id*="tab-"] .passengers select{width:46px}
+#quick-search [id*="tab-"] .button{text-align:right}
+.ui-autocomplete{background:white;border:1px solid #ccc;list-style:none;margin:0;padding:10px;width:220px}
+.ui-autocomplete li{border-bottom:1px dashed #ccc;padding:6px 0}
+.ui-autocomplete a{border:none !important;color:#333;font-weight:normal !important}
+.ui-autocomplete a:hover{color:#1467b6}
+#ui-datepicker-div{z-index:10 !important}
+.theme-tuagencia{height:375px;margin-top:25px;overflow:hidden}
+.theme-tuagencia [class*="slider-"]{height:370px !important;width:470px !important}
+.theme-tuagencia .nivo-controlNav{bottom:10px;position:absolute;right:10px}
+.theme-tuagencia .nivo-controlNav>a{background-color:rgba(255,255,255,0.7);border:1px solid #ccc;display:inline-block;line-height:20px;margin:0 1px;text-align:center;width:18px}
+[class*="moduletable"]>h3{color:#1467b6;font-size:16px;line-height:24px;margin:0;padding:4px}
+[class*="moduletable"].box-dashed>div{border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;padding:10px 0;position:relative}
+[class*="moduletable"].box-dashed>div:before,[class*="moduletable"].box-dashed>div:after{background-color:white;content:" ";height:4px;position:absolute;width:60px;z-index:2}
+[class*="moduletable"].box-dashed>div:before{right:0;top:-2px}
+[class*="moduletable"].box-dashed>div:after{left:0;bottom:-2px}
+#discount-flights{border:1px solid #ccc;border-radius:10px;padding:10px}
+#discount-flights .tabs{list-style:none;margin:0;padding:0;text-align:right}
+#discount-flights .tabs li{display:inline-block}
+#discount-flights .tabs li.activa a{background-color:#1467b6}
+#discount-flights .tabs a{background-color:#5a94cb;border-radius:4px;color:white;display:block;font-size:11px;padding:4px 8px}
+#discount-flights .contenedor_tab{padding:0 10px 10px}
+#discount-flights .contenedor_tab h4{border-bottom:1px dashed #ccc;line-height:20px;margin:0 0 10px}
+#discount-flights .contenedor_tab .journey{overflow:hidden}
+#discount-flights .contenedor_tab .journey .cities{float:left}
+#discount-flights .contenedor_tab .journey .price{color:#1467b6;float:right;font-weight:bold}
+#discount-flights .contenedor_tab .journey .from{color:#333;font-size:11px;font-weight:normal}
+#discount-flights .contenedor_tab .destination{margin-top:20px}
+#discount-flights .contenedor_tab .destination:first-child{margin-top:0}
+.jcarousel-skin-planes .jcarousel-container-horizontal{width:100% !important;height:auto !important}
+.jcarousel-skin-planes .jcarousel-prev-horizontal{top:-26px !important;right:30px !important;z-index:100}
+.jcarousel-skin-planes .jcarousel-next-horizontal{top:-26px !important;z-index:100}
+.jcarousel-skin-planes .jcarousel-clip-horizontal{width:100% !important;height:auto !important}
+.jcarousel-skin-planes .jcarousel-item{height:auto !important}
+.jcarousel-skin-planes .jcarousel-item .vm-image{overflow:hidden}
+.jcarousel-skin-planes .jcarousel-item .vm-title{font-family:sans-serif !important;color:#1467b6 !important;height:auto !important;margin-bottom:0 !important;font-style:italic}
+.jcarousel-skin-planes .jcarousel-item .vm-price{text-align:left !important}
+.jcarousel-skin-planes .jcarousel-item .vm-price a{display:inline-block !important;width:auto !important;height:auto !important;padding:4px 12px !important;border-radius:4px;font-size:11px}
+#productSaveCatalog .ui-datepicker-trigger{margin-left:4px;}
+#productSaveCatalog .campo_form_plan_big{width:90%;}
+#productSaveCatalog .campo_form_plan_fecha{width:80%;}
+input#conditions,input#continue-button{margin-right:6px;}
+.tarifas_vuelos{text-align:left}
+.fila_resultado_planes,.tarifas_vuelos{overflow:hidden;}
+#cp_details{width:225px;text-align:center;float:right;}
+#resume-flight .ui-tabs-vertical .ui-tabs-panel{height:400px;}
+#resume-flight .modalAir h2{padding:10px;}
+#resume-flight .modalAir .closeBtn{border:1px solid gray;background:white;border-radius:50%;color:gray;padding:0 !important;line-height:20px;width:20px !important;text-align:center;right:0 !important;top:10px !important;}
+#resume-flight .modalAir .closeBtn:before{content:"X"}
+#recommendations .flights .segment-header .detail{font-size:12px;}
+.resume-flight{width:400px;}
+#searchOrders td,#searchOrders th{padding:10px;}
+#searchOrders td:last-child,#searchOrders th:last-child{width:4% !important;}
+#searchOrders .button{float:right;}
+.adminlist th{width:14% !important;}
+#resume-flights:after{content:"";clear:both;display:table;}
+.precio_tarifas_vuelos{font-size:20px;font-weight:bold;}
+.ciudad_pais_plan, .descripcion_corta_plan, .precio_plan strong{font-size:14px;font-weight:normal;}
+
+body {margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; text-align: left; font-size: 14px; -webkit-text-size-adjust: 100%; }
+form {margin: 0px; padding: 0px; border: 0px;}
+.verdana100FFFFFFt {font-family: Verdana, Geneva, sans-serif; font-size: 13px; color: #000000; text-decoration: none;}
+.palatinolinotype24FF2222FFFFFFtb {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 32px; color: #2222FF; font-weight: bold; text-decoration: none;}
+.palatinolinotype18FF2222FFFFFFtb {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 24px; color: #2222FF; font-weight: bold; text-decoration: none;}
+.tahoma120FFFFFFtb {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #000000; font-weight: bold; text-decoration: none;}
+.tahoma12C00000FFFFFFtb {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #0000C0; font-weight: bold; text-decoration: none;}
+.tahoma160FFFFFFt {font-family: Tahoma, Geneva, sans-serif; font-size: 21px; color: #000000; text-decoration: none;}
+.tahoma120FFFFFFt {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #000000; text-decoration: none;}
+.verdana100fffffft {font-family: Verdana, Geneva, sans-serif; font-size: 13px; color: #000000; text-decoration: none;}
+.palatinolinotype24FF2222fffffftb {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 32px; color: #2222FF; font-weight: bold; text-decoration: none;}
+.palatinolinotype18FF2222fffffftb {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 24px; color: #2222FF; font-weight: bold; text-decoration: none;}
+.tahoma120fffffftb {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #000000; font-weight: bold; text-decoration: none;}
+.tahoma12C00000fffffftb {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #0000C0; font-weight: bold; text-decoration: none;}
+.tahoma160fffffft {font-family: Tahoma, Geneva, sans-serif; font-size: 21px; color: #000000; text-decoration: none;}
+.tahoma120fffffft {font-family: Tahoma, Geneva, sans-serif; font-size: 16px; color: #000000; text-decoration: none;}
+#contenedorr7 { 
+border-radius:7px; 
+-moz-border-radius:7px; /* Firefox */ 
+-webkit-border-radius:7px; /* Safari y Chrome */
+}

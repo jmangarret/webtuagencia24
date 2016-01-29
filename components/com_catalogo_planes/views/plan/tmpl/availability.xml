@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Disponibilidad">
+		<message>
+			<![CDATA[Plantilla de presentacion de disponibilidad de planes]]>
+		</message>
+	</layout>
+	<state>
+		<name>Disponibilidad de planes</name>
+		<description>Plantilla de presentacion de disponibilidad de planes</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param name="city" type="City" default=""
+				label="CP.CONFIG.PLAN.CITY.LABEL" description="CP.CONFIG.PLAN.CITY.DESCRIPTION"
+				product="plan" />
+			<param name="tourismtype" type="TourismType" default=""
+				label="CP.CONFIG.PLAN.TOURISMTYPE.LABEL" description="CP.CONFIG.PLAN.CATEGORY.DESCRIPTION"
+				product="plan" />
+			<param name="date_start" type="Calendar" default=""
+				label="CP.CONFIG.PLAN.DATESTART.LABEL" description="CP.CONFIG.PLAN.DATESTART.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

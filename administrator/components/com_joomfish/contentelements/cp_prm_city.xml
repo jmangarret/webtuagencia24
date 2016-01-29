@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Ciudad</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Ciudad</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference type="content">
+    <table name="cp_prm_city">
+        <field type="referenceid" name="city_id" translate="0">ID</field>
+        <field type="titletext" name="city_name" translate="1">Nombre</field>
+    </table>
+  </reference>
+  <translationfilters>
+      <keyword>city_name</keyword>
+      <published>published</published>
+  </translationfilters>
+</joomfish>

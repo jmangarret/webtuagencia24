@@ -1,0 +1,56 @@
+.reservationinfo {
+    background: url("../images/gray_bg.jpg") repeat-x scroll center top #FAFAFA;
+    border: 1px solid #A3A49E;
+    color: #323232;
+    width: 100%;
+	max-width:220px;
+}
+
+.reservationinfo .hotelinfo{
+	padding: 0 5px 0 10px;
+}
+.reservationinfo h3{
+	margin: 8px 10px;
+}
+
+.reservationinfo .hoteltitle h2{
+    font-size: 14px !important;
+   
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    display: block;
+}
+.reservationinfo .hoteltitle h2 a { 
+ 	color: #111;
+}
+
+.reservationinfo .hoteladdress{
+	margin-bottom: 10px;
+}
+.reservationinfo .hotelimage{
+	width: 100%;
+}
+.reservationinfo .hotelinfo:hover{
+	background: none;
+}
+
+.reservationinfo  .hotelcontent{
+	margin-left: 0;
+	width: 100%;
+}
+
+.reservationinfo  .cost-info{
+	margin: 15px 0;
+}
+
+
+.reservationinfo table{
+	width: 100%;
+}
+
+td.price{
+	width: 45px;
+	white-space:nowrap;
+	text-align: right;
+}

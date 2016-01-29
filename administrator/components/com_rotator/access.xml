@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access component="com_rotator">
+    <section name="component">
+        <action name="core.manage.rotator" title="JACTION_MANAGE_ROTATOR" description="JACTION_MANAGE_ROTATOR_DESC" />
+        <action name="core.manage.banner" title="JACTION_MANAGE_BANNER" description="JACTION_MANAGE_BANNER_DESC" />
+    </section>
+</access>

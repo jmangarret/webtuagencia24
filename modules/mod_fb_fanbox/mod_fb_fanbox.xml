@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>FB Fanbox</name>
+	<author>codextension</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>Copyright (C) 2008 - 20013 by Codextension. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@codextension.com</authorEmail>
+	<authorUrl>codextension.com</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+		<style>
+			.jl_description h3{
+				text-transform: uppercase;
+	            margin: 20px 0px 10px 0px;
+			}
+			.jl_description img{
+				float:left;
+	            margin:5px 10px 5px 0px;
+				width:200px;
+			}
+			.jl_description p{			
+				margin:30px 0;
+				font-size:14px;
+				padding:2px;
+			}
+			.jl_description li{
+				padding:2px;
+				list-style: none outside none;
+				clear:both;
+			}
+			.jl_description ul.list-style li{
+				background:url(../modules/mod_fb_fanbox/images/tick.png) 0px 6px no-repeat;
+	            padding-left:30px;
+	            line-height:15px;
+			}
+		</style>
+		<div class="jl_description">
+			<h3>Facebook Fanbox</h3>
+			<img src="../modules/mod_fb_fanbox/images/fb-fanbox.png">
+			<p>
+				Simple and easy to use module that adds Facebook FanBox on your website. It uses a native Facebook code. Fast and easy for configuration.
+			</p>
+			<br clear="both" />
+			<h3>Features</h3>
+			<ul class="list-style">
+				<li>Show or hide the faces of people in the box.</li>
+				<li>Select renderer - iframe, xfbml, HTML5.</li> 
+				<li>Select color scheme - light or dark.</li> 
+				<li>Set width and height.</li> 
+				<li>Show and hide border.</li>
+				<li>Display or not the header.</li> 				
+			</ul>				
+			<h3>Upgrade versions</h3>
+			<p>Your current versions is 1.0. <a target="_blank" href="http://codextension.com">Find our latest versions now</a></p>
+			<h3>Userful links</h3>
+			<ul>
+				<li>Video tutorials</li>
+				<li>Report bug</li>
+			</ul>
+			<h3>About Codextension & copyright</h3>
+			<p>Codextension is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization </p>Copyright 2004 - 2011 <a target="_blank" href="http://codextension.com">http://codextension.com</a>
+		</div>]]>
+	</description>
+	<files>
+		<filename module="mod_fb_fanbox">mod_fb_fanbox.php</filename>
+		<filename module="mod_fb_fanbox">helper.php</filename>
+		<filename module="mod_fb_fanbox">index.html</filename>
+		<filename module="mod_fb_fanbox">tmpl/default.php</filename>
+		<filename module="mod_fb_fanbox">tmpl/index.html</filename>
+		<folder>images</folder>
+	</files>	
+	<params>
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="url" type="text" default="http://www.facebook.com/platform" label="Facebook Page URL" description="Facebook Page URL" />
+		<param name="width" type="text" default="292" label="Width" description="The width of the plugin in pixels." />
+		<param name="height" type="text" default="587" label="Height" description="The height of the plugin in pixels." />
+		<param name="color" type="list" default="0" label="Color Scheme">
+			<option value="0">Light</option>
+			<option value="1">Dark</option>
+		</param>
+		<param name="connections" type="text" default="10" label="Connections" description="Show a sample of this many users who have liked this page." />
+		<param name="stream" type="radio" default="1" label="Stream" description="Show/Hide the profile stream of the public profile.">
+			<option value="0">Hide stream</option>
+			<option value="1">Show stream</option>
+		</param>
+		<param name="header" type="radio" default="1" label="Header" description="Show/Hide the 'Find us on Facebook' bar at top. Only shown when either stream or connections are present.">
+			<option value="0">Hide Header</option>
+			<option value="1">Show Header</option>
+		</param>
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="url"
+					type="text"
+					label="Facebook Page URL" 
+					description="Facebook Page URL" 
+					default="http://www.facebook.com/platform"
+					size="50"/>		
+				<field
+					name="width"
+					type="text"
+					label="Width" 
+					description="The width of the plugin in pixels." 
+					default="292"
+					size="50"/>
+				<field
+					name="height"
+					type="text"
+					label="Height" 
+					description="The Height of the plugin in pixels." 
+					default="587"
+					size="50"/>	
+				<field
+					name="color"
+					type="list"
+					default="0"
+					label="Color Scheme"
+					description="Color Scheme">
+					<option value="0">Light</option>
+					<option value="1">Dark</option>
+				</field>
+				<field
+					name="connections"
+					type="text"
+					label="Connections" 
+					description="Show a sample of this many users who have liked this page." 
+					default="10"
+					size="50"/>			
+				<field
+					name="stream"
+					type="radio"
+					default="1"
+					label="Stream"
+					description="Show/Hide the profile stream of the public profile.">
+					<option
+						value="0">JNo</option>
+					<option
+						value="1">JYes</option>
+				</field>
+				<field
+					name="header"
+					type="radio"
+					default="1"
+					label="Header"
+					description="Show/Hide the 'Find us on Facebook' bar at top. Only shown when either stream or connections are present.">
+					<option
+						value="0">JNo</option>
+					<option
+						value="1">JYes</option>
+				</field>
+				
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

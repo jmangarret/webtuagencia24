@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Disponibilidad">
+		<message>
+			<![CDATA[Plantilla de presentacion de disponibilidad de hoteles]]>
+		</message>
+	</layout>
+	<state>
+		<name>Disponibilidad de hoteles</name>
+		<description>Plantilla de presentacion de disponibilidad de hoteles</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param name="city" type="City" default=""
+				label="CP.CONFIG.HOTEL.CITY.LABEL" description="CP.CONFIG.HOTEL.CITY.DESCRIPTION"
+				product="hotel" />
+			<param name="category" type="Category" default=""
+				label="CP.CONFIG.HOTEL.CATEGORY.LABEL" description="CP.CONFIG.HOTEL.CATEGORY.DESCRIPTION"
+				product="hotel" />
+			<param name="tourismtype" type="TourismType" default=""
+				label="CP.CONFIG.HOTEL.TOURISMTYPE.LABEL" description="CP.CONFIG.HOTEL.CATEGORY.DESCRIPTION"
+				product="hotel" />
+			<param name="date_start" type="Calendar" default=""
+				label="CP.CONFIG.HOTEL.DATESTART.LABEL" description="CP.CONFIG.HOTEL.DATESTART.DESCRIPTION" />
+			<param name="date_finish" type="text" default="1"
+				label="CP.CONFIG.HOTEL.DATEFINISH.LABEL" description="CP.CONFIG.HOTEL.DATESTART.DESCRIPTION" />
+			<param name="is_menu" type="hidden" default="1"
+				label="CP.CONFIG.HOTEL.DATEFINISH.LABEL" description="CP.CONFIG.HOTEL.DATESTART.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

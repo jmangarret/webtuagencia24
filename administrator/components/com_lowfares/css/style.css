@@ -1,0 +1,170 @@
+/**
+ * Este CSS es fijo, no se aplican mas estilos al componente que los definidos aqui.
+ * Igualmente la idea es que no se modifiquen, ya que no se requiere ajustar la
+ * presentacion del backen para el cliente
+ */
+.ui-widget-content {
+    border: 1px solid #ccc;
+}
+.ui-widget-content .ui-state-focus {
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #444;
+}
+ul.ui-autocomplete.ui-widget-content,ul.ui-autocomplete .ui-corner-all {
+    border-radius: 0;
+}
+ul.ui-autocomplete.ui-widget-content .country {
+    float: right;
+    margin-left: 20px;
+    color: #999;
+}
+ul.ui-autocomplete.ui-widget-content .subAllAirport {
+    margin-left: 10px;
+}
+.ui-autocomplete {
+    max-height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#departure ~ button {
+    height: 17px;
+    font-size: 10px;
+}
+
+/**
+ * CSS de la ventana del proceso
+ */
+#overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+#window-process {
+    position: fixed;
+    background: #fff;
+    height: 350px;
+    width: 600px;
+    top: 100px;
+    margin-left: 50%;
+    left: -300px;
+    z-index: 110;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#window-process h4 {
+    color: #146295;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    padding: 5px;
+    box-shadow: 0 3px 3px -2px #ccc;
+}
+#window-process .filters label {
+    font-weight: bold;
+    display: inline-block;
+    width: 65px;
+}
+#window-process .filters > div {
+    margin: 7px 0;
+}
+#window-process .category {
+    float: left;
+}
+#window-process .published {
+    float: right;
+}
+#window-process .itinerary {
+    clear: both;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 3px -2px #ccc;
+}
+#window-process .loader {
+    margin: 20px 0;
+}
+#window-process .loader .container {
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #95ccf1;
+    background: #e0f0fb;
+    height: 20px;
+    position: relative;
+}
+#window-process .loader .container.processing {
+    cursor: pointer;
+}
+#window-process .loader .container .progress-wrapper {
+    width: 496px;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+}
+#window-process .loader .container .progress {
+    height: 16px;
+    background: #77beed;
+    width: 0;
+    border-radius: 10px;
+    z-index: 5;
+}
+#window-process .loader .container .percent {
+    color: #111;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 10;
+    position: relative;
+}
+#window-process .log {
+    width: 500px;
+    height: 80px;
+    overflow-y: scroll;
+    margin: 0 auto 20px auto;
+    border: 1px solid #95ccf1;
+    background: #fefeff;
+}
+#window-process .log ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#window-process .log ul li {
+    padding: 2px 5px;
+}
+#window-process .log ul li:nth-child(2n) {
+    background: #f7f7f7;
+}
+#window-process .log ul li label.start {
+    font-weight: bold;
+}
+#window-process .log ul li label.ok {
+    color: #060;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#window-process .log ul li label.fail {
+    color: #d00;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#window-process .log ul li label.error {
+    padding-left: 15px;
+    display: block;
+}
+#window-process .button {
+    text-align: right;
+}
+#window-process .button input {
+    background: #1a80c2;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}

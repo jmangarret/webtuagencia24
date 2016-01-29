@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>MOD_AAWS_QS</name>
+    <author>Manuel Mora</author>
+    <creationDate>March 2013</creationDate>
+    <copyright>Amadeus</copyright>
+    <license>Amadeus</license>
+    <authorEmail>mams.827@gmail.com</authorEmail>
+    <version>2.5.0</version>
+    <description>MOD_AAWS_QS_DESC</description>
+
+    <files>
+        <filename module="mod_aaws_qs">mod_aaws_qs.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_aaws_qs.xml</filename>
+        <folder>airlines</folder>
+        <folder>cities</folder>
+        <folder>js</folder>
+        <folder>languages</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <languages folder="languages">
+        <language tag="en-GB">en-GB/en-GB.mod_aaws_qs.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_aaws_qs.sys.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_aaws_qs.ini</language>
+        <language tag="es-ES">es-ES/es-ES.mod_aaws_qs.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="GENERAL">
+                <field
+                    type="text"
+                    name="class_sfx"
+                    label="MOD_AAWS_CLASS_SFX_LABEL"
+                    description="MOD_AAWS_CLASS_SFX_DESC"/>
+                <field
+                    type="text"
+                    name="default_city"
+                    label="MOD_AAWS_DEFAULT_CITY_LABEL"
+                    description="MOD_AAWS_DEFAULT_CITY_DESC"/>
+                <field
+                    type="integer"
+                    name="multiple_max"
+                    default="3"
+                    first="3"
+                    last="6"
+                    step="1"
+                    label="MOD_AAWS_MULTIPLE_MAX_LABEL"
+                    description="MOD_AAWS_MULTIPLE_MAX_DESC"/>
+                  <field
+                    type="text"
+                    name="default_currency"
+                    label="MOD_AAWS_DEFAULT_CURRENCY_LABEL"
+                    description="MOD_AAWS_DEFAULT_CURRENCY_DESC"
+                    maxlength="3"/>
+            </fieldset>
+            <fieldset name="TABS">
+                <field
+                    type="spacer"
+                    label="MOD_AAWS_VISIBLE_TABS_LABEL"/>
+                <field
+                    type="integer"
+                    name="air_vsb"
+                    default="1"
+                    first="0"
+                    last="2"
+                    step="1"
+                    label="MOD_AAWS_AIR_VSB_LABEL"
+                    description="MOD_AAWS_AIR_VSB_DESC"/>
+                <field
+                    type="integer"
+                    name="hotel_vsb"
+                    default="2"
+                    first="0"
+                    last="2"
+                    step="1"
+                    label="MOD_AAWS_HOTEL_VSB_LABEL"
+                    description="MOD_AAWS_HOTEL_VSB_DESC"/>
+                <field
+                    type="spacer"
+                    label="MOD_AAWS_LABEL_TABS_LABEL"/>
+                <field
+                    type="text"
+                    name="air_lbl"
+                    label="MOD_AAWS_AIR_LBL_LABEL"
+                    description="MOD_AAWS_AIR_LBL_DESC"/>
+                <field
+                    type="text"
+                    name="hotel_lbl"
+                    label="MOD_AAWS_HOTEL_LBL_LABEL"
+                    description="MOD_AAWS_HOTEL_LBL_DESC"/>
+                <field
+                    type="spacer"
+                    label="MOD_AAWS_LINKS_TABS_LABEL"/>
+                <field
+                    type="text"
+                    name="hotel_lnk"
+                    label="MOD_AAWS_HOTEL_LNK_LABEL"
+                    description="MOD_AAWS_HOTEL_LNK_DESC"/>
+            </fieldset>
+            <fieldset name="CALENDAR">
+                <field
+                    type="text"
+                    name="offset_days"
+                    label="MOD_AAWS_OFFSET_DAYS_LABEL"
+                    description="MOD_AAWS_OFFSET_DAYS_DESC"/>
+                <field
+                    type="integer"
+                    name="months"
+                    first="1"
+                    last="3"
+                    step="1"
+                    label="MOD_AAWS_MONTHS_LABEL"
+                    description="MOD_AAWS_MONTHS_DESC"/>
+                <field
+                    type="text"
+                    name="format_date"
+                    default="dd/mm/yy"
+                    label="MOD_AAWS_FORMAT_DATE_LABEL"
+                    description="MOD_AAWS_FORMAT_DATE_DESC"/>
+            </fieldset>
+            <fieldset name="AUTOCOMPLETE">
+                <field
+                    type="list"
+                    name="ac_position"
+                    default="1"
+                    label="MOD_AAWS_AC_POSITION_LABEL"
+                    description="MOD_AAWS_AC_POSITION_DESC">
+                    <option value="1">MOD_AAWS_AUTOMATIC</option>
+                    <option value="2">MOD_AAWS_TOP</option>
+                    <option value="3">MOD_AAWS_BOTTOM</option>
+                    <option value="4">MOD_AAWS_LEFT</option>
+                    <option value="5">MOD_AAWS_RIGHT</option>
+                </field>
+            </fieldset>
+        	<fieldset name="PLANTILLA">
+			<field
+                    type="integer"
+                    name="qs_style"
+                    default="1"
+                    first="1"
+                    last="5"
+                    step="1"
+                    label="MOD_AAWS_QS_STYLE_LABEL"
+                    description="MOD_AAWS_QS_STYLE_DESC"/>
+        	</fieldset>
+<fieldset name="ORIGEN">
+			<field
+                    type="list"
+                    name="qs_origin"
+                    default="1"
+                    label="MOD_AAWS_QS_ORIGIN_LABEL"
+                    description="MOD_AAWS_QS_ORIGIN_DESC">
+                    <option value="1">IN_COMPLETE</option>
+                    <option value="2">IN_SELECT</option>
+             </field> 
+             <field
+                    type="text"
+                    name="local_country"
+                    label="MOD_AAWS_DEFAULT_COUNTRY_LABEL"
+                    description="MOD_AAWS_DEFAULT_COUNTRY_DESC"
+                    maxlength="2"/>
+        	</fieldset>
+        </fields>
+    </config>
+</extension>

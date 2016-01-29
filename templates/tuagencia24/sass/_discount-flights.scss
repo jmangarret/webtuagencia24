@@ -1,0 +1,69 @@
+#discount-flights {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px;
+
+	.tabs {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: right;
+
+		li {
+			display: inline-block;
+
+			&.activa {
+				a {
+					background-color: $color-blue;
+				}
+			}
+		}
+
+		a {
+			background-color: tint($color-blue,30%);
+			border-radius: 4px;
+			color: white;
+			display: block;
+			font-size: 11px;
+			padding: 4px 8px;
+		}
+	}
+
+	.contenedor_tab {
+		padding: 0 10px 10px;
+
+		h4 {
+			border-bottom: 1px dashed #ccc;
+			line-height: 20px;
+			margin: 0 0 10px;
+		}
+
+		.journey {
+			overflow: hidden;
+
+			.cities {
+				float: left;
+			}
+
+			.price {
+				color: $color-blue;
+				float: right;
+				font-weight: bold;
+			}
+
+			.from {
+				color: $color-base;
+				font-size: 11px;
+				font-weight: normal;
+			}
+		}
+
+		.destination {
+			margin-top: 20px;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}

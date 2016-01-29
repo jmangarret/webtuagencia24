@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component_parameters" label="COM_CP_CONFIGURATION_PARAMETERS_TAB_LABEL" description="COM_CP_CONFIGURATION_PARAMETERS_TAB_DESCRIPTION">
+        <field name="cfg_currency" type="text" default="COP" menu="hide" label="COM_CP_CURRENCY_LABEL" description="COM_CP_CURRENCY_DESC" />
+        <field name="cfg_no_image_url" type="text" default="components/com_cp/assets/images/no_image.gif" menu="hide" label="COM_CP_NO_IMAGE_URL" description="COM_CP_NO_IMAGE_URL_DESC" />
+        <field name="cfg_gallery_width" type="text" default="100%" menu="hide" label="COM_CP_GALLERY_WIDHT_LABEL" description="COM_CP_GALLERY_WIDTH_DESCRIPTION" />
+        <field name="cfg_gallery_height" type="text" default="300px" menu="hide" label="COM_CP_GALLERY_HEIGHT_LABEL" description="COM_CP_GALLERY_HEIGHT_DESCRIPTION" />
+	</fieldset>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" validate="rules" filter="rules" component="com_contact" section="component" />
+	</fieldset>
+</config>

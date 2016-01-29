@@ -1,0 +1,167 @@
+#quick-search {
+	.ui-tabs-nav {
+		border-bottom: 5px solid $color-blue;
+		border-radius: 0;
+		li {
+			background: none;
+			background-color: $color-yellow;
+			border: none;
+			display: inline-block;
+			line-height: 25px;
+			padding: 0 10px;
+
+			&.ui-state-active {
+				background-color: $color-blue;
+
+				a {
+					color: white;
+				}
+			}
+
+			a {
+				color: $color-blue;
+			}
+		}
+	}
+	
+	[id*="tab-"] {
+		background-color: $color-yellow;
+		border-radius: 0 0 10px 10px;
+		padding: 20px;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		li {
+			display: inline-block;
+		}
+
+		label {
+			display: block;
+		}
+
+		select,
+		[type="text"] {
+			background: white;
+			border: 1px solid #ccc;
+			height: 25px;
+			margin: 0;
+			padding: 4px;
+			width: 200px;
+		}
+
+		[type="text"] {
+		}
+
+		[type="radio"] {
+			vertical-align: middle;
+		}
+
+		.m-title {
+			border-bottom: 2px solid $color-base;
+			font-weight: bold;
+			line-height: 24px;
+			margin-bottom: 6px;
+		}
+
+		.options {
+			margin-bottom: 20px;
+
+			li {
+				margin-left: 60px;
+
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+
+			label {
+				display: inline-block;
+			}
+		}
+
+		.cities,
+		.dates,
+		.airline-box {
+			height: 43px;
+			margin-bottom: 15px;
+
+			&>div {
+				display: inline-block !important;
+				vertical-align: top;
+				width: 200px;
+
+				&:first-child {
+					margin-right: 20px;
+				}
+			}
+		}
+
+		.dates {
+			[type="text"] {
+				width: 160px;
+			}
+			img {
+				margin-left: 5px;
+				vertical-align: top;
+			}
+		}
+
+		.passengers {
+			border-top: 1px dashed white;
+			margin-top: 30px;
+			padding: 20px 0;
+
+			.field {
+				display: inline-block;
+			}
+			label {
+				display: inline-block;
+				vertical-align: middle;
+				
+				span {
+					display: block;
+					font-size: 10px;
+				}
+			}
+			select {
+				width: 40px;
+			}
+		}
+
+		.button {
+			text-align: right;
+		}
+	}
+}
+
+.ui-autocomplete {
+	background: white;
+	border: 1px solid #ccc;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	width: 220px;
+
+	li {
+		border-bottom: 1px dashed #ccc;
+		padding: 6px 0;
+	}
+
+	a {
+		border: none !important;
+		color: $color-base;
+		font-weight: normal !important;
+
+		&:hover {
+			color: $color-blue;
+		}
+	}
+}
+
+#ui-datepicker-div {
+	z-index: 10 !important;
+}

@@ -1,0 +1,559 @@
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> initializeUserData 
+2015-12-03 5:39:07 - DEBUG --> UserData first: N; 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> createUserData 
+2015-12-03 5:39:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> initializeUserData 
+2015-12-03 5:39:07 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 5:39:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> initializeReservationData 
+2015-12-03 5:39:07 - DEBUG --> UserData: a:0:{} 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> updateUserData 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> getUserData 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> setCurrency 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> getUserData 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> getUserData 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 5:39:07 - DEBUG --> getUserData 
+2015-12-03 5:39:07 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 5:39:07 - DEBUG --> Accedió 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> initializeUserData 
+2015-12-03 7:03:03 - DEBUG --> UserData first: N; 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> createUserData 
+2015-12-03 7:03:03 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> initializeUserData 
+2015-12-03 7:03:03 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:03:03 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> initializeReservationData 
+2015-12-03 7:03:03 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> updateUserData 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> getUserData 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> setCurrency 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> getUserData 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> getUserData 
+2015-12-03 7:03:03 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:03:03 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData first: N; 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> createUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeReservationData 
+2015-12-03 7:11:06 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> updateUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> setCurrency 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData first: N; 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> createUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeUserData 
+2015-12-03 7:11:06 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> initializeReservationData 
+2015-12-03 7:11:06 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> updateUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> setCurrency 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:06 - DEBUG --> getUserData 
+2015-12-03 7:11:06 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 7:11:06 - DEBUG --> Accedió 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> initializeUserData 
+2015-12-03 7:11:07 - DEBUG --> UserData first: N; 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> createUserData 
+2015-12-03 7:11:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> initializeUserData 
+2015-12-03 7:11:07 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:11:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> initializeReservationData 
+2015-12-03 7:11:07 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> updateUserData 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> getUserData 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> setCurrency 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> getUserData 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> getUserData 
+2015-12-03 7:11:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:11:07 - DEBUG --> getUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> initializeUserData 
+2015-12-03 7:15:40 - DEBUG --> UserData first: N; 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> createUserData 
+2015-12-03 7:15:40 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> initializeUserData 
+2015-12-03 7:15:40 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:15:40 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> initializeReservationData 
+2015-12-03 7:15:40 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> updateUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> getUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> setCurrency 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> getUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> getUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:15:40 - DEBUG --> getUserData 
+2015-12-03 7:15:40 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 7:15:40 - DEBUG --> Accedió 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> initializeUserData 
+2015-12-03 7:47:12 - DEBUG --> UserData first: N; 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> createUserData 
+2015-12-03 7:47:12 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> initializeUserData 
+2015-12-03 7:47:12 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:47:12 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> initializeReservationData 
+2015-12-03 7:47:12 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> updateUserData 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> getUserData 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> setCurrency 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> getUserData 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> getUserData 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:47:12 - DEBUG --> getUserData 
+2015-12-03 7:47:12 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 7:47:12 - DEBUG --> Accedió 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> initializeUserData 
+2015-12-03 7:57:09 - DEBUG --> UserData first: N; 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> createUserData 
+2015-12-03 7:57:09 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> initializeUserData 
+2015-12-03 7:57:09 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 7:57:09 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> initializeReservationData 
+2015-12-03 7:57:09 - DEBUG --> UserData: a:0:{} 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> updateUserData 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> getUserData 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> setCurrency 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> getUserData 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> getUserData 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 7:57:09 - DEBUG --> getUserData 
+2015-12-03 7:57:09 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 7:57:09 - DEBUG --> Accedió 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> initializeUserData 
+2015-12-03 13:43:11 - DEBUG --> UserData first: N; 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> createUserData 
+2015-12-03 13:43:11 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> initializeUserData 
+2015-12-03 13:43:11 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:43:11 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> initializeReservationData 
+2015-12-03 13:43:11 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> updateUserData 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> getUserData 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> setCurrency 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> getUserData 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> getUserData 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:43:11 - DEBUG --> getUserData 
+2015-12-03 13:43:11 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:43:11 - DEBUG --> Accedió 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> initializeUserData 
+2015-12-03 13:44:21 - DEBUG --> UserData first: N; 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> createUserData 
+2015-12-03 13:44:21 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> initializeUserData 
+2015-12-03 13:44:21 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:44:21 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> initializeReservationData 
+2015-12-03 13:44:21 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> updateUserData 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> getUserData 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> setCurrency 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> getUserData 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> getUserData 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:44:21 - DEBUG --> getUserData 
+2015-12-03 13:44:21 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:44:21 - DEBUG --> Accedió 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> initializeUserData 
+2015-12-03 13:45:27 - DEBUG --> UserData first: N; 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> createUserData 
+2015-12-03 13:45:27 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> initializeUserData 
+2015-12-03 13:45:27 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:45:27 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> initializeReservationData 
+2015-12-03 13:45:27 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> updateUserData 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> getUserData 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> setCurrency 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> getUserData 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> getUserData 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:45:27 - DEBUG --> getUserData 
+2015-12-03 13:45:27 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:45:27 - DEBUG --> Accedió 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> initializeUserData 
+2015-12-03 13:47:12 - DEBUG --> UserData first: N; 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> createUserData 
+2015-12-03 13:47:12 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> initializeUserData 
+2015-12-03 13:47:12 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:47:12 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> initializeReservationData 
+2015-12-03 13:47:12 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> updateUserData 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> getUserData 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> setCurrency 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> getUserData 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> getUserData 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:47:12 - DEBUG --> getUserData 
+2015-12-03 13:47:12 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:47:12 - DEBUG --> Accedió 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> initializeUserData 
+2015-12-03 13:48:07 - DEBUG --> UserData first: N; 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> createUserData 
+2015-12-03 13:48:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> initializeUserData 
+2015-12-03 13:48:07 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:48:07 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> initializeReservationData 
+2015-12-03 13:48:07 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> updateUserData 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> getUserData 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> setCurrency 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> getUserData 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> getUserData 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:48:07 - DEBUG --> getUserData 
+2015-12-03 13:48:07 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:48:07 - DEBUG --> Accedió 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> initializeUserData 
+2015-12-03 13:49:40 - DEBUG --> UserData first: N; 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> createUserData 
+2015-12-03 13:49:40 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> initializeUserData 
+2015-12-03 13:49:40 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:49:40 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> initializeReservationData 
+2015-12-03 13:49:40 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> updateUserData 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> getUserData 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> setCurrency 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> getUserData 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> getUserData 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:49:40 - DEBUG --> getUserData 
+2015-12-03 13:49:40 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:49:40 - DEBUG --> Accedió 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> initializeUserData 
+2015-12-03 13:50:41 - DEBUG --> UserData first: N; 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> createUserData 
+2015-12-03 13:50:41 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> initializeUserData 
+2015-12-03 13:50:41 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:50:41 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> initializeReservationData 
+2015-12-03 13:50:41 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> updateUserData 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> getUserData 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> setCurrency 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> getUserData 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> getUserData 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:50:41 - DEBUG --> getUserData 
+2015-12-03 13:50:41 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:50:41 - DEBUG --> Accedió 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> initializeUserData 
+2015-12-03 13:51:50 - DEBUG --> UserData first: N; 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> createUserData 
+2015-12-03 13:51:50 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> initializeUserData 
+2015-12-03 13:51:50 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:51:50 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> initializeReservationData 
+2015-12-03 13:51:50 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> updateUserData 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> getUserData 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> setCurrency 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> getUserData 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> getUserData 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:51:50 - DEBUG --> getUserData 
+2015-12-03 13:51:50 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:51:50 - DEBUG --> Accedió 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> initializeUserData 
+2015-12-03 13:58:44 - DEBUG --> UserData first: N; 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> createUserData 
+2015-12-03 13:58:44 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> initializeUserData 
+2015-12-03 13:58:44 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:58:44 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> initializeReservationData 
+2015-12-03 13:58:44 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> updateUserData 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> getUserData 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> setCurrency 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> getUserData 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> getUserData 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:58:44 - DEBUG --> getUserData 
+2015-12-03 13:58:44 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:58:44 - DEBUG --> Accedió 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> initializeUserData 
+2015-12-03 13:59:43 - DEBUG --> UserData first: N; 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> createUserData 
+2015-12-03 13:59:43 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> initializeUserData 
+2015-12-03 13:59:43 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 13:59:43 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> initializeReservationData 
+2015-12-03 13:59:43 - DEBUG --> UserData: a:0:{} 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> updateUserData 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> getUserData 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> setCurrency 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> getUserData 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> getUserData 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 13:59:43 - DEBUG --> getUserData 
+2015-12-03 13:59:43 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 13:59:43 - DEBUG --> Accedió 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> initializeUserData 
+2015-12-03 18:40:57 - DEBUG --> UserData first: N; 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> createUserData 
+2015-12-03 18:40:57 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> initializeUserData 
+2015-12-03 18:40:57 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 18:40:57 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> initializeReservationData 
+2015-12-03 18:40:57 - DEBUG --> UserData: a:0:{} 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> updateUserData 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> getUserData 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> setCurrency 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> getUserData 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> getUserData 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:40:57 - DEBUG --> getUserData 
+2015-12-03 18:40:57 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 18:40:57 - DEBUG --> Accedió 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> initializeUserData 
+2015-12-03 18:41:01 - DEBUG --> UserData first: N; 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> createUserData 
+2015-12-03 18:41:01 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> initializeUserData 
+2015-12-03 18:41:01 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 18:41:01 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> initializeReservationData 
+2015-12-03 18:41:01 - DEBUG --> UserData: a:0:{} 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> updateUserData 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> getUserData 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> setCurrency 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> getUserData 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> getUserData 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 18:41:01 - DEBUG --> getUserData 
+2015-12-03 18:41:01 - DEBUG --> Archivo \components\com_jhotelreservationiews\hotel	mpl\hoteloverview.php 
+2015-12-03 18:41:01 - DEBUG --> Accedió 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> initializeUserData 
+2015-12-03 19:32:38 - DEBUG --> UserData first: N; 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> createUserData 
+2015-12-03 19:32:38 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> initializeUserData 
+2015-12-03 19:32:38 - DEBUG --> UserData first: a:0:{} 
+2015-12-03 19:32:38 - DEBUG --> UserData end:  a:0:{} 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> initializeReservationData 
+2015-12-03 19:32:38 - DEBUG --> UserData: a:0:{} 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> updateUserData 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> getUserData 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> setCurrency 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> getUserData 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> getUserData 
+2015-12-03 19:32:38 - DEBUG --> Archivo \components\com_jhotelreservation\classes\services\UserDataService.php 
+2015-12-03 19:32:38 - DEBUG --> getUserData 

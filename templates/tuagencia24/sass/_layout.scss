@@ -1,0 +1,16 @@
+#box-page {
+	background-color: white;
+	border-radius: 15px 15px 0 0;
+	box-shadow: 0 8px 8px rgba(black,0.3);
+	margin: 0 auto;
+	padding-bottom: 10px;
+	width: $wd + 20;
+}
+
+#box-header,
+#box-top-a,
+#box-top-bc,
+#box-bottom-bc,
+#box-bottom-a {
+	margin-bottom: 20px;
+}

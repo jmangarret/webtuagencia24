@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+    <name>Rotator</name>
+    <author>Amadeus IT Group S.A.S</author>
+    <creationDate>September 2011</creationDate>
+    <copyright>(C) 2011</copyright>
+    <authorEmail>mams dot 827 at gmail dot com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <license></license>
+    <description>
+        <![CDATA[
+        Componente que permite administrar diferentes rotadores en el sitio,
+        definiendo sus caracteristicas, como alto, ancho y estilos. Ademas
+        permite ajustar las imagenes para los requerimeintos propios del
+        rotador, conservando la proporcion de las mismas.
+
+        EL rotador trabaja con la libreria nivo-slider (http://nivo.dev7studios.com/),
+        y el redimensionador con Jcrop (http://deepliquid.com/content/Jcrop.html).
+        ]]>
+    </description>
+    <installfile>install.rotator.php</installfile>
+    <uninstallfile>uninstall.rotator.php</uninstallfile>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">install.mysql.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+        </sql>
+    </uninstall>
+    <administration>
+        <menu>COM_ROTATOR_IMAGE</menu>
+        <submenu>
+            <menu link="option=com_rotator&amp;controller=rotator">COM_ROTATOR_ROTATOR</menu>
+            <menu link="option=com_rotator&amp;controller=banner">COM_ROTATOR_BANNER</menu>
+        </submenu>
+        <files folder="admin">
+            <filename>admin.rotator.php</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>helper.php</filename>
+            <filename>install.mysql.sql</filename>
+            <filename>install.rotator.php</filename>
+            <filename>toolbar.php</filename>
+            <filename>uninstall.mysql.sql</filename>
+            <filename>uninstall.rotator.php</filename>
+            <filename>uploader.php</filename>
+
+            <folder>controllers</folder>
+            <folder>css</folder>
+            <folder>images</folder>
+            <folder>js</folder>
+            <folder>models</folder>
+            <folder>resource</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+
+            <!--
+                Libreria comun para muchas aplicacions, en caso de que no
+                exista o la version se menor, se instala.
+            -->
+            <!-- <folder>library</folder> -->
+        </files>
+
+        <languages folder="admin">
+            <language tag="es-ES">es-ES.com_rotator.ini</language>
+            <language tag="es-ES">es-ES.com_rotator.sys.ini</language>
+            <language tag="en-GB">en-GB.com_rotator.ini</language>
+            <language tag="en-GB">en-GB.com_rotator.sys.ini</language>
+        </languages>
+    </administration>
+</install>

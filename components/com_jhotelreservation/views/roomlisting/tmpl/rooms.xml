@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 46 2010-11-21 17:27:33Z chdemko $ -->
+<metadata>
+	<layout title="COM_JHOTELRESERVATION_LIST_ROOMS">
+		<message>COM_JHOTELRESERVATION_LIST_ROOMS_DESC</message>
+	</layout>
+	
+    <fields name="request">
+	    <fieldset name="request">    
+	        <field name="task" type="hidden"
+	            label=""
+	            required=""
+	            description=""
+	            default="hotels.searchRooms"
+	        />
+	    </fieldset>
+</fields>
+</metadata>

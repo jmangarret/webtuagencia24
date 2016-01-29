@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+        name="configuration"
+        label="COM_ASOM_CONFIGURATION_LABEL"
+        description="COM_ASOM_CONFIGURATION_DESC" >
+        <field
+            name="issue_service"
+            type="text"
+            default=""
+            size="110"
+            class="required"
+            label="COM_ASOM_ISSUE_SERVICE_LABEL"
+            description="COM_ASOM_ISSUE_SERVICE_DESC" />
+        <field
+            type="spacer"
+            label="COM_ASOM_AUTOMATIC" />
+        <field
+            type="text"
+            name="timelimit"
+            default="30"
+            size="5"
+            label="COM_ASOM_TIMELIMIT_LABEL"
+            description="COM_ASOM_TIMELIMIT_DESC" />
+        <field
+            type="sql"
+            name="st_cancel"
+            query="SELECT id,name FROM #__aom_statuses ORDER BY name"
+            key_field="id"
+            value_field="name"
+            label="COM_ASOM_ST_CANCEL_LABEL"
+            description="COM_ASOM_ST_CANCEL_DESC" />
+        <field
+            type="radio"
+            name="cancel_booking"
+            default="0"
+            label="COM_ASOM_CANCEL_BOOKING_LABEL"
+            description="COM_ASOM_CANCEL_BOOKING_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+    <fieldset
+        name="permissions"
+        label="JCONFIG_PERMISSIONS_LABEL"
+        description="JCONFIG_PERMISSIONS_DESC" >
+
+        <field
+            name="rules"
+            type="rules"
+            label="JCONFIG_PERMISSIONS_LABEL"
+            class="inputbox"
+            validate="rules"
+            filter="rules"
+            component="com_asom"
+            section="component" />
+       </fieldset>
+       <fieldset
+        name="articles"
+        label="COM_ASOM_ARTICLES_LABEL"
+        description="COM_ASOM_ARTICLES_DESC" >
+       <field
+            type="text"
+            name="article_nal"
+            default="4"
+            size="5"
+            label="COM_ASOM_NAL_AIR_LABEL"
+            description="COM_ASOM_NAL_AIR_DESC" />
+         <field
+            type="text"
+            name="article_inter"
+            default="5"
+            size="5"
+            label="COM_ASOM_INTER_AIR_LABEL"
+            description="COM_ASOM_INTER_AIR_DESC" />
+    </fieldset>
+</config>

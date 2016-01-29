@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5">
+    <name>MOD_ROTATOR</name>
+    <author>Amadeus IT Group S.A.S</author>
+    <creationDate>September 2011</creationDate>
+    <copyright>(C) 2011</copyright>
+    <authorEmail>mams dot 827 at gmail dot com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.2</version>
+    <license></license>
+    <description>MOD_ROTATOR_DESC</description>
+    <files>
+        <filename module="mod_rotator">mod_rotator.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_rotator.xml</filename>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </files>
+    <languages>
+        <language tag="es-ES">es-ES.mod_rotator.ini</language>
+        <language tag="es-ES">es-ES.mod_rotator.sys.ini</language>
+        <language tag="en-GB">en-GB.mod_rotator.ini</language>
+        <language tag="en-GB">en-GB.mod_rotator.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="rotator" type="sql" default="" label="ROTATOR" query="SELECT id,nombre FROM #__am_rotadores WHERE published != 0" key_field="id" value_field="nombre" description="DESC_ROTATOR" />
+                <field name="target" type="list" default="0" label="TARGET" description="PARAMTARGET">
+                    <option value="0">PARENT</option>
+                    <option value="1">NEW_WINDOW_WITH_NAVIGATION</option>
+                    <option value="2">NEW_WINDOW_WITHOUT_NAVIGATION</option>
+                </field>
+                <field name="animSpeed" type="text" default="500" label="ANIMSPEED" description="DESC_ANIMSPEED" />
+                <field name="pauseTime" type="text" default="7000" label="PAUSETIME" description="DESC_PAUSETIME" />
+                <field name="manualAdvance" type="radio" default="0" label="MANUALADVANCE" description="DESC_MANUALADVANCE">
+                    <option value="0">AUTOMATIC</option>
+                    <option value="1">MANUAL</option>
+                </field>
+                <field type="spacer" label="VISIBILITY" />
+                <field name="visibilityTitle" type="radio" default="1" label="VTITLE" description="DESC_VTITLE">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="visibilityDescription" type="radio" default="1" label="VDESCRIPTION" description="DESC_VDESCRIPTION">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="visibilityButton" type="radio" default="1" label="VBUTTON" description="DESC_VBUTTON">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+            <fieldset name="effects">
+                <field type="spacer" label="BASIC" />
+                <field name="random" type="radio" default="1" label="RANDOM" description="DESC_RANDOM">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="fade" type="radio" default="0" label="FADE" description="DESC_FADE">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="slideInRight" type="radio" default="0" label="SLIDEINRIGHT" description="DESC_SLIDEINRIGHT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="slideInLeft" type="radio" default="0" label="SLIDEINLEFT" description="DESC_SLIDEINLEFT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field type="spacer" label="SLICE" />
+                <field name="sliceDownRight" type="radio" default="0" label="SLICEDOWNRIGHT" description="DESC_SLICEDOWNRIGHT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="sliceDownLeft" type="radio" default="0" label="SLICEDOWNLEFT" description="DESC_SLICEDOWNLEFT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="sliceUpRight" type="radio" default="0" label="SLICEUPRIGHT" description="DESC_SLICEUPRIGHT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="sliceUpLeft" type="radio" default="0" label="SLICEUPLEFT" description="DESC_SLICEUPLEFT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="sliceUpDown" type="radio" default="0" label="SLICEUPDOWN" description="DESC_SLICEUPDOWN">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="sliceUpDownLeft" type="radio" default="0" label="SLICEUPDOWNLEFT" description="DESC_SLICEUPDOWNLEFT">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="fold" type="radio" default="0" label="FOLD" description="DESC_FOLD">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field type="spacer" label="BOXES" />
+                <field name="boxRandom" type="radio" default="0" label="BOXRANDOM" description="DESC_BOXRANDOM">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="boxRain" type="radio" default="0" label="BOXRAIN" description="DESC_BOXRAIN">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="boxRainReverse" type="radio" default="0" label="BOXRAINREVERSE" description="DESC_BOXRAINREVERSE">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="boxRainGrow" type="radio" default="0" label="BOXRAINGROW" description="DESC_BOXRAINGROW">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="boxRainGrowReverse" type="radio" default="0" label="BOXRAINGROWREVERSE" description="DESC_BOXRAINGROWREVERSE">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="slices" type="text" default="15" label="SLICES" description="DESC_SLICES" />
+                <field name="boxCols" type="text" default="8" label="BOXCOLS" description="DESC_BOXCOLS" />
+                <field name="boxRows" type="text" default="4" label="BOXROWS" description="DESC_BOXROWS" />
+                <field name="startSlide" type="text" default="0" label="STARTSLIDE" description="DESC_STARTSLIDE" />
+                <field name="captionOpacity" type="text" default="0.8" label="CAPTIONOPACITY" description="DESC_CAPTIONOPACITY" />
+                <field name="directionNav" type="radio" default="1" label="DIRECTIONNAV" description="DESC_DIRECTIONNAV">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="directionNavHide" type="radio" default="1" label="DIRECTIONNAVHIDE" description="DESC_DIRECTIONNAVHIDE">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="controlNav" type="radio" default="1" label="CONTROLNAV" description="DESC_CONTROLNAV">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="pauseOnHover" type="radio" default="1" label="PAUSEONHOVER" description="DESC_PAUSEONHOVER">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

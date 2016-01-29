@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Tipos de Producto</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Tipos de Producto</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_product_type">
+  		<field type="referenceid" name="product_type_id" translate="0">ID</field>
+  		<field type="titletext" name="product_type_name" translate="1">Nombre</field>
+  	</table>
+  </reference>
+</joomfish>

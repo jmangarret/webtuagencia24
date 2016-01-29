@@ -1,0 +1,38 @@
+2015-04-24 2:06:08 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|36, current = 1 
+2015-04-24 2:06:08 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|36|1";} 
+2015-04-24 13:32:54 - DEBUG --> reserveRoom hotelId= 32, reservedItem = 0|41, current = 1 
+2015-04-24 13:32:54 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|41|1";} 
+2015-04-24 16:09:47 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 16:09:47 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 16:20:16 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 16:20:16 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 19:58:02 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 19:58:02 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 19:58:35 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|36, current = 2 
+2015-04-24 19:58:35 - DEBUG --> Reserved items: a:2:{i:0;s:6:"0|34|1";i:1;s:6:"0|36|2";} 
+2015-04-24 20:20:52 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|36, current = 1 
+2015-04-24 20:20:52 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|36|1";} 
+2015-04-24 20:21:18 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 2 
+2015-04-24 20:21:18 - DEBUG --> Reserved items: a:2:{i:0;s:6:"0|36|1";i:1;s:6:"0|34|2";} 
+2015-04-24 20:31:15 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:31:15 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 20:31:33 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 2 
+2015-04-24 20:31:33 - DEBUG --> Reserved items: a:2:{i:0;s:6:"0|34|1";i:1;s:6:"0|34|2";} 
+2015-04-24 20:32:22 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:32:22 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 20:37:14 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:37:14 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 20:37:27 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:37:27 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 20:49:10 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:49:10 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 20:55:49 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 20:55:49 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 21:16:48 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 21:16:48 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 21:23:01 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 21:23:01 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 21:23:09 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 21:23:09 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 
+2015-04-24 21:23:40 - DEBUG --> reserveRoom hotelId= 27, reservedItem = 0|34, current = 1 
+2015-04-24 21:23:40 - DEBUG --> Reserved items: a:1:{i:0;s:6:"0|34|1";} 

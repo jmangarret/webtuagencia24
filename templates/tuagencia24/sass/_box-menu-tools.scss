@@ -1,0 +1,47 @@
+#box-menu-tools {
+	font-size: 11px;
+}
+
+#menu-tools {
+	text-align: right;
+
+	&>* {
+		display: inline-block;
+	}
+
+	.menu {
+		list-style: none;
+		margin: 15px 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+
+			&:hover,
+			&.active {
+				a {
+					text-decoration: underline;
+				}
+			}
+
+			&:first-child {
+				a {
+					border-left: none;
+					padding-left: 0;
+				}
+			}
+		}
+
+		a {
+			border-left: 1px solid $color-base;
+			color: $color-base;
+			display: block;
+			padding: 0 10px;
+			text-decoration: none;
+		}
+	}
+
+	img {
+		vertical-align: middle;
+	}
+}

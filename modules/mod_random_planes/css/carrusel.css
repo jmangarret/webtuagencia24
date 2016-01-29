@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+#main #content #informacion #left .vm-planes-aleatorios {
+	width: 703px;
+}
+
+#main #content #informacion #left .vm-planes-aleatorios .vm-random-tabs ul
+	{
+	list-style: none;
+	background: url(../images/fnd_h3_rotador_planes.jpg) 0 0 no-repeat;
+	height: 48px;
+}
+
+#main #content #informacion #left .vm-planes-aleatorios .vm-random-tabs ul li
+	{
+	float: left;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	padding: 0 15px;
+	margin: 18px 0;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+}
+
+/**
+* CSS del carrusel de planes
+*/
+.jcarousel-skin-planes .jcarousel-container {
+	width: 920px;
+	height: 100px;
+	border: 1px solid transparent;
+}
+
+.jcarousel-skin-planes .jcarousel-direction-rtl {
+	direction: rtl;
+	width: 567px;
+	height: 261px;
+}
+
+.jcarousel-skin-planes .jcarousel-container-horizontal {
+	width: 920px;
+	height: 261px;
+	padding: 0px;
+	margin: auto;
+}
+
+.jcarousel-skin-planes .jcarousel-container-vertical {
+	width: 920px;
+	height: 261px;
+	padding: 0px;
+}
+
+.jcarousel-skin-planes .jcarousel-clip-horizontal {
+	width: 920px;
+	height: 261px;
+	overflow: hidden;
+	top: -1px;
+	*top: 0px;
+	position: relative;
+}
+
+.jcarousel-skin-planes .jcarousel-clip-vertical {
+	width: 540px;
+	height: 262px;
+}
+
+.jcarousel-skin-planes .jcarousel-item {
+	width: 567px;
+	height: 262px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel-skin-planes.jcarousel-item-horizontal {
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-title {
+	vertical-align: middle;
+	text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #006AB1;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	font-size: 16px;
+	width: 170px;
+	height: 38px;
+	margin-bottom: 80px;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-image img {
+	width: 170px;
+	height: 105px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-description {
+	overflow: hidden;
+	width: 170px;
+	padding-bottom: 5px;
+	height: 60px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-price {
+	width: 170px;
+	text-align: right;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-price a {
+	display: block;
+	width: 78px;
+	height: 18px;
+	padding: 2px 7px 2px 0;
+	background-color: #006AB1;
+	color: #FFF;
+	text-decoration: none;
+	background-image: url(../img/blue_bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: 5px 8px;
+	color: #E6F4FC;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-price a:hover {
+	text-decoration: underline;
+}
+
+.jcarousel-skin-planes .jcarousel-item .vm-price a:hover {
+	color: #FFF;
+}
+
+.jcarousel-skin-planes .jcarousel-direction-rtl .jcarousel-item-horizontal
+	{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.jcarousel-skin-planes .jcarousel-item-vertical {
+	margin-bottom: 0px;
+}
+
+.jcarousel-skin-planes .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+
+/**
+* Horizontal Buttons
+*/
+.vm-planes-aleatorios .jcarousel-skin-planes .jcarousel-next-horizontal
+	{
+	position: absolute;
+	top: 8px;
+	right: 0px;
+	width: 22px;
+	height: 25px;
+	cursor: pointer;
+	background: url(../images/next_planes.jpg) 0 0 no-repeat;
+}
+
+.jcarousel-skin-planes .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 8px;
+	left: auto;
+	right: 40px;
+	width: 22px;
+	height: 25px;
+	cursor: pointer;
+	background: url(../images/prev_planes.jpg) 0 0 no-repeat;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal
+	{
+	left: auto;
+	right: 5px;
+	background-color: red;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active
+	{
+	cursor: default;
+	background-position: -96px 0;
+}

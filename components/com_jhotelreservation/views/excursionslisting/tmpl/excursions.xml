@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 46 2010-11-21 17:27:33Z chdemko $ -->
+<metadata>
+	<layout title="COM_JHOTELRESERVATION_LIST_EXCURSIONS">
+		<message>COM_JHOTELRESERVATION_LIST_EXCURIONS_DESC</message>
+	</layout>
+	
+    <fields name="request">
+	    <fieldset name="request">    
+	        <field name="task" type="hidden"
+	            label=""
+	            required=""
+	            description=""
+	            default="excursionslisting.searchExcursions"
+	        />
+	        <field name="excursion_type" type="list" label="LNG_EXCURSION_TYPES" description="LNG_EXCURSION_TYPES_DESC" required = "true">
+                <option value="courses">LNG_COURSES</option>
+  				<option value="excursions">LNG_EXCURSIONS</option>
+			</field>
+	    </fieldset>
+	</fields>
+</metadata>

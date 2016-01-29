@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Producto Alojamientos</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Producto Alojamientos</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_hotels_info">
+  		<field type="referenceid" name="product_id" translate="0">ID</field>
+  		<field type="titletext" name="product_name" translate="1">Nombre</field>
+  		<field type="text" name="product_code" translate="1">Código</field>
+  		<field type="textarea" name="product_desc" translate="1">Descripción</field>
+  		<field type="textarea" name="disclaimer" translate="1">Nota Aclaratoria</field>
+  		<field type="textarea" name="product_url" translate="1">Mapa Personalizado</field>
+        <field type="text" name="tag_name1" translate="1">Etiqueta 1</field>
+        <field type="htmltext" name="tag_content1" translate="1">Contenido Etiqueta 1</field>
+        <field type="text" name="tag_name2" translate="1">Etiqueta 2</field>
+        <field type="htmltext" name="tag_content2" translate="1">Contenido Etiqueta 2</field>
+        <field type="text" name="tag_name3" translate="1">Etiqueta 3</field>
+        <field type="htmltext" name="tag_content3" translate="1">Contenido Etiqueta 3</field>
+        <field type="text" name="tag_name4" translate="1">Etiqueta 4</field>
+        <field type="htmltext" name="tag_content4" translate="1">Contenido Etiqueta 4</field>
+        <field type="text" name="tag_name5" translate="1">Etiqueta 5</field>
+        <field type="htmltext" name="tag_content5" translate="1">Contenido Etiqueta 5</field>
+        <field type="text" name="tag_name6" translate="1">Etiqueta 6</field>
+        <field type="htmltext" name="tag_content6" translate="1">Contenido Etiqueta 6</field>
+  	</table>
+  </reference>
+  <translationfilters>
+      <keyword>product_name</keyword>
+  </translationfilters>
+</joomfish>

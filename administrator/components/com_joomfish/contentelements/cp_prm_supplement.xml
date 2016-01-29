@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Suplemento</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Suplemento</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_supplement">
+  		<field type="referenceid" name="supplement_id" translate="0">ID</field>
+  		<field type="titletext" name="supplement_name" translate="1">Nombre</field>
+        <field type="textarea" name="description" translate="1">Descripción</field>
+        <field type="text" name="imageurl" translate="1">Imagen</field>
+  	</table>
+  </reference>
+</joomfish>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+<name>Content - JExtBOX Login to Read More</name>
+<author>Galaa</author>
+<creationDate>2011-05-17</creationDate>
+<copyright>Copyright (C) 2011-2015 Galaa (galaa.mn)</copyright>
+<license>GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</license>
+<authorEmail>contact@galaa.mn</authorEmail>
+<authorUrl>www.galaa.mn/</authorUrl>
+<version>3.5.0</version>
+<description>This plugin displays custom message, when not logged in user visit an article and K2 item. Recommended plugin order is First. Some fields are disabled for free version! Get FULL VERSION from http://jextbox.com/jextbox-login-to-read-more.html</description>
+<files>
+	<filename plugin="jextboxlogintoreadmore">jextboxlogintoreadmore.php</filename>
+	<folder>k2</folder>
+	<filename>index.html</filename>
+</files>
+<languages folder="language">
+	<language tag="en-GB">en-GB/en-GB.plg_content_jextboxlogintoreadmore.ini</language>
+	<language tag="en-GB">en-GB/en-GB.plg_content_jextboxlogintoreadmore.sys.ini</language>
+</languages>
+<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldpath="/plugins/content/jextboxlogintoreadmore/k2/">
+			<field name="mode" type="list" default="category" label="JEXTBOX_MODE" description="JEXTBOX_MODE_DESC">
+				<option value="category">JEXTBOX_MODE_OPTION_CATEGORIES</option>
+				<option value="article" disabled="disabled">JEXTBOX_MODE_OPTION_ARTICLES_OR_ITEMS</option>
+  			</field>
+			<field name="categories" type="category" extension="com_content" multiple="true" size="10" default="" label="JEXTBOX_CATEGORIES" description="JEXTBOX_CATEGORIES_DESC" />
+			<field name="categories_k2" type="categories" multiple="true" default="" label="JEXTBOX_CATEGORIES_K2" description="JEXTBOX_CATEGORIES_K2_DESC" />
+			<field name="categories_type" type="list" default="include" label="JEXTBOX_CATEGORIES_TYPE" description="JEXTBOX_CATEGORIES_TYPE_DESC">
+				<option value="exclude" disabled="disabled">JEXTBOX_EXCLUDE</option>
+				<option value="include">JEXTBOX_INCLUDE</option>
+  			</field>
+			<field name="articles" type="text" default="" size="30" label="JEXTBOX_ARTICLES" description="JEXTBOX_ARTICLES_DESC" disabled="disabled"/>
+			<field name="articles_k2" type="text" default="" size="30" label="JEXTBOX_ARTICLES_K2" description="JEXTBOX_ARTICLES_K2_DESC" disabled="disabled"/>
+			<field name="articles_type" type="list" default="include" label="JEXTBOX_ARTICLES_TYPE" description="JEXTBOX_ARTICLES_TYPE_DESC">
+				<option value="exclude" disabled="disabled">JEXTBOX_EXCLUDE</option>
+				<option value="include" disabled="disabled">JEXTBOX_INCLUDE</option>
+  			</field>
+			<field name="login" type="list" default="default_login" label="JEXTBOX_LOGIN" description="JEXTBOX_LOGIN_DESC" >
+				<option value="default_login">JEXTBOX_LOGIN_OPTION_DEFAULT_LOGIN</option>
+				<option value="only_text_message" disabled="disabled">JEXTBOX_LOGIN_OPTION_TEXT_ONLY</option>
+				<option value="custom_url" disabled="disabled">JEXTBOX_LOGIN_OPTION_CUSTOM_URL</option>
+				<option value="load_module">JEXTBOX_LOGIN_OPTION_LOAD_MODULE</option>
+				<option value="load_module_with_login_msg" disabled="disabled">JEXTBOX_LOGIN_OPTION_LOAD_MODULE_WITH_LOGIN_MESSAGE</option>
+				<option value="load_position" disabled="disabled">JEXTBOX_LOGIN_OPTION_LOAD_POSITION</option>
+				<option value="load_position_with_login_msg" disabled="disabled">JEXTBOX_LOGIN_OPTION_LOAD_POSITION_WITH_LOGIN_MESSAGE</option>
+			</field>
+			<field name="login_custom_url" type="url" default="http://www.example.com/login.html" size="30" label="JEXTBOX_LOGIN_CUSTOM_URL" description="JEXTBOX_LOGIN_CUSTOM_URL_DESC" disabled="disabled"/>
+			<field name="login_loadmodule" type="sql" default="mod_login" label="JEXTBOX_LOGIN_LOAD_MODULE" description="JEXTBOX_LOGIN_LOAD_MODULE_DESC" query="SELECT module, title FROM #__modules" key_field="module" value_field="title" />
+			<field name="login_loadposition" type="text" default="" label="JEXTBOX_LOGIN_LOAD_POSITION" description="JEXTBOX_LOGIN_LOAD_POSITION_DESC" disabled="disabled"/>
+			<field name="login_title" type="text" default="You need to login or register to read this article!" size="30" label="JEXTBOX_LOGIN_TITLE" description="JEXTBOX_LOGIN_TITLE_DESC" />
+			<field name="login_text" type="text" default="Please login or register to see the article." size="30" label="JEXTBOX_LOGIN_TEXT" description="JEXTBOX_LOGIN_TEXT_DESC" filter="raw"/>
+			<field name="article_visibility" type="list" default="show_limited_intro_text_only" label="JEXTBOX_ARTICLE_VISIBILITY" description="JEXTBOX_ARTICLE_VISIBILITY_DESC" >
+				<option value="show_intro_text_only">JEXTBOX_ARTICLE_VISIBILITY_OPTION_SHOW_INTRO_TEXT_ONLY</option>
+				<option value="show_limited_intro_text_only" disabled="disabled">JEXTBOX_ARTICLE_VISIBILITY_OPTION_SHOW_LIMITED_INTRO_TEXT_ONLY</option>
+				<option value="do_not_show_any_text" disabled="disabled">JEXTBOX_ARTICLE_VISIBILITY_OPTION_DO_NOT_SHOW_ANY_TEXT</option>
+  			</field>
+			<field name="limit_type" type="list" default="words" label="JEXTBOX_LIMIT_TYPE" description="JEXTBOX_LIMIT_TYPE_DESC" >
+				<option value="paragraphs" disabled="disabled">JEXTBOX_LIMIT_TYPE_OPTION_PARAGRAPHS</option>
+  				<option value="words" disabled="disabled">JEXTBOX_LIMIT_TYPE_OPTION_WORDS</option>
+				<option value="characters" disabled="disabled">JEXTBOX_LIMIT_TYPE_OPTION_CHARACTERS</option>
+			</field>
+			<field name="limit_count" type="text" default="20" size="30" label="JEXTBOX_LIMIT_COUNT" description="JEXTBOX_LIMIT_COUNT_DESC" filter="uint" disabled="disabled"/>
+			<field name="limit_content" type="list" default="introtext" label="JEXTBOX_LIMIT_CONTENT" description="JEXTBOX_LIMIT_CONTENT_DESC" >
+				<option value="introtext" disabled="disabled">JEXTBOX_LIMIT_CONTENT_OPTION_INTROTEXT</option>
+  				<option value="wholetext" disabled="disabled">JEXTBOX_LIMIT_CONTENT_OPTION_WHOLETEXT</option>
+			</field>
+			<field name="search_engine_bots" type="text" default="Googlebot,yahoo,msnbot,Slurp,WebCrawler,ZyBorg,scooter,StackRambler,Aport,lycos,WebAlta,ia_archiver,FAST" size="30" label="JEXTBOX_SEARCH_ENGINE_BOTS" description="JEXTBOX_SEARCH_ENGINE_BOTS_DESC" />
+			<field name="search_engine_metatag" type="list" default="donothing" label="JEXTBOX_SEARCH_ENGINE_METATAG" description="JEXTBOX_SEARCH_ENGINE_METATAG_DESC" >
+				<option value="noarchive" disabled="disabled">JEXTBOX_SEARCH_ENGINE_METATAG_OPTION_NOARCHIVE</option>
+				<option value="noindex" disabled="disabled">JEXTBOX_SEARCH_ENGINE_METATAG_OPTION_NOINDEX</option>
+				<option value="donothing">JEXTBOX_SEARCH_ENGINE_METATAG_OPTION_DONOTADDTAG</option>
+  			</field>
+			<field name="remove_empty_paragraphs" type="list" default="0" label="JEXTBOX_REMOVE_EMPTY_PARAGRAPHS" description="JEXTBOX_REMOVE_EMPTY_PARAGRAPHS_DESC" >
+				<option value="1" disabled="disabled">JEXTBOX_REMOVE_EMPTY_PARAGRAPHS_OPTION_YES</option>
+  				<option value="0">JEXTBOX_REMOVE_EMPTY_PARAGRAPHS_OPTION_NO</option>
+			</field>
+		</fieldset>
+	</fields>
+</config>
+</extension>

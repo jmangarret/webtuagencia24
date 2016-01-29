@@ -1,0 +1,267 @@
+html {
+	background-color: $color-lightgray;
+}
+
+body {
+	background-color: $color-lightblue;
+	background-image: url(../images/bg.jpg);
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	color: $color-base;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+p {
+	margin: 15px 0;
+}
+
+a {
+	color: $color-blue;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&.color-base {
+		color: $color-base;
+	}
+
+	&.tint-30 {
+		color: tint($color-base,30%);
+	}
+}
+
+// form
+[type="text"],
+[type="password"],
+[type="email"] {
+	background: white;
+	border: 1px solid #ccc;
+	padding: 6px 8px;
+}
+[type="submit"],
+[type="button"] {
+	background-color: $color-blue;
+	background-image: url(../images/btn-arw-r.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	display: inline-block;
+	padding: 6px 24px 6px 12px;
+	text-align: center;
+
+	&:hover {
+		background-color: shade($color-blue,20%);
+	}
+}
+legend {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+// page
+.item-page {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+// login
+.login,
+.otherOption,
+.reset,
+.registration {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 30px;
+
+	label {
+		display: block;
+	}
+
+	[type="text"],
+	[type="password"],
+	[type="submit"],
+	[type="button"],
+	[type="email"] {
+		width: 220px;
+	}
+
+	[type="submit"] {
+		margin-right: 20px;
+	}
+
+	.benefits {
+		// margin: 0;
+		padding: 0 0 0 10px;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	.mandatory,
+	.star {
+		color: red;
+	}
+}
+.registration {
+	dl {
+		overflow: hidden;
+	}
+	dt,dd {
+		display: block;
+		margin: 5px 0;
+		float: left;
+	}
+	dt {
+		width: 300px;
+		text-align: right;
+		padding-right: 10px;
+	}
+	dd {
+		width: 600px;
+
+		span {
+			margin-left: 10px;
+			font-size: 11px;
+		}
+	}
+
+	#jform_spacer-lbl {
+		font-size: 11px;
+	}
+
+	div {
+		margin-left: 300px;
+
+		a {
+			margin-left: 10px;
+		}
+	}
+
+}
+.login-fields {
+	margin-bottom: 10px;
+
+	&.inline {
+		label {
+			display: inline-block;
+		}
+
+		[type="checkbox"] {
+			vertical-align: middle;
+		}
+	}
+}
+
+// contact
+.contact {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 30px;
+
+	dd {
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		display: none;
+	}
+
+	legend {
+		font-size: 11px;
+	}
+
+	label {
+		line-height: 24px;
+		font-size: 14px;
+	}
+
+	[type="text"],
+	[type="email"],
+	textarea {
+		width: 400px;
+	}
+}
+
+// helpers
+.big-blue {
+	color: $color-blue;
+	font-size: 16px;
+}
+.border-dashed {
+	border-bottom: 1px dashed tint($color-base,30%);
+}
+
+// com_planes
+.fila_resultado_planes {
+	border: 1px solid #ccc;
+	margin: 10px 0;
+	padding: 10px;
+
+	.foto_dispo_plan {
+		padding-right: 20px;
+	}
+
+	td {
+		vertical-align: top;
+	}
+
+	h2 {
+		margin: 0 0 10px;
+	}
+}
+.tarifas_vuelos {
+	text-align: center;
+}
+
+.conte_info_plan {
+	margin-top: 10px;
+
+	ul.tabs {
+		width: 100%;
+	}
+}
+
+.conte_plan {
+	border: 1px solid #ccc;
+	padding: 10px;
+
+	.tab_container {
+		float: none;
+		width: 100%;
+
+		.tab_content {
+			width: 100% !important;
+			min-width: 1px;
+		}
+	}
+}
+
+.top_zona_verde {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.ciudad_pais_precio_plan {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+.descripcion_corta_plan,
+.conte_slider_fotos {
+	margin-bottom: 10px;
+}
+
+#conte_form_reserva_plan {
+	td {
+		padding-bottom: 10px;
+	}
+}

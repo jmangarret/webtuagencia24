@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7" client="site" method="upgrade">
+	<name>Perfect Facebook Like Box Sidebar</name>
+	<creationDate>2014-08-04</creationDate>
+	<author>Piotr Moćko</author>
+	<copyright>Copyright (C) 2014 Perfect Web sp. z o.o., All rights reserved.</copyright>
+	<license>GNU General Public Licence http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>office@perfect-web.co</authorEmail>
+	<authorUrl>http://www.perfect-web.co</authorUrl>
+	<version>1.0.10</version>
+	<description>MOD_PWEBFBLIKEBOX_XML_DESCRIPTION</description>
+	
+	<languages folder="lang">
+		<language tag="en-GB">en-GB.mod_pwebfblikebox.ini</language>
+		<language tag="en-GB">en-GB.mod_pwebfblikebox.sys.ini</language>
+		<language tag="pl-PL">pl-PL.mod_pwebfblikebox.ini</language>
+		<language tag="pl-PL">pl-PL.mod_pwebfblikebox.sys.ini</language>
+	</languages>
+	
+	<files>
+		<filename module="mod_pwebfblikebox">mod_pwebfblikebox.php</filename>
+		<folder>form</folder>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+	</files>
+	
+	<media destination="mod_pwebfblikebox">
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+	</media>
+	
+	<!-- Joomla 2.5+ Configuration -->
+	<config>
+		<fields name="params">
+			
+			<fieldset name="basic" addfieldpath="/modules/mod_pwebfblikebox/form/fields">
+				
+				<field type="pwebversion" name="MOD_PWEBFBLIKEBOX_VERSION" ext_type="module" ext_element="mod_pwebfblikebox" ext_folder="" ext_client="0" />
+				
+				<field name="layout" type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" 
+				/>
+				
+				<field type="spacer" name="MOD_PWEBFBLIKEBOX_SLIDE_BOX_AND_SIDEBAR" />
+				<field name="align" type="radio" class="btn-group" default="left" 
+					label="MOD_PWEBFBLIKEBOX_ALIGN" 
+					description="MOD_PWEBFBLIKEBOX_ALIGN_DESC"
+				>
+					<option value="left">JGLOBAL_LEFT</option>
+					<option value="right">JGLOBAL_RIGHT</option>
+				</field>
+				<field name="tab" type="list" default="facebook-white"
+					label="MOD_PWEBFBLIKEBOX_TAB" description="MOD_PWEBFBLIKEBOX_TAB_DESC" 
+				>
+					<option value="facebook-white">MOD_PWEBFBLIKEBOX_OPTION_FACEBOOK_WHITE</option>
+					<option value="facebook-black">MOD_PWEBFBLIKEBOX_OPTION_FACEBOOK_BLACK</option>
+					<option value="f-white">MOD_PWEBFBLIKEBOX_OPTION_F_WHITE</option>
+					<option value="f-black">MOD_PWEBFBLIKEBOX_OPTION_F_BLACK</option>
+				</field>
+				<field name="style_radius" type="radio" class="btn-group" default="1"
+					label="MOD_PWEBFBLIKEBOX_STYLE_RADIOUS" description="MOD_PWEBFBLIKEBOX_STYLE_RADIOUS_DESC">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="style_shadow" type="radio" class="btn-group" default="1"
+					label="MOD_PWEBFBLIKEBOX_STYLE_SHADOW" description="MOD_PWEBFBLIKEBOX_STYLE_SHADOW_DESC">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="background" type="text" filter="string" class="validate-color" size="20" 
+					label="MOD_PWEBFBLIKEBOX_BACKGROUND_COLOR" description="MOD_PWEBFBLIKEBOX_BACKGROUND_COLOR_DESC" 
+				/>
+				<field name="inset_background" type="text" filter="string" class="validate-color" size="20" 
+					label="MOD_PWEBFBLIKEBOX_INSET_BACKGROUND_COLOR" description="MOD_PWEBFBLIKEBOX_INSET_BACKGROUND_COLOR_DESC" 
+				/>
+				<field name="open_event" type="radio" class="btn-group" default="click"
+					label="MOD_PWEBFBLIKEBOX_OPEN_EVENT" 
+					description="MOD_PWEBFBLIKEBOX_OPEN_EVENT_DESC"
+				>
+					<option value="click">MOD_PWEBFBLIKEBOX_OPTION_CLICK</option>
+					<option value="mouseenter">MOD_PWEBFBLIKEBOX_OPTION_MOUSEOVER</option>
+				</field>
+				<field name="close_event" type="radio" class="btn-group" default="click"
+					label="MOD_PWEBFBLIKEBOX_CLOSE_EVENT" 
+					description="MOD_PWEBFBLIKEBOX_CLOSE_EVENT_DESC"
+				>
+					<option value="click">MOD_PWEBFBLIKEBOX_OPTION_CLICK</option>
+					<option value="mouseleave">MOD_PWEBFBLIKEBOX_OPTION_MOUSEOUT</option>
+				</field>
+				<field name="top" type="text" class="validate-unit"
+					label="MOD_PWEBFBLIKEBOX_TOP_OFFSET" 
+					description="MOD_PWEBFBLIKEBOX_TOP_OFFSET_DESC"
+				/>
+				
+				<field type="spacer" name="MOD_PWEBFBLIKEBOX_COMMON" />
+				<field name="pretext" type="textarea" filter="raw" cols="30" rows="5" 
+					label="MOD_PWEBFBLIKEBOX_PRE_TEXT" description="MOD_PWEBFBLIKEBOX_PRE_TEXT_DESC" 
+				/>
+				
+			</fieldset>
+			
+			<fieldset name="FBLIKEBOX">
+				
+				<field name="href" type="text" validate="url" size="50"
+					label="MOD_PWEBFBLIKEBOX_HREF" 
+					description="MOD_PWEBFBLIKEBOX_HREF_DESC"
+				/>
+				<field name="box_type" type="list" defaulr="xfbml"
+					label="MOD_PWEBFBLIKEBOX_BOX_TYPE" 
+					description="MOD_PWEBFBLIKEBOX_BOX_TYPE_DESC"
+				>
+					<option value="html5">HTML5</option>
+					<option value="xfbml">XFBML</option>
+					<option value="iframe">Iframe</option>
+				</field>
+				<field name="fb_xmlns" type="text" readonly="true" size="50"
+					default="xmlns:fb=&quot;http://ogp.me/ns/fb#&quot;" 
+					label="MOD_PWEBFBLIKEBOX_FB_XMLNS" 
+					description="MOD_PWEBFBLIKEBOX_FB_XMLNS_DESC" 
+				/>
+				<field name="width" type="text" default="292" class="validate-int"
+					label="MOD_PWEBFBLIKEBOX_WIDTH" 
+					description="MOD_PWEBFBLIKEBOX_WIDTH_DESC"
+				/>
+				<field name="height" type="text" class="validate-int"
+					label="MOD_PWEBFBLIKEBOX_HEIGHT" 
+					description="MOD_PWEBFBLIKEBOX_HEIGHT_DESC"
+				/>
+				<field name="show_faces" type="radio" class="btn-group" default="1" 
+					label="MOD_PWEBFBLIKEBOX_SHOW_FACES" 
+					description="MOD_PWEBFBLIKEBOX_SHOW_FACES_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="colorscheme" type="radio" class="btn-group" default="light"
+					label="MOD_PWEBFBLIKEBOX_COLOR_SCHEME" 
+					description="MOD_PWEBFBLIKEBOX_COLOR_SCHEME_DESC"
+				>
+					<option value="light">MOD_PWEBFBLIKEBOX_OPTION_LIGHT</option>
+					<option value="dark">MOD_PWEBFBLIKEBOX_OPTION_DARK</option>
+				</field>
+				<field name="show_border" type="radio" class="btn-group" default="0" 
+					label="MOD_PWEBFBLIKEBOX_SHOW_BORDER" 
+					description="MOD_PWEBFBLIKEBOX_SHOW_BORDER_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="show_stream" type="radio" class="btn-group" default="0" 
+					label="MOD_PWEBFBLIKEBOX_SHOW_STREAM" 
+					description="MOD_PWEBFBLIKEBOX_SHOW_STREAM_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="show_header" type="radio" class="btn-group" default="0" 
+					label="MOD_PWEBFBLIKEBOX_SHOW_HEADER" 
+					description="MOD_PWEBFBLIKEBOX_SHOW_HEADER_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="force_wall" type="radio" class="btn-group" default="0" 
+					label="MOD_PWEBFBLIKEBOX_FORCE_WALL" 
+					description="MOD_PWEBFBLIKEBOX_FORCE_WALL_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				
+				<field name="fb_jssdk" type="radio" class="btn-group" default="1" 
+					label="MOD_PWEBFBLIKEBOX_FB_JSSDK" 
+					description="MOD_PWEBFBLIKEBOX_FB_JSSDK_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="fb_appid" type="text"
+					label="MOD_PWEBFBLIKEBOX_FB_APP_ID" 
+					description="MOD_PWEBFBLIKEBOX_FB_APP_ID_DESC"
+				/>
+				<field name="fb_root" type="radio" class="btn-group" default="1" 
+					label="MOD_PWEBFBLIKEBOX_FB_ROOT" 
+					description="MOD_PWEBFBLIKEBOX_FB_ROOT_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				
+			</fieldset>
+		
+			<fieldset name="advanced">
+				
+				<field name="track_social" type="radio" class="btn-group" default="3" 
+					label="MOD_PWEBFBLIKEBOX_TRACKER" description="MOD_PWEBFBLIKEBOX_TRACKER_DESC">
+					<option value="0">JDISABLED</option>
+					<option value="1">MOD_PWEBFBLIKEBOX_TRACKER_TRADITIONAL</option>
+					<option value="2">MOD_PWEBFBLIKEBOX_TRACKER_ASYNCHRONOUS</option>
+					<option value="3">MOD_PWEBFBLIKEBOX_TRACKER_UNIVERSAL</option>
+				</field>
+				<field name="close_other" type="radio" class="btn-group" default="1" 
+					label="MOD_PWEBFBLIKEBOX_CLOSE_OTHER" description="MOD_PWEBFBLIKEBOX_CLOSE_OTHER_DESC">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				
+				<field type="pwebtip" tip="code" 
+					label="MOD_PWEBFBLIKEBOX_SNIPPETS" description="MOD_PWEBFBLIKEBOX_SNIPPETS_DESC" />
+					
+				<field name="debug" type="radio" class="btn-group" default="0" label="MOD_PWEBFBLIKEBOX_DEBUG" description="MOD_PWEBFBLIKEBOX_DEBUG_DESC">
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				
+				<field name="moduleclass_sfx" type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" 
+				/>
+				<field name="cache" type="list" default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" 
+				/>
+				<field name="feed" type="pweb" class="btn-group" default="1" 
+					label="MOD_PWEBFBLIKEBOX_FEED" description="MOD_PWEBFBLIKEBOX_FEED_DESC"
+				>
+					<option value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>

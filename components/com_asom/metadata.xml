@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <menu>
+        <options var="task">
+            <option name="AOM_ORDERS_STATUSES_LABEL" msg="AOM_ORDERS_STATUSES_DESC" value="orders.display"/>
+        </options>
+    </menu>
+</metadata>
+

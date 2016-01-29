@@ -1,0 +1,254 @@
+.conte_tarif {
+	float: right;
+	margin-left: 3px;
+	width: 322px;
+}
+
+.top_titulo_cp_detail {
+	background-color: #F68A08;
+	border-radius: 5px 5px 0px 0px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	min-height: 20px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-top: 6px;
+	width: auto;
+}
+
+.conte_tarif .detalles_precio_plan {
+	border-bottom: 1px solid #CFCFCF;
+	border-left: 1px solid #CFCFCF;
+	border-right: 1px solid #CFCFCF;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.conte_plan {
+	float: left;
+	height: auto;
+	min-height: 200px;
+	width: 652px;
+	margin-left: 4px;
+}
+
+.top_titulo_cp_detail {
+	background-color: #F68A08;
+	border-radius: 5px 5px 0px 0px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	min-height: 20px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-top: 6px;
+	width: auto;
+}
+
+.conte_general {
+	border-bottom: 1px solid #CFCFCF;
+	border-left: 1px solid #CFCFCF;
+	border-right: 1px solid #CFCFCF;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.conte_guest {
+	border-bottom: 1px dashed #CFCFCF;
+	padding: 10px;
+}
+
+.conte_guest input {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	height: 18px;
+	width: 200px;
+}
+
+.conte_guest .campo_form_reserva {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	width: 250px;
+}
+
+.conte_guest select {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	height: 20px;
+	width: auto;
+}
+
+.conte_guest_number {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.conte_guest .campo_form_fecha {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	height: 18px;
+	width: 80px;
+}
+
+.conte_guest .campo_lista_pasajeros {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	height: 20px;
+	width: auto;
+}
+
+.description {
+	color: #999999;
+	font-size: 9px;
+	padding-left: 23px;
+	padding-right: 10px;
+}
+
+.contain_payment {
+	text-align: center;
+}
+
+.contain_payment input {
+	margin-left: 40px;
+}
+
+.conte_payment {
+	padding: 10px;
+}
+
+.conte_condition {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.button_next {
+	float: right;
+}
+
+.conte_resume {
+	border-bottom: 1px dashed #CFCFCF;
+	padding: 15px 18px;
+	margin-bottom: 15px;
+}
+
+.conte_resume .conte_city {
+	text-align: center;
+}
+
+.conte_resume .title {
+	font-weight: bold;
+	text-align: center;
+}
+
+.detalles_precio_plan table {
+	width: 100%;
+}
+
+.subtotal {
+	font-weight: bold;
+}
+input.error,
+.conte_guest input.error,
+select.error,
+.conte_guest select.error,
+textarea.error,
+.conte_guest textarea.error{
+    border-color: #FF0000 !important;
+}
+
+.ventana_usuarios_med {
+	border: 1px solid #CFCFCF;
+	border-radius: 8px 8px 8px 8px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100px;
+	padding: 10px 10px 10px 5px;
+	width: 660px;
+}
+
+.zona_acceso_usuario {
+	background-color: #F4F4F4;
+	border-radius: 8px 8px 8px 8px;
+	float: left;
+	margin-left: 5px;
+	min-height: 210px;
+	padding: 5px;
+	width: 205px;
+}
+
+.tit_user {
+	background-image: url("../images/ico_user.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 26px;
+	padding-left: 25px;
+}
+
+.tit_new_user {
+	background-image: url("../images/ico_add-user.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 26px;
+	padding-left: 25px;
+}
+
+.zona_boton_user {
+	margin-top: 58px;
+	text-align: center;
+}
+
+.tit_anonymus_user {
+	background-image: url("../images/ico_anonymus-user.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 26px;
+	padding-left: 25px;
+}
+
+.boton_ventana_sesion {
+	background: #F68A08;
+	border: medium none;
+	border-radius: 10px 10px 10px 10px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	height: 22px;
+	text-align: center;
+	width: auto;
+}
+
+.boton_ventana_sesion:hover {
+	background: #75B839;
+}
+
+.campo_vent_usuario {
+	border: 1px solid #B0B2B8;
+	color: #666666;
+	font-size: 11px;
+	height: 18px;
+	width: 190px;
+}
+
+.campo_vent_usuario.invalid {
+	border-color: #FF0000;
+}
+.clear{
+	clear:both;
+}

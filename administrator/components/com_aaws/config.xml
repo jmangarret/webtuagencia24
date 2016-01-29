@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+        name="permissions"
+        label="JCONFIG_PERMISSIONS_LABEL"
+        description="JCONFIG_PERMISSIONS_DESC" >
+
+        <field
+            name="rules"
+            type="rules"
+            label="JCONFIG_PERMISSIONS_LABEL"
+            class="inputbox"
+            validate="rules"
+            filter="rules"
+            component="com_aaws"
+            section="component" />
+    </fieldset>
+
+    <!-- START - Campos de los parametros, pero que no se ven en el pop-up -->
+    <!-- Esto se hace por que el Joomla va a validar el formulario cuando fuarda los permisos,
+         y como esta informacion no esta en ese formulario, entonces sobreescribe con valores
+         en blanco los valores que se tenian previemente guardados.
+         (Ver JS en views/general/view.html.php)-->
+    <fieldset>
+        <field
+            name="air_service"
+            type="text"
+            default=""
+            size="110"
+            class="required"
+            label="COM_AAWS_AIR_SERVICE_LABEL"
+            description="COM_AAWS_AIR_SERVICE_DESC" />
+    </fieldset>
+    <fieldset
+        addfieldpath="/administrator/components/com_content/models/fields">
+        <field
+            name="tos_id" type="modal_article"
+            label="COM_AAWS_TOS_LABEL"
+            description="COM_AAWS_TOS_DESC" />
+    </fieldset>
+    <!-- END -->
+</config>

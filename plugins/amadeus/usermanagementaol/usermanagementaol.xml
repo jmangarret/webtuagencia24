@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="amadeus">
+    <name>PLG_USERMANAGEMENTAOL_TITLE</name>
+    <author>Amadeus IT</author>
+    <creationDate>March 2013</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_USERMANAGEMENTAOL_DESC</description>
+    <files>
+        <filename plugin="usermanagementaol">usermanagementaol.php</filename>
+    </files>
+    <languages folder="languages">
+        <language tag="en-GB">en-GB.plg_amadeus_usermanagementaol.ini</language>
+        <language tag="en-GB">en-GB.plg_amadeus_usermanagementaol.sys.ini</language>
+        <language tag="es-ES">es-ES.plg_amadeus_usermanagementaol.ini</language>
+        <language tag="es-ES">es-ES.plg_amadeus_usermanagementaol.sys.ini</language>
+    </languages>
+</install>

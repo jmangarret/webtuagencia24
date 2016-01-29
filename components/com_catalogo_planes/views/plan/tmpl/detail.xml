@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Detalle">
+		<message>
+			<![CDATA[Plantilla de presentacion de detalle de planes]]>
+		</message>
+	</layout>
+	<state>
+		<name>Detalle de planes</name>
+		<description>Plantilla de presentacion de detalle de planes</description>
+		<url addpath="/components/com_catalogo_planes/elements">
+			<param name="productId" type="text" default=""
+				label="CP.CONFIG.PLAN.PRODUCTID.LABEL" description="CP.CONFIG.PLAN.PRODUCTID.DESCRIPTION" />
+		</url>
+	</state>
+</metadata>

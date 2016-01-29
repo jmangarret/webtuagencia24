@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Catálogo de Planes ++ - Producto Autos: Ciudad de Entrega</name>
+  <author>Yusely Palacios</author>
+  <version>1.0.0</version>
+  <description>Catálogo de Planes ++ - Producto Autos: Ciudad de Entrega</description>
+  <copyright>2012 Amadeus</copyright>
+  <reference>
+  	<table name="cp_prm_cars_delivery_city">
+  		<field type="referenceid" name="city_id" translate="0">ID</field>
+  		<field type="titletext" name="city_name" translate="1">Nombre</field>
+  	</table>
+  </reference>
+</joomfish>

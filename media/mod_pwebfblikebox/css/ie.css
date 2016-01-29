@@ -1,0 +1,8 @@
+.pwebfblikebox.pwebfblikebox-shadow.slidebox, .pwebfblikebox.pwebfblikebox-shadow.sidebar,
+.pwebfblikebox.pwebfblikebox-radius.slidebox, .pwebfblikebox.pwebfblikebox-radius.sidebar {
+	behavior:url("/media/mod_pwebfblikebox/css/PIE.htc");
+}
+.pwebfblikebox.pwebfblikebox-shadow .pwebfblikebox_tab,
+.pwebfblikebox.pwebfblikebox-radius .pwebfblikebox_tab {
+	behavior:url("/media/mod_pwebfblikebox/css/PIE.htc");
+}

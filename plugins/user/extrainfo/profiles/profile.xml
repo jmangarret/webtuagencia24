@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="profile">
+        <fieldset
+            name="profile"
+            label="PLG_USER_EXTRAINFO_PAYMENT_SLIDER_LABEL">
+            <field
+                name="documenttype"
+                type="list"
+                id="documenttype"
+                description="PLG_USER_EXTRAINFO_DOCUMENTYPE_DESC"
+                label="PLG_USER_EXTRAINFO_DOCUMENTYPE_LABEL"
+                message="PLG_USER_EXTRAINFO_DOCUMENTYPE_MESSAGE"
+                filter="string">
+                <option value="CC">Cédula Colombiana</option>
+                <option value="CE">Cédula extranjería</option>
+                <option value="NIT">NIT</option>
+                <option value="TI">Tarjeta de identidad</option>
+                <option value="PPN">Pasaporte</option>
+                <option value="RC">Registro civil</option>
+                <option value="SSN">Número de Seguridad Social</option>
+                <option value="LIC">Licencia conducción</option>
+                <option value="TAX">Identificación impositiva</option>
+            </field>
+            <field
+                name="documentnumber"
+                type="text"
+                id="documentnumber"
+                filter="alnum"
+                description="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_DESC"
+                label="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_LABEL"
+                message="PLG_USER_EXTRAINFO_DOCUMENTNUMBER_MESSAGE"
+                size="30"/>
+            <field
+                name="phone"
+                type="phone"
+                id="phone"
+                filter="string"
+                description="PLG_USER_EXTRAINFO_PHONE_DESC"
+                label="PLG_USER_EXTRAINFO_PHONE_LABEL"
+                message="PLG_USER_EXTRAINFO_PHONE_MESSAGE"
+                size="30"/>
+        </fieldset>
+        <fieldset
+            name="profile2"
+            label="PLG_USER_EXTRAINFO_OTHER_SLIDER_LABEL">
+            <field
+                name="gender"
+                type="list"
+                id="gender"
+                filter="string"
+                description="PLG_USER_EXTRAINFO_GENDER_DESC"
+                label="PLG_USER_EXTRAINFO_GENDER_LABEL"
+                message="PLG_USER_EXTRAINFO_GENDER_MESSAGE">
+                <option value="M">PLG_USER_EXTRAINFO_MALE_LABEL</option>
+                <option value="F">PLG_USER_EXTRAINFO_FEMALE_LABEL</option>
+            </field>
+            <field
+                name="borndate"
+                type="jcalendar"
+                readonly="true"
+                image="images/calendar.png"
+                description="PLG_USER_EXTRAINFO_BORNDATE_DESC"
+                label="PLG_USER_EXTRAINFO_BORNDATE_LABEL"
+                message="PLG_USER_EXTRAINFO_BORNDATE_MESSAGE"/>
+        </fieldset>
+    </fields>
+</form>
