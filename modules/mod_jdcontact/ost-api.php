@@ -9,7 +9,12 @@
 #  Modified by ntozier@osTicket / tmib.net
 
 // If 1, display things to debug.
-$debug="0";
+defined('_JEXEC') or die("Error al cargar ost_api.php");
+
+class ost_api{
+
+  public static function send_ost_api($name,$email,$phone,$message){
+    $debug="0";
 
 // You must configure the url and key in the array below.
 
@@ -24,7 +29,7 @@ if($config['url'] === 'http://your.domain.tld/api/tickets.json') {
   echo "Please edit this file ".__FILE__." and add your URL at line 18.</p>";
   die();  
 }   
-if(IsNullOrEmptyString($config['key']) || ($config['key'] === 'PUTyourAPIkeyHERE'))  {
+if(self::IsNullOrEmptyString($config['key']) || ($config['key'] === 'PUTyourAPIkeyHERE'))  {
   echo "<p style=\"color:red;\"><b>Error: No API Key</b><br>You have not configured this script with an API Key!</p>";
   echo "<p>Please log into osticket as an admin and navigate to: Admin panel -> Manage -> Api Keys then add a new API Key.<br>";
   echo "Once you have your key edit this file ".__FILE__." and add the key at line 19.</p>";
@@ -40,7 +45,7 @@ $data = array(
     'email'     =>      'reo54@gmail.com',  // from email aka User/Client Email
   'phone'   =>    '1616161616',  // phone number aka User/Client Phone Number
     'subject'   =>      'Cotizacion PopPup',  // test subject, aka Issue Summary
-    'message'   =>      'This is a test of the osTicket API',  // test ticket body, aka Issue Details.
+    'message'   =>      $message,  // test ticket body, aka Issue Details.
     'ip'        =>      $_SERVER['REMOTE_ADDR'], // Should be IP address of the machine thats trying to open the ticket.
   'topicId'   =>      '19' // the help Topic that you want to use for the ticket 
   //'Agency'  =>    '58', //this is an example of a custom list entry. This should be the number of the entry.
@@ -93,7 +98,14 @@ $ticket_id = (int) $result;
 # Continue onward here if necessary. $ticket_id has the ID number of the
 # newly-created ticket
 
-function IsNullOrEmptyString($question){
+
+
+  }
+
+  public static function IsNullOrEmptyString($question){
     return (!isset($question) || trim($question)==='');
 }
+
+}
+
 ?>
