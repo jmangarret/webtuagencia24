@@ -3,11 +3,7 @@
 /*------------------------------------------------------------------------
 # J DContact
 # ------------------------------------------------------------------------
-# author                Md. Shaon Bahadur
-# copyright             Copyright (C) 2014 j-download.com. All Rights Reserved.
-# @license -            http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
-# Websites:             http://www.j-download.com
-# Technical Support:    http://www.j-download.com/request-for-quotation.html
+# author                Yanuel Leal
 -------------------------------------------------------------------------*/
 
 defined('_JEXEC') or die('Restricted access');
@@ -67,12 +63,8 @@ defined('_JEXEC') or die('Restricted access');
     //Cargar los valores en el formulario del PopUp
     if (radio_iv == "R"){
         document.getElementById("radio").value  = "Ida y Vuelta";
-        //document.getElementById("f_llegada").innerHTML  = f_llegada;
     }else if (radio_i == "O"){
         document.getElementById("radio").value  = "Solo Ida";
-        /*document.getElementById("label_f_llegada").style.display = (document.getElementById("label_f_llegada").style.display == 'none') ? 'block' : 'none';
-        document.getElementById("f_llegada").style.display = (document.getElementById("f_llegada").style.display == 'none') ? 'block' : 'none';*/
-        //document.getElementById("brl").style.display = (document.getElementById("brl").style.display == 'none') ? 'block' : 'none';
     }else if(radio_m == "M"){
         document.getElementById("radio").value  = "Multiples Destinos";
     }
@@ -89,23 +81,6 @@ defined('_JEXEC') or die('Restricted access');
 
     </script>   
 
-        <?php
-/*
-       $radio_iv="<script>document.write(radio_iv);</script>";
-       $radio_i="<script>document.write(radio_i);</script>";
-       $radio_m="<script>document.write(radio_m);</script>";
-       $c_origen_iata="<script>document.write(c_origen_iata);</script>";
-       $c_destino_iata="<script>document.write(c_destino_iata);</script>";
-       $f_salida="<script>document.write(f_salida);</script>";
-       $f_llegada="<script>document.write(f_llegada);</script>";
-       $c_viaje="<script>document.write(c_viaje);</script>";
-       $aerolinea="<script>document.write(aerolinea);</script>";
-       $adultos="<script>document.write(adultos);</script>";
-       $mayores="<script>document.write(mayores);</script>";
-       $niños="<script>document.write(niños);</script>";
-       $bebés="<script>document.write(bebés);</script>";
-*/
-        ?>  
     <div id="contactform" style="background: <?php echo $backgroundcolor; ?>;width: <?php echo $wrp_width; ?>;border:1px solid <?php echo $inputfield_border; ?>;">
     <span id="closedailyp" style="cursor: pointer; position: relative; bottom: 15px; margin-left: 307px; font-weight: bold;">X</span>
             <div style="background-color: #1467b6; margin-left: -21px;   margin-top: -40px; width: <?php echo $wrp_width; ?>; border-top-left-radius: 1em 1em; border-top-right-radius: 1em 1em;"><br>
@@ -146,19 +121,6 @@ defined('_JEXEC') or die('Restricted access');
             <input type="hidden" id="bebés" value="" class="text" name="bebés">
 
 
-            <!--<label>Búsqueda realizada previamente:</br></label>
-            Pasaje: <span id="radio" style="color: #F1E459"></span> </br>
-            Origen: <span id="c_origen" style="color: #F1E459"></span> </br>
-            Destino: <span id="c_destino" style="color: #F1E459"></span> </br>
-            Fecha de Salida: <span id="f_salida" style="color: #F1E459"></span> </br>
-            <label id="label_f_llegada">Fecha de regreso: <span id="f_llegada" style="color: #F1E459"></span></br> </label>
-            Clase: <span id="c_viaje" style="color: #F1E459"></span> </br>
-            Aerol&iacute;nea: <span id="aerolinea" style="color: #F1E459"></span> </br>
-            Adultos: <span id="adultos" style="color: #F1E459"></span>
-            3ra Edad: <span id="mayores" style="color: #F1E459"></span>
-            Niños: <span id="niños" style="color: #F1E459"></span>
-            Beb&eacute;s: <span id="bebés" style="color: #F1E459"></span>-->
-
             <!--////////////////////////////////////////////////////////////////////////////////////////////-->
             <?php if($showsendcopy=='1') : ?>
                 <input type="checkbox" name="selfcopy" <?php if($selfcopy == "yes") echo "checked='checked'"; ?> value="yes" />
@@ -194,15 +156,23 @@ defined('_JEXEC') or die('Restricted access');
 	    document.contactform.browser_check.value = "true";
 	    $("#submit").click(function(){
 		$('#result').html('<img src="<?php echo JURI::root(); ?>modules/mod_jdcontact/tmpl/images/loader.gif" class="loading-img" alt="loader image">').fadeIn();
+        $("#submit").prop('disabled', true);
 		var input_data = $('#form').serialize();
 				$.ajax({
 				   type: "POST",
 				   url:  "<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>",
 				   data: input_data,
 				   success: function(msg){
-					   $('.loading-img').remove(); //Removing the loader image because the validation is finished
+					   $('.loading-img').remove().fadeIn('slow'); //Removing the loader image because the validation is finished
 					   $('<div class="message">').html(msg).appendTo('div#result').hide().fadeIn('slow'); //Appending the output of the php validation in the html div
 
+                       if (msg=='<?php echo "<label style=\"color: #1467b6;\">Datos enviados correctamente, contactaremos con usted cuando dispongamos de un vuelo a su destino.</label>"; ?>') {
+                        $('#submit').hide(700);
+                            $("#dailyfullscreen").delay(6500).animate({ opacity: "toggle" }, function(){$("#dailyfullscreen").remove(); window.location.href ="index.php";});
+                            
+                       }else{
+                        $("#submit").prop('disabled', false);
+                       }
                         if(msg=='<?php echo JText::_("MOD_JDCONTACT_SUCCESSMSG"); ?>'){
                           $('#form').each (function(){
                             this.reset();
@@ -210,7 +180,9 @@ defined('_JEXEC') or die('Restricted access');
                        }
 				   }
 				});
+            
 			return false;
+            //$(selector).hide(duracion,callback)//;
 	    });
 	    </script>
     </div>
