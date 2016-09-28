@@ -1115,27 +1115,33 @@ class AawsControllerAir extends AawsController
             $airtraveler->appendChild($personname);
             $airtraveler->appendChild($document);
 
-            if($first && $pax['Type'] == 'ADT')
+            if($first && ($pax['Type'] == 'ADT' || $pax['Type'] == 'YCD'))
             {
-                $telephone = $this->_DOMDocument->createElement('Telephone');
-                $telephone->setAttributeNode(new DOMAttr('PhoneLocationType', '6'));
-                $telephone->setAttributeNode(new DOMAttr('PhoneNumber', $info['ContactPhone']));
+                if($pax['Type'] == 'YCD'){
+                    $comment1 = $this->_DOMDocument->createElement('Comment', 'PR');
+                    $comment1->setAttributeNode(new DOMAttr('Name', 'PnrType'));
 
-                $email = $this->_DOMDocument->createElement('Email', $info['ContactMail']);
-                $email->setAttributeNode(new DOMAttr('EmailType', '1'));
+                    $airtraveler->appendChild($comment1);
+                }else{
+                    $telephone = $this->_DOMDocument->createElement('Telephone');
+                    $telephone->setAttributeNode(new DOMAttr('PhoneLocationType', '6'));
+                    $telephone->setAttributeNode(new DOMAttr('PhoneNumber', $info['ContactPhone']));
 
-                $comment1 = $this->_DOMDocument->createElement('Comment', 'PR');
-                $comment1->setAttributeNode(new DOMAttr('Name', 'PnrType'));
+                    $email = $this->_DOMDocument->createElement('Email', $info['ContactMail']);
+                    $email->setAttributeNode(new DOMAttr('EmailType', '1'));
 
-                $comment2 = $this->_DOMDocument->createElement('Comment', 'true');
-                $comment2->setAttributeNode(new DOMAttr('Name', 'TSA'));
+                    $comment1 = $this->_DOMDocument->createElement('Comment', 'PR');
+                    $comment1->setAttributeNode(new DOMAttr('Name', 'PnrType'));
 
-                // Agregando datos de contacto del primer pasajero adulto
-                $airtraveler->appendChild($telephone);
-                $airtraveler->appendChild($email);
-                $airtraveler->appendChild($comment1);
-                $airtraveler->appendChild($comment2);
+                    $comment2 = $this->_DOMDocument->createElement('Comment', 'true');
+                    $comment2->setAttributeNode(new DOMAttr('Name', 'TSA'));
 
+                    // Agregando datos de contacto del primer pasajero adulto
+                    $airtraveler->appendChild($telephone);
+                    $airtraveler->appendChild($email);
+                    $airtraveler->appendChild($comment1);
+                    $airtraveler->appendChild($comment2);
+                }
                 $first = false;
             }
             else

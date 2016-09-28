@@ -817,6 +817,7 @@ $(document).ready(function()
     localStorage["c_destino_iata"] = $('#h-arrival-1').val();
     localStorage["f_salida"] = $('#h-departure_date-1').val();
     localStorage["f_llegada"] = $('#h-departure_date-2').val();
+   // localStorage["tipo_click"] = val('buscador');
     if ($('#clase').val() == "Economy"){
         localStorage["c_viaje"] = "Turista";
     }else if ($('#clase').val() == "First"){

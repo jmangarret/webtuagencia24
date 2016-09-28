@@ -106,6 +106,8 @@ if($params->get('qs_origin')==2){
 
 </div>
 
+<!--<input type="hidden" id="search" value="buscador"/>-->
+
 
 <div class="button">
   <input type="submit" value="<?php echo JText::_('MOD_AAWS_SUBMIT_BUTTON'); ?>" id="accion"/>

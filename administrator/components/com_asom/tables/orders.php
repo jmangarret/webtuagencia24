@@ -29,10 +29,12 @@ class JTableOrders extends JTable
         // Check if the order already exists mams.827
 
         // Se valida que el correo sea valido
-        if(!JMailHelper::isEmailAddress($this->email))
-        {
-			$this->setError(JText::_('ASOM_EMAIL_ERROR'));
-			return false;
+        if (isset($this->email) && $this->email!='') {
+            if(!JMailHelper::isEmailAddress($this->email))
+            {
+                $this->setError(JText::_('ASOM_EMAIL_ERROR'));
+                return false;
+            }
         }
 
         // Se valida el valor total de la orden, el cual debe coincidir con el detalle de la misma
